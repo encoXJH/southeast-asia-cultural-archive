@@ -173,25 +173,7 @@
       font-size: 14px;
     }
 
-    .theme-toggle-btn {
-      background: var(--bg-surface-elevated);
-      border: 1px solid var(--border-medium);
-      color: var(--text-secondary);
-      padding: 7px 14px;
-      border-radius: 20px;
-      font-size: 12px;
-      font-family: var(--font-mono);
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      transition: var(--transition-smooth);
-    }
-
-    .theme-toggle-btn:hover {
-      color: var(--text-primary);
-      border-color: var(--accent-terracotta);
-    }
+    
 
     /* -------------------------------------------------------------
        Archival Directory Controls (Filters & Search)
@@ -419,7 +401,7 @@
       z-index: 2;
     }
     /* Contain mode support */
-    [data-fit="contain"] .card-photo {
+    /* contain mode */ .card-photo-contain {
       object-fit: contain;
       background: #000;
     }
@@ -934,12 +916,7 @@
             <div>核验标准: <span style="color:var(--accent-celadon); font-weight:700;">100% 原始考据</span></div>
           </div>
 
-          <button class="theme-toggle-btn" id="fitToggleBtn" title="切换画面填充方式 (充满裁剪 / 完整保留原图比例)" style="margin-right:8px;">
-            <span id="fitIcon">🖼️</span> <span id="fitText">填充: 充满</span>
-          </button>
-          <button class="theme-toggle-btn" id="themeToggleBtn" title="切换展厅光照氛围 (暗室 / 暖白)">
-            <span id="themeIcon">🌓</span> <span id="themeText">展厅氛围</span>
-          </button>
+          
         </div>
       </div>
 
@@ -1154,8 +1131,8 @@
     const searchInput = document.getElementById('searchInput');
     const countryRibbon = document.getElementById('countryRibbon');
     
-    const themeToggleBtn = document.getElementById('themeToggleBtn');
-    const themeIcon = document.getElementById('themeIcon');
+    
+    
     const dossierModal = document.getElementById('dossierModal');
     const mCloseBtn = document.getElementById('mCloseBtn');
 
@@ -1186,7 +1163,7 @@
       }
     }
 
-    themeToggleBtn.addEventListener('click', toggleTheme);
+    
 
     // -----------------------------------------------------------------
     // Stats & Ribbon Init
@@ -1456,28 +1433,7 @@
     // -----------------------------------------------------------------
     
     // -----------------------------------------------------------------
-    // Image Fit Toggle (Cover / Contain)
-    // -----------------------------------------------------------------
-    let curFitMode = localStorage.getItem('gallery_fit_mode') || 'cover';
-    const fitToggleBtn = document.getElementById('fitToggleBtn');
-    const fitText = document.getElementById('fitText');
-
-    function applyFitMode(mode) {
-      curFitMode = mode;
-      document.body.setAttribute('data-fit', mode);
-      localStorage.setItem('gallery_fit_mode', mode);
-      if (fitText) {
-        fitText.innerText = mode === 'cover' ? '填充: 充满' : '填充: 适应';
-      }
-    }
-
-    if (fitToggleBtn) {
-      fitToggleBtn.addEventListener('click', () => {
-        const next = curFitMode === 'cover' ? 'contain' : 'cover';
-        applyFitMode(next);
-      });
-    }
-    applyFitMode(curFitMode);
+    
 
     window.addEventListener('DOMContentLoaded', () => {
       initTheme();
