@@ -935,9 +935,9 @@
           <!-- Injected via JavaScript -->
         </div>
 
-        <!-- Category Ribbon -->
-        <div class="filter-ribbon category-ribbon" id="categoryRibbon">
-          <span class="filter-tag-label">文化分类:</span>
+        <!-- Tag Ribbon (Replaces Category) -->
+        <div class="filter-ribbon" id="tagRibbon">
+          <span class="filter-tag-label">空间场景:</span>
           <!-- Injected via JavaScript -->
         </div>
       </div>
@@ -964,7 +964,7 @@
           <div class="dossier-header-meta">
             <span class="dossier-badge-id" id="mId"></span>
             <span class="dossier-badge-country" id="mCountry"></span>
-            <span style="color:var(--text-muted);" id="mCategory"></span>
+            
           </div>
           <h2 class="dossier-title-cn" id="mTitleCn"></h2>
           <div class="dossier-title-en" id="mTitleEn"></div>
@@ -1103,7 +1103,7 @@
     // Core Exhibition State
     // -----------------------------------------------------------------
     let curCountry = 'all';
-    let curCategory = 'all';
+    let curTag = 'all';
     let curSearch = '';
     let curItem = null;
     let curPhotoIndex = 0;
@@ -1123,23 +1123,23 @@
       { code: 'TL', name: '东帝汶' }
     ];
 
-    const categories = [
-      { id: 'all', name: '全部分类' },
-      { id: '01', name: '01 自然景观' },
-      { id: '02', name: '02 城市街头' },
-      { id: '03', name: '03 地方建筑' },
-      { id: '04', name: '04 民俗节庆' },
-      { id: '05', name: '05 工艺器物' },
-      { id: '06', name: '06 饮食小贩' },
-      { id: '07', name: '07 传统服饰' },
-      { id: '08', name: '08 交通流动' },
-      { id: '09', name: '09 平面视觉' },
-      { id: '10', name: '10 地方物产' },
-      { id: '11', name: '11 宗教艺术' },
-      { id: '12', name: '12 民间表演' },
-      { id: '13', name: '13 日常物件' },
-      { id: '14', name: '14 创意商业' },
-      { id: '15', name: '15 色彩材质' }
+    const curatorialTags = [
+      { id: 'all', name: '全部场景' },
+      { id: '特色建筑', name: '🏛️ 特色建筑' },
+      { id: '建筑立面', name: '🚪 建筑立面' },
+      { id: '自然景观', name: '⛰️ 自然地貌' },
+      { id: '市井烟火', name: '🏮 市井烟火' },
+      { id: '特色餐饮', name: '🍲 街头风味' },
+      { id: '传统工艺', name: '🏺 传统器物' },
+      { id: '悬挂装饰', name: '🎋 悬挂装置' },
+      { id: '传统服饰', name: '👘 传统织物' },
+      { id: '特色交通', name: '🚲 流动交通' },
+      { id: '流动装置', name: '🛒 流动排档' },
+      { id: '民间艺术', name: '🎭 民间演艺' },
+      { id: '宗教建筑', name: '🛕 神圣建筑' },
+      { id: '材质语言', name: '🧱 材质纹样' },
+      { id: '日常物件', name: '🪑 日常器物' },
+      { id: '水上集市', name: '🛶 水上聚落' }
     ];
 
     // DOM Elements
@@ -1147,7 +1147,7 @@
     const curCount = document.getElementById('curCount');
     const searchInput = document.getElementById('searchInput');
     const countryRibbon = document.getElementById('countryRibbon');
-    const categoryRibbon = document.getElementById('categoryRibbon');
+    const tagRibbon = document.getElementById('tagRibbon');
     const themeToggleBtn = document.getElementById('themeToggleBtn');
     const themeIcon = document.getElementById('themeIcon');
     const dossierModal = document.getElementById('dossierModal');
@@ -1205,11 +1205,11 @@
         return '<button class="ribbon-pill ' + activeClass + '" data-code="' + c.code + '">' + c.name + ' (' + count + ')</button>';
       }).join('');
 
-      // Categories Ribbon
-      categoryRibbon.innerHTML = '<span class="filter-tag-label">文化分类:</span>' + categories.map(cat => {
-        const count = cat.id === 'all' ? MATERIALS.length : MATERIALS.filter(x => x.category_id === cat.id).length;
-        const activeClass = cat.id === curCategory ? 'active' : '';
-        return '<button class="ribbon-pill ' + activeClass + '" data-cat="' + cat.id + '">' + cat.name + ' (' + count + ')</button>';
+      // Spatial & Curatorial Tags Ribbon
+      tagRibbon.innerHTML = '<span class="filter-tag-label">空间场景:</span>' + curatorialTags.map(t => {
+        const count = t.id === 'all' ? MATERIALS.length : MATERIALS.filter(x => x.tags && x.tags.includes(t.id)).length;
+        const activeClass = t.id === curTag ? 'active' : '';
+        return '<button class="ribbon-pill ' + activeClass + '" data-tag="' + t.id + '">' + t.name + ' (' + count + ')</button>';
       }).join('');
     }
 
@@ -1226,7 +1226,7 @@
 
       const items = MATERIALS.filter(it => {
         if (curCountry !== 'all' && it.country_code !== curCountry) return false;
-        if (curCategory !== 'all' && it.category_id !== curCategory) return false;
+        if (curTag !== 'all' && (!it.tags || !it.tags.includes(curTag))) return false;
         if (q) {
           const haystack = [
             it.id, it.name_cn, it.name_en, it.name_local,
@@ -1270,7 +1270,7 @@
             <div class="card-placard">
               <div class="placard-provenance">
                 <span class="placard-region">📍 ${item.region}</span>
-                <span class="placard-cat-pill">${item.category.split('｜')[1] || item.category}</span>
+                
               </div>
               <div class="placard-titles">
                 <h3 class="placard-title-cn">${item.name_cn}</h3>
@@ -1404,17 +1404,17 @@
       renderGallery();
     });
 
-    categoryRibbon.addEventListener('click', (e) => {
+    tagRibbon.addEventListener('click', (e) => {
       const btn = e.target.closest('.ribbon-pill');
       if (!btn) return;
-      curCategory = btn.dataset.cat;
+      curTag = btn.dataset.tag;
       buildRibbons();
       renderGallery();
     });
 
     function resetAllFilters() {
       curCountry = 'all';
-      curCategory = 'all';
+      curTag = 'all';
       curSearch = '';
       searchInput.value = '';
       buildRibbons();

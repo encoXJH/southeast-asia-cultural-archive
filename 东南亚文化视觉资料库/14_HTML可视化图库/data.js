@@ -1,12 +1,10 @@
-// 东南亚文化风物与视觉素材数据库 - 图库数据
+// 东南亚文化风物与视觉素材数据库 - 策展图库数据 (已移除分类限制，按国度与空间标签自由索引)
 const MATERIALS = [
   {
     "id": "MY-03-0001",
     "country_code": "MY",
     "country": "马来西亚",
     "region": "槟城州乔治市",
-    "category_id": "03",
-    "category": "03｜地方特色建筑",
     "name_cn": "槟城乔治市骑楼与五脚基",
     "name_en": "George Town Shophouses & Five-Foot Way",
     "name_local": "Five-foot way / Kaki lima",
@@ -117,8 +115,6 @@ const MATERIALS = [
     "country_code": "MY",
     "country": "马来西亚",
     "region": "槟城州乔治市",
-    "category_id": "08",
-    "category": "08｜交通工具与流动文化",
     "name_cn": "槟城传统人力三轮车（百加车）",
     "name_en": "Penang Heritage Trishaw / Beca",
     "name_local": "Beca",
@@ -229,8 +225,6 @@ const MATERIALS = [
     "country_code": "MY",
     "country": "马来西亚",
     "region": "吉兰丹州哥打峇鲁",
-    "category_id": "05",
-    "category": "05｜民间工艺与传统器物",
     "name_cn": "吉兰丹马来月亮风筝（镂空雕花工艺）",
     "name_en": "Kelantan Wau Bulan & Ukiran Sobek Craft",
     "name_local": "واو بولن",
@@ -341,8 +335,6 @@ const MATERIALS = [
     "country_code": "MY",
     "country": "马来西亚",
     "region": "全马（吉隆坡、槟城、怡保等）",
-    "category_id": "06",
-    "category": "06｜饮食与街头小贩文化",
     "name_cn": "马来西亚南洋拉茶与茶室小贩文化",
     "name_en": "Malaysian Teh Tarik & Kopitiam / Mamak Culture",
     "name_local": "تيه تاريق / Teh tarik",
@@ -453,8 +445,6 @@ const MATERIALS = [
     "country_code": "MY",
     "country": "马来西亚",
     "region": "马六甲州马六甲市",
-    "category_id": "05",
-    "category": "05｜民间工艺与传统器物",
     "name_cn": "马六甲峇峇娘惹彩瓷（娘惹瓷）",
     "name_en": "Melaka Peranakan Nyonyaware",
     "name_local": "Pinggan mangkuk Nyonya / Nyonyaware",
@@ -565,8 +555,6 @@ const MATERIALS = [
     "country_code": "MY",
     "country": "马来西亚",
     "region": "砂拉越州美里姆鲁",
-    "category_id": "01",
-    "category": "01｜独特自然景观",
     "name_cn": "砂拉越姆鲁山国家公园刀刃峰与喀斯特溶洞",
     "name_en": "Gunung Mulu Pinnacles & Karst Landscapes",
     "name_local": "Taman Negara Gunung Mulu",
@@ -658,8 +646,6 @@ const MATERIALS = [
     "country_code": "MY",
     "country": "马来西亚",
     "region": "彭亨州金马仑高原",
-    "category_id": "01",
-    "category": "01｜独特自然景观",
     "name_cn": "金马仑高原阶梯茶园台地景观",
     "name_en": "Cameron Highlands Terraced Tea Plantations",
     "name_local": "Tanah Tinggi Cameron",
@@ -751,8 +737,6 @@ const MATERIALS = [
     "country_code": "MY",
     "country": "马来西亚",
     "region": "吉隆坡联邦直辖区",
-    "category_id": "02",
-    "category": "02｜城市街头景观",
     "name_cn": "吉隆坡茨厂街中式牌楼与绿顶集市街景",
     "name_en": "Petaling Street Chinatown Market & Archway",
     "name_local": "Jalan Petaling / 茨廠街",
@@ -844,8 +828,6 @@ const MATERIALS = [
     "country_code": "MY",
     "country": "马来西亚",
     "region": "槟城州乔治市",
-    "category_id": "04",
-    "category": "04｜民俗节庆文化",
     "name_cn": "槟城大宝森节战神银辇与卡瓦第负重巡游",
     "name_en": "Penang Thaipusam Silver Chariot & Kavadi Procession",
     "name_local": "தைப்பூசம் / Thaipusam",
@@ -937,8 +919,6 @@ const MATERIALS = [
     "country_code": "MY",
     "country": "马来西亚",
     "region": "槟城州乔治市",
-    "category_id": "06",
-    "category": "06｜饮食与街头小贩文化",
     "name_cn": "槟城炭火铁镬炒粿条与芭蕉叶街头排档",
     "name_en": "Penang Charcoal Wok Char Kway Teow Stall",
     "name_local": "炒粿條 / Char koay teow",
@@ -1030,8 +1010,6 @@ const MATERIALS = [
     "country_code": "MY",
     "country": "马来西亚",
     "region": "霹雳州怡保旧街场",
-    "category_id": "06",
-    "category": "06｜饮食与街头小贩文化",
     "name_cn": "怡保旧街场白咖啡与厚胎绿花瓷杯",
     "name_en": "Ipoh White Coffee & Traditional Floral Kopitiam Cup",
     "name_local": "Ipoh white coffee / 怡保白咖啡",
@@ -1123,8 +1101,6 @@ const MATERIALS = [
     "country_code": "MY",
     "country": "马来西亚",
     "region": "登嘉楼州瓜拉登嘉楼",
-    "category_id": "07",
-    "category": "07｜传统服饰与地方织物",
     "name_cn": "登嘉楼马来宋吉锦（金线重工提花织物）",
     "name_en": "Terengganu Songket Gold Thread Weaving",
     "name_local": "سوڠكيت / Songket Terengganu",
@@ -1216,8 +1192,6 @@ const MATERIALS = [
     "country_code": "MY",
     "country": "马来西亚",
     "region": "马六甲州与槟城州",
-    "category_id": "07",
-    "category": "07｜传统服饰与地方织物",
     "name_cn": "峇峇娘惹可峇雅刺绣薄纱衫与珠绣鞋",
     "name_en": "Peranakan Nyonya Kebaya & Kasut Manik",
     "name_local": "Baju Kebaya Nyonya",
@@ -1309,8 +1283,6 @@ const MATERIALS = [
     "country_code": "MY",
     "country": "马来西亚",
     "region": "雪兰莪州鹅唛黑风洞",
-    "category_id": "11",
-    "category": "11｜宗教艺术与民间信仰",
     "name_cn": "黑风洞巨型战神金像与272阶彩虹阶梯",
     "name_en": "Batu Caves Lord Murugan Golden Statue & Rainbow Steps",
     "name_local": "பத்து குகை / Gua Batu",
@@ -1402,8 +1374,6 @@ const MATERIALS = [
     "country_code": "MY",
     "country": "马来西亚",
     "region": "槟城州亚依淡",
-    "category_id": "11",
-    "category": "11｜宗教艺术与民间信仰",
     "name_cn": "槟城极乐寺万佛宝塔与汉藏泰三教合一建筑",
     "name_en": "Kek Lok Si Temple Pagoda of Ten Thousand Buddhas",
     "name_local": "Kek Lok Si / 極樂寺",
@@ -1495,8 +1465,6 @@ const MATERIALS = [
     "country_code": "MY",
     "country": "马来西亚",
     "region": "吉兰丹州哥打峇鲁",
-    "category_id": "12",
-    "category": "12｜民间表演与传统艺术",
     "name_cn": "吉兰丹马来皮影戏与水牛皮镂空偶人",
     "name_en": "Wayang Kulit Kelantan & Water Buffalo Hide Puppets",
     "name_local": "وايڠ كوليت كـلنتن / Wayang Kulit Kelantan",
@@ -1588,8 +1556,6 @@ const MATERIALS = [
     "country_code": "MY",
     "country": "马来西亚",
     "region": "槟城州乔治市",
-    "category_id": "14",
-    "category": "14｜当代文化与创意商业",
     "name_cn": "槟城兴公司旧巴士车厂文创艺术改造区",
     "name_en": "Hin Bus Depot Contemporary Arts & Creative Hub",
     "name_local": "Hin Bus Depot",
@@ -1681,8 +1647,6 @@ const MATERIALS = [
     "country_code": "MY",
     "country": "马来西亚",
     "region": "槟城州与马六甲州",
-    "category_id": "15",
-    "category": "15｜地方色彩、材质与装饰语言",
     "name_cn": "海峡华人马约利卡彩釉印花花砖（南洋花砖）",
     "name_en": "Peranakan Majolica Ornamental Decorative Tiles",
     "name_local": "Jubin Peranakan / Majolica tiles",
@@ -1774,8 +1738,6 @@ const MATERIALS = [
     "country_code": "TH",
     "country": "泰国",
     "region": "曼谷巴吞旺区",
-    "category_id": "03",
-    "category": "03｜地方特色建筑",
     "name_cn": "曼谷传统中庭高脚柚木屋群（金汤普森泰屋）",
     "name_en": "Traditional Thai Teakwood House (Jim Thompson House)",
     "name_local": "เรือนไทย / Ruen Thai",
@@ -1867,8 +1829,6 @@ const MATERIALS = [
     "country_code": "TH",
     "country": "泰国",
     "region": "曼谷直辖市",
-    "category_id": "08",
-    "category": "08｜交通工具与流动文化",
     "name_cn": "曼谷机动三轮车（嘟嘟车 Tuk-Tuk）",
     "name_en": "Bangkok Motorized Trishaw (Tuk-Tuk)",
     "name_local": "ตุ๊กตุ๊ก / Tuk-tuk",
@@ -1960,8 +1920,6 @@ const MATERIALS = [
     "country_code": "TH",
     "country": "泰国",
     "region": "全泰（以依善地区与曼谷街头为代表）",
-    "category_id": "06",
-    "category": "06｜饮食与街头小贩文化",
     "name_cn": "泰国街头木臼捣制青木瓜沙拉（Som Tum 小贩推车）",
     "name_en": "Thai Som Tum Wooden Mortar & Street Food Cart",
     "name_local": "ส้มตำ / Som tum",
@@ -2034,8 +1992,6 @@ const MATERIALS = [
     "country_code": "TH",
     "country": "泰国",
     "region": "清迈府桑甘烹县博桑村",
-    "category_id": "05",
-    "category": "05｜民间工艺与传统器物",
     "name_cn": "清迈博桑手绘彩绘油纸桑皮伞",
     "name_en": "Chiang Mai Bo Sang Handmade Saa Paper Umbrellas",
     "name_local": "ร่มบ่อสร้าง / Rom Bo Sang",
@@ -2127,8 +2083,6 @@ const MATERIALS = [
     "country_code": "TH",
     "country": "泰国",
     "region": "清迈府直辖县与湄平河畔",
-    "category_id": "04",
-    "category": "04｜民俗节庆文化",
     "name_cn": "清迈万人水灯节放飞天灯盛典（Yi Peng 万人天灯）",
     "name_en": "Chiang Mai Yi Peng Sky Lantern Festival",
     "name_local": "ประเพณียี่เป็ง / Yi Peng",
@@ -2220,8 +2174,6 @@ const MATERIALS = [
     "country_code": "TH",
     "country": "泰国",
     "region": "曼谷直辖市及全泰",
-    "category_id": "11",
-    "category": "11｜宗教艺术与民间信仰",
     "name_cn": "泰国民间土地神屋与四面神佛龛（San Phra Phum）",
     "name_en": "Thai Spirit House (San Phra Phum) & Shrines",
     "name_local": "ศาลพระภูมิ / San Phra Phum",
@@ -2294,8 +2246,6 @@ const MATERIALS = [
     "country_code": "TH",
     "country": "泰国",
     "region": "大城府与曼谷",
-    "category_id": "05",
-    "category": "05｜民间工艺与传统器物",
     "name_cn": "泰国传统本差隆五彩金开光瓷（Benjarong 宫廷瓷器）",
     "name_en": "Thai Benjarong Five-Color Gold Porcelain",
     "name_local": "เครื่องเบญจรงค์ / Benjarong",
@@ -2387,8 +2337,6 @@ const MATERIALS = [
     "country_code": "VN",
     "country": "越南",
     "region": "广南省会安古镇",
-    "category_id": "03",
-    "category": "03｜地方特色建筑",
     "name_cn": "会安古镇明黄石灰墙与法越折衷木构店屋",
     "name_en": "Hội An Ancient Town Mustard Yellow Shophouses",
     "name_local": "Phố cổ Hội An",
@@ -2480,8 +2428,6 @@ const MATERIALS = [
     "country_code": "VN",
     "country": "越南",
     "region": "河内、顺化与胡志明市",
-    "category_id": "08",
-    "category": "08｜交通工具与流动文化",
     "name_cn": "越南传统前客座人力三轮车（客运 Cyclo / Xích lô）",
     "name_en": "Vietnamese Passenger Cyclo (Xích lô)",
     "name_local": "Xích lô / Cyclo",
@@ -2573,8 +2519,6 @@ const MATERIALS = [
     "country_code": "VN",
     "country": "越南",
     "region": "全越（河内与西贡街头为代表）",
-    "category_id": "06",
-    "category": "06｜饮食与街头小贩文化",
     "name_cn": "越南街头金属滴漏咖啡（Phin）与矮脚塑料凳社交文化",
     "name_en": "Vietnamese Drip Coffee Filter (Phin) & Low Plastic Stool Culture",
     "name_local": "Cà phê phin / Cà phê vỉa hè",
@@ -2666,8 +2610,6 @@ const MATERIALS = [
     "country_code": "VN",
     "country": "越南",
     "region": "广南省会安古镇",
-    "category_id": "05",
-    "category": "05｜民间工艺与传统器物",
     "name_cn": "会安传统丝绸竹骨折叠挂式灯笼",
     "name_en": "Hội An Traditional Silk Bamboo Foldable Lanterns",
     "name_local": "Đèn lồng Hội An",
@@ -2759,8 +2701,6 @@ const MATERIALS = [
     "country_code": "VN",
     "country": "越南",
     "region": "承天顺化省及全越",
-    "category_id": "07",
-    "category": "07｜传统服饰与地方织物",
     "name_cn": "越南顺化手工缝制圆锥形棕榈叶斗笠（Nón lá / 诗意斗笠）",
     "name_en": "Vietnamese Conical Palm Leaf Hat (Nón lá)",
     "name_local": "Nón lá / Nón bài thơ",
@@ -2852,8 +2792,6 @@ const MATERIALS = [
     "country_code": "VN",
     "country": "越南",
     "region": "河内市还剑湖畔及红河三角洲",
-    "category_id": "12",
-    "category": "12｜民间表演与传统艺术",
     "name_cn": "红河三角洲传统水上木偶戏（水偶戏）",
     "name_en": "Red River Delta Traditional Water Puppetry",
     "name_local": "Múa rối nước",
@@ -2926,8 +2864,6 @@ const MATERIALS = [
     "country_code": "VN",
     "country": "越南",
     "region": "河内市嘉林县钵场村",
-    "category_id": "05",
-    "category": "05｜民间工艺与传统器物",
     "name_cn": "河内红河岸钵场传统青花与开片裂纹陶艺（Bát Tràng 陶瓷）",
     "name_en": "Hanoi Bát Tràng Traditional Crackle Glaze & Blue-White Ceramics",
     "name_local": "Gốm Bát Tràng",
@@ -3019,8 +2955,6 @@ const MATERIALS = [
     "country_code": "ID",
     "country": "印度尼西亚",
     "region": "巴厘省登巴萨及吉安雅",
-    "category_id": "03",
-    "category": "03｜地方特色建筑",
     "name_cn": "巴厘岛传统善恶门（Candi Bentar 劈裂式入口大门）",
     "name_en": "Balinese Split Gateway (Candi Bentar)",
     "name_local": "Candi Bentar",
@@ -3093,8 +3027,6 @@ const MATERIALS = [
     "country_code": "ID",
     "country": "印度尼西亚",
     "region": "巴厘省全岛",
-    "category_id": "11",
-    "category": "11｜宗教艺术与民间信仰",
     "name_cn": "巴厘岛每日街头花祭祭品盒（Canang Sari 椰叶花篮）",
     "name_en": "Balinese Daily Floral Offerings (Canang Sari)",
     "name_local": "Canang sari",
@@ -3186,8 +3118,6 @@ const MATERIALS = [
     "country_code": "ID",
     "country": "印度尼西亚",
     "region": "西苏门答腊省巴东及巴东班让",
-    "category_id": "03",
-    "category": "03｜地方特色建筑",
     "name_cn": "西苏门答腊米南加保水牛角形大屋（Rumah Gadang）",
     "name_en": "Minangkabau Buffalo Horn Curved House (Rumah Gadang)",
     "name_local": "Rumah Gadang",
@@ -3279,8 +3209,6 @@ const MATERIALS = [
     "country_code": "ID",
     "country": "印度尼西亚",
     "region": "南苏拉威西省托拉雅高地",
-    "category_id": "03",
-    "category": "03｜地方特色建筑",
     "name_cn": "南苏拉威西托拉雅族船形高脚祖屋（Tongkonan）",
     "name_en": "Toraja Boat-Shaped Ancestral Houses (Tongkonan)",
     "name_local": "Tongkonan",
@@ -3372,8 +3300,6 @@ const MATERIALS = [
     "country_code": "ID",
     "country": "印度尼西亚",
     "region": "中爪哇省与日惹特区",
-    "category_id": "12",
-    "category": "12｜民间表演与传统艺术",
     "name_cn": "爪哇传统古典皮影戏（Wayang Kulit Purwa）",
     "name_en": "Javanese Classical Shadow Puppetry (Wayang Kulit Purwa)",
     "name_local": "Wayang Kulit Purwa",
@@ -3465,8 +3391,6 @@ const MATERIALS = [
     "country_code": "ID",
     "country": "印度尼西亚",
     "region": "中爪哇省梭罗与日惹",
-    "category_id": "05",
-    "category": "05｜民间工艺与传统器物",
     "name_cn": "爪哇传统手绘蜡染铜印印模（Batik Cap / 纯铜印模）",
     "name_en": "Javanese Traditional Batik Copper Stamp (Canting Cap)",
     "name_local": "Canting Cap",
@@ -3539,8 +3463,6 @@ const MATERIALS = [
     "country_code": "SG",
     "country": "新加坡",
     "region": "牛车水麦士威路",
-    "category_id": "06",
-    "category": "06｜饮食与街头小贩文化",
     "name_cn": "新加坡小贩中心熟食摊档与市井排档（麦士威小贩中心）",
     "name_en": "Singapore Hawker Centre Stalls & Social Tray Return (Maxwell)",
     "name_local": "Pusat penjaja / 小贩中心",
@@ -3632,8 +3554,6 @@ const MATERIALS = [
     "country_code": "SG",
     "country": "新加坡",
     "region": "东海岸如切与加东",
-    "category_id": "03",
-    "category": "03｜地方特色建筑",
     "name_cn": "如切与加东彩绘娘惹排屋花砖立面",
     "name_en": "Joo Chiat / Katong Pastel Peranakan Shophouses",
     "name_local": "Rumah kedai Peranakan Joo Chiat",
@@ -3725,8 +3645,6 @@ const MATERIALS = [
     "country_code": "SG",
     "country": "新加坡",
     "region": "实龙岗路小印度甘贝尔巷",
-    "category_id": "02",
-    "category": "02｜城市街头景观",
     "name_cn": "新加坡小印度甘贝尔巷鲜花花环摊位街景",
     "name_en": "Little India Campbell Lane Flower Garland Stalls",
     "name_local": "Campbell Lane / Campbell Lane",
@@ -3818,8 +3736,6 @@ const MATERIALS = [
     "country_code": "SG",
     "country": "新加坡",
     "region": "红山中峇鲁忠邦路",
-    "category_id": "03",
-    "category": "03｜地方特色建筑",
     "name_cn": "中峇鲁现代流线型改良信托局公屋（SIT 流线型住宅）",
     "name_en": "Tiong Bahru Streamline Moderne SIT Flats",
     "name_local": "Tiong Bahru / 中峇魯",
@@ -3892,8 +3808,6 @@ const MATERIALS = [
     "country_code": "PH",
     "country": "菲律宾",
     "region": "马尼拉大都会及全菲",
-    "category_id": "08",
-    "category": "08｜交通工具与流动文化",
     "name_cn": "马尼拉吉普尼手绘民俗波普车厢（Jeepney）",
     "name_en": "Manila Jeepney Hand-Painted Folk Pop Vehicles",
     "name_local": "Dyip / Jeepney",
@@ -3985,8 +3899,6 @@ const MATERIALS = [
     "country_code": "PH",
     "country": "菲律宾",
     "region": "南伊罗戈省美岸市",
-    "category_id": "03",
-    "category": "03｜地方特色建筑",
     "name_cn": "美岸古城卡列克里索洛戈石木殖民大屋",
     "name_en": "Vigan Calle Crisologo Stone & Wood Ancestral Houses",
     "name_local": "Calle Crisologo / Ciudad Fernandina de Vigan",
@@ -4059,8 +3971,6 @@ const MATERIALS = [
     "country_code": "PH",
     "country": "菲律宾",
     "region": "阿克兰省卡利博及全菲",
-    "category_id": "07",
-    "category": "07｜传统服饰与地方织物",
     "name_cn": "菲律宾国服巴隆他加禄菠萝纤维长衫（Barong Tagalog）",
     "name_en": "Philippine Barong Tagalog & Pineapple Piña Cloth",
     "name_local": "Barong Tagalog",
@@ -4133,8 +4043,6 @@ const MATERIALS = [
     "country_code": "PH",
     "country": "菲律宾",
     "region": "全菲（以米沙鄢群岛及卡皮斯省为代表）",
-    "category_id": "05",
-    "category": "05｜民间工艺与传统器物",
     "name_cn": "菲律宾传统卡皮斯海月贝壳百叶窗（Capiz Windows）",
     "name_en": "Philippine Traditional Capiz Shell Grid Windows",
     "name_local": "Bintanang Kapis / Capiz window",
@@ -4226,8 +4134,6 @@ const MATERIALS = [
     "country_code": "KH",
     "country": "柬埔寨",
     "region": "暹粒省及金边市",
-    "category_id": "12",
-    "category": "12｜民间表演与传统艺术",
     "name_cn": "柬埔寨高棉巨型皮影戏（Sbek Thom 整牛皮大影偶）",
     "name_en": "Cambodian Sbek Thom Sacred Shadow Puppetry",
     "name_local": "ល្ខោនស្បែកធំ / Sbek Thom",
@@ -4319,8 +4225,6 @@ const MATERIALS = [
     "country_code": "KH",
     "country": "柬埔寨",
     "region": "暹粒省吴哥考古公园",
-    "category_id": "03",
-    "category": "03｜地方特色建筑",
     "name_cn": "吴哥窟阿卜娑罗仙女石雕浅浮雕壁柱（Apsara Reliefs）",
     "name_en": "Angkor Wat Temple Apsara Celestial Dancers Bas-Reliefs",
     "name_local": "អប្សរា / Apsara",
@@ -4412,8 +4316,6 @@ const MATERIALS = [
     "country_code": "KH",
     "country": "柬埔寨",
     "region": "暹粒省洞里萨湖空尼浮村",
-    "category_id": "02",
-    "category": "02｜城市街头景观",
     "name_cn": "洞里萨湖水上浮村竹木高脚屋与流动船市",
     "name_en": "Tonle Sap Lake Floating Village & Stilt Boat Market",
     "name_local": "ភូមិបណ្ដែតទឹកបឹងទន្លេសាប",
@@ -4505,8 +4407,6 @@ const MATERIALS = [
     "country_code": "LA",
     "country": "老挝",
     "region": "琅勃拉邦省琅勃拉邦市",
-    "category_id": "03",
-    "category": "03｜地方特色建筑",
     "name_cn": "琅勃拉邦香通寺低垂三重飞檐大殿与生命之树（Wat Xieng Thong）",
     "name_en": "Luang Prabang Wat Xieng Thong Sim & Tree of Life Mosaic",
     "name_local": "ວັດຊຽງທອງ / Wat Xieng Thong",
@@ -4598,8 +4498,6 @@ const MATERIALS = [
     "country_code": "MM",
     "country": "缅甸",
     "region": "曼德勒省蒲甘古城及新蒲甘",
-    "category_id": "05",
-    "category": "05｜民间工艺与传统器物",
     "name_cn": "蒲甘传统马鬃竹胎彩绘漆器（Yun-de 刻漆工艺）",
     "name_en": "Bagan Traditional Horsehair Bamboo Lacquerware (Yun-de)",
     "name_local": "ယွန်းထည် / Yun-de",
@@ -4691,8 +4589,6 @@ const MATERIALS = [
     "country_code": "MM",
     "country": "缅甸",
     "region": "掸邦娘水镇茵莱湖",
-    "category_id": "08",
-    "category": "08｜交通工具与流动文化",
     "name_cn": "茵莱湖单腿单桨摇橹独木舟与圆锥捕鱼竹笼",
     "name_en": "Inle Lake One-Legged Rowing Fishermen & Conical Bamboo Trap",
     "name_local": "အင်းသား / Intha",
@@ -4784,8 +4680,6 @@ const MATERIALS = [
     "country_code": "BN",
     "country": "文莱",
     "region": "文莱摩拉县斯里巴加湾市文莱河",
-    "category_id": "03",
-    "category": "03｜地方特色建筑",
     "name_cn": "斯里巴加湾市甘榜亚逸水上高脚木村（Kampong Ayer）",
     "name_en": "Brunei Kampong Ayer Stilt Water Village & Boardwalks",
     "name_local": "Kampong Ayer / كامڤوڠ اءير",
@@ -4877,8 +4771,6 @@ const MATERIALS = [
     "country_code": "BN",
     "country": "文莱",
     "region": "斯里巴加湾市市中心",
-    "category_id": "03",
-    "category": "03｜地方特色建筑",
     "name_cn": "奥马尔·阿里·赛义夫丁苏丹清真寺金顶与水上石舫",
     "name_en": "Sultan Omar Ali Saifuddien Mosque Gold Dome & Lagoon",
     "name_local": "Masjid Omar Ali Saifuddien",
@@ -4951,8 +4843,6 @@ const MATERIALS = [
     "country_code": "TL",
     "country": "东帝汶",
     "region": "劳滕区洛斯帕洛斯与包考",
-    "category_id": "03",
-    "category": "03｜地方特色建筑",
     "name_cn": "东帝汶传统圣屋（Uma Lulik 高脚茅草神圣图腾建筑）",
     "name_en": "Timor-Leste Sacred Ancestral Houses (Uma Lulik)",
     "name_local": "Uma Lulik",
@@ -5044,8 +4934,6 @@ const MATERIALS = [
     "country_code": "TL",
     "country": "东帝汶",
     "region": "帝力市、博博纳罗区与包考区",
-    "category_id": "07",
-    "category": "07｜传统服饰与地方织物",
     "name_cn": "东帝汶传统泰斯手工织锦与几何图腾（Tais Timor）",
     "name_en": "Timorese Traditional Handwoven Tais Cloth",
     "name_local": "Tais Timor",
@@ -5130,6 +5018,1711 @@ const MATERIALS = [
       "菱形Kaif几何纹样",
       "两端手搓流苏",
       "急需保护人类非遗"
+    ]
+  },
+  {
+    "id": "TH-01-0001",
+    "country_code": "TH",
+    "country": "泰国",
+    "region": "攀牙府攀牙湾国家公园",
+    "name_cn": "攀牙湾塔状石灰岩喀斯特与达铺岛（Koh Tapu 钉子石）",
+    "name_en": "Phang Nga Bay Tower Karst & Koh Tapu (Nail Island)",
+    "name_local": "เกาะตาปู / Koh Tapu",
+    "name_local_roman": "Koh Tapu",
+    "tradition": "安达曼海古喀斯特地质遗迹、热带海蚀柱孤峰地貌",
+    "summary": "达铺岛（Koh Tapu，泰语意为'钉子岛'，因007电影在此取景而闻名全球）是泰国南部攀牙湾国家公园地质景观的视觉皇冠。高约20米的单体石灰岩海蚀柱孤峰如同一根巨型石钉垂直插入碧绿如翡翠的安达曼海面中。由于下部常年受海水波浪潮汐剥蚀与化学溶蚀，呈现出'上粗下细'如大白菜般的倒立悬挑奇险形态，峰顶被顽强的热带崖生灌木丛覆盖，与周围百余座被红树林环抱的巨大石灰岩溶洞孤岛群共同构成世界上最具辨识度的热带海上石林奇观。",
+    "visual_features": {
+      "form": "上大下小、下部严重内凹的倒锥形海蚀孤峰，垂直立于水面，轮廓极其奇险俊秀。",
+      "color": "深灰与灰白石灰岩石纹，海蚀凹槽泛出氧化铁红褐色与暗墨绿水草痕迹，下衬翡翠碧绿的平静海面。",
+      "material": "二叠纪厚层结晶碳酸盐石灰岩、多孔海蚀溶洞岩壁、石缝热带耐旱灌木与蕨类。",
+      "pattern": "垂直雨淋溶蚀水痕凹槽、水平海浪拍击冲蚀刻线、岩石表面层状起伏纹理。",
+      "space": "在开阔平缓的浅海海面上突兀拔起，成为水平海天视线中的视觉绝对中心，具有强烈的向心力。",
+      "distinction": "相比越南下龙湾平卧式群岛，攀牙湾Koh Tapu是极其孤立绝险的垂直'海蚀倒锥柱'，上粗下细的极端平衡感带来无与伦比的视觉悬念。"
+    },
+    "visual_keywords": "上粗下细海蚀柱|直插翡翠海面|攀牙湾塔状喀斯特|悬挑石灰岩|天然水墨奇石|热带海洋孤峰",
+    "tags": "自然景观|地质奇观|水景背景|海岛风光|雕塑感地标|自然装置",
+    "images_meta": [
+      {
+        "file_title": "File:Phang Nga Bay, Koh Tapu, Thailand.jpg",
+        "title": "泰国攀牙湾碧绿海面上拔地而起的达铺岛（Koh Tapu）倒锥石全貌",
+        "content_type": "整体"
+      },
+      {
+        "file_title": "File:Pier at Koh Tapu (124730643).jpg",
+        "title": "达铺岛周边浅滩岩礁与近景游览木码头视角",
+        "content_type": "使用场景"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Department of National Parks Thailand - Ao Phang Nga National Park",
+        "url": "https://portal.dnp.go.th"
+      },
+      {
+        "title": "UNESCO World Heritage Centre - Tentative Lists: Ao Phang Nga National Park",
+        "url": "https://whc.unesco.org/en/tentativelists/6009"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "泰国攀牙湾碧绿海面上拔地而起的达铺岛（Koh Tapu）倒锥石全貌",
+        "content_type": "整体",
+        "local_path": "12_图片素材库/TH/01/TH-01-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/TH/01/TH-01-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Phang_Nga_Bay%2C_Koh_Tapu%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Phang_Nga_Bay%2C_Koh_Tapu%2C_Thailand.jpg/1280px-Phang_Nga_Bay%2C_Koh_Tapu%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Phang_Nga_Bay,_Koh_Tapu,_Thailand.jpg",
+        "author": "Vyacheslav Argenberg",
+        "license": "CC BY 4.0",
+        "verification": "已访问源页面",
+        "file_size": 272290
+      },
+      {
+        "index": 2,
+        "title": "达铺岛周边浅滩岩礁与近景游览木码头视角",
+        "content_type": "使用场景",
+        "local_path": "12_图片素材库/TH/01/TH-01-0001_2.jpg",
+        "html_rel_path": "../12_图片素材库/TH/01/TH-01-0001_2.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Pier_at_Koh_Tapu_%28124730643%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Pier_at_Koh_Tapu_%28124730643%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Pier_at_Koh_Tapu_(124730643).jpg",
+        "author": "29cm from Hong Kong",
+        "license": "CC BY-SA 2.0",
+        "verification": "已访问源页面",
+        "file_size": 127507
+      }
+    ],
+    "tags_array": [
+      "自然景观",
+      "地质奇观",
+      "水景背景",
+      "海岛风光",
+      "雕塑感地标",
+      "自然装置"
+    ],
+    "visual_keywords_array": [
+      "上粗下细海蚀柱",
+      "直插翡翠海面",
+      "攀牙湾塔状喀斯特",
+      "悬挑石灰岩",
+      "天然水墨奇石",
+      "热带海洋孤峰"
+    ]
+  },
+  {
+    "id": "TH-02-0001",
+    "country_code": "TH",
+    "country": "泰国",
+    "region": "叻丕府丹嫩沙多县",
+    "name_cn": "丹嫩沙多水上集市木摇橹船与果蔬水上排档",
+    "name_en": "Damnoen Saduak Floating Market Wooden Boats & Stalls",
+    "name_local": "ตลาดน้ำดำเนินสะดวก / Damnoen Saduak",
+    "name_local_roman": "Talat Nam Damnoen Saduak",
+    "tradition": "泰国中部湄南河水网运河文化、百年水上生民划船贸易",
+    "summary": "丹嫩沙多水上市场（Damnoen Saduak）形成于拉玛四世开凿运河时期，是泰国历史最悠久、色彩最繁茂的水上集市代表。破晓时分，头戴扁平草编斗笠（Ngob）的水乡妇女划着两头微翘的狭长柚木细木舟（Rua Phay），满载着自家种植的黄色香蕉、嫩绿青芒、粉红火龙果、椰子与现切红柚聚集于纵横交错的狭窄运河中。舟船摩肩接踵，船头甚至架设小型炭火炉与汤锅，现煮热气腾腾的船面（Boat Noodles），小贩以长竹竿绑着塑料小篮向岸边游客传递食物与零钱，构成热带水乡最欢快的水上商业活态交响。",
+    "visual_features": {
+      "form": "狭长流线型木摇橹平底小舟（宽约0.8米、长4-5米），船头甲板呈阶梯状层叠高高堆起金字塔形果蔬篮筐。",
+      "color": "深褐原木色船身，与红柚、黄蕉、青椰、紫山竹等热带水果构成视觉饱和度极高的大地彩虹色盘。",
+      "material": "老柚木/合欢木船板、天然手工编织竹篾果筐、棕榈叶宽沿扁平草帽（Ngob）、白铁皮煮面汤锅。",
+      "pattern": "圆竹筐紧密堆叠的网格几何阵列、水面浆影荡开的细碎波光波纹。",
+      "space": "河道宽仅十余米，百余艘木船在水面相互贴合碰撞，两岸吊脚木楼挑檐遮蔽天空，形成水上高密度商业步行街感。",
+      "distinction": "与陆地固定摊位不同，水上摊位具有水波浮动的动态摇曳美感，小贩与顾客通过木桨与长杆完成交易，极具流动戏剧性。"
+    },
+    "visual_keywords": "摇橹细木舟|阶梯堆叠热带水果|扁平草编斗笠Ngob|水上现煮船面|狭窄运河挤舟|水生贸易活态",
+    "tags": "水上集市|果蔬陈列|流动商业|水岸空间|市井烟火|互动体验",
+    "images_meta": [
+      {
+        "file_title": "File:Floating market at Damnoen Saduak 10.JPG",
+        "title": "丹嫩沙多水上市场运河中挤满水果木船与斗笠小贩的熙攘全景",
+        "content_type": "整体/使用场景"
+      },
+      {
+        "file_title": "File:Damnoen Saduak Floating Market 1977 - panoramio.jpg",
+        "title": "传统木船头堆叠椰子与香蕉向游客靠岸售卖的生活细节",
+        "content_type": "局部细节/使用场景"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Tourism Authority of Thailand - Damnoen Saduak Floating Market",
+        "url": "https://www.tourismthailand.org"
+      },
+      {
+        "title": "Ratchaburi Provincial Cultural Office - Canal Heritage of Damnoen Saduak",
+        "url": "http://www.culture.go.th"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "丹嫩沙多水上市场运河中挤满水果木船与斗笠小贩的熙攘全景",
+        "content_type": "整体/使用场景",
+        "local_path": "12_图片素材库/TH/02/TH-02-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/TH/02/TH-02-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Floating_market_at_Damnoen_Saduak_10.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Floating_market_at_Damnoen_Saduak_10.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Floating_market_at_Damnoen_Saduak_10.JPG",
+        "author": "BrokenSphere",
+        "license": "CC BY 3.0",
+        "verification": "已访问源页面",
+        "file_size": 439709
+      },
+      {
+        "index": 2,
+        "title": "传统木船头堆叠椰子与香蕉向游客靠岸售卖的生活细节",
+        "content_type": "局部细节/使用场景",
+        "local_path": "12_图片素材库/TH/02/TH-02-0001_2.jpg",
+        "html_rel_path": "../12_图片素材库/TH/02/TH-02-0001_2.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Damnoen_Saduak_Floating_Market_1977_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Damnoen_Saduak_Floating_Market_1977_-_panoramio.jpg/1280px-Damnoen_Saduak_Floating_Market_1977_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Damnoen_Saduak_Floating_Market_1977_-_panoramio.jpg",
+        "author": "Art Anderson",
+        "license": "CC BY-SA 3.0",
+        "verification": "已访问源页面",
+        "file_size": 345107
+      }
+    ],
+    "tags_array": [
+      "水上集市",
+      "果蔬陈列",
+      "流动商业",
+      "水岸空间",
+      "市井烟火",
+      "互动体验"
+    ],
+    "visual_keywords_array": [
+      "摇橹细木舟",
+      "阶梯堆叠热带水果",
+      "扁平草编斗笠Ngob",
+      "水上现煮船面",
+      "狭窄运河挤舟",
+      "水生贸易活态"
+    ]
+  },
+  {
+    "id": "TH-06-0002",
+    "country_code": "TH",
+    "country": "泰国",
+    "region": "全泰（以曼谷清迈街头为代表）",
+    "name_cn": "泰式炒金边粉铁板街头排档（Pad Thai 经典小贩车）",
+    "name_en": "Thai Street Food Pad Thai Wok Stall & Cart",
+    "name_local": "ผัดไทย / Pad Thai",
+    "name_local_roman": "Pad Thai",
+    "tradition": "二战时期泰国国家认同塑造之国民面食、街头铁板快炒文化",
+    "summary": "泰式炒金边粉（Pad Thai）是20世纪30年代末泰国总理銮披汶·颂堪为应对大米短缺并塑造现代国家凝聚力而大力推广的'国家面食'。街头典型的Pad Thai推车前必横置一块直径近一米的大号平底厚铁圆煎盘（Flat griddle pan）。小贩将泡发干米粉、腌渍碎萝卜干、黄豆腐干丁、鲜虾与红葱头在铁板上飞速翻炒，烹入浓稠的罗望子果酸甜汁（Tamarind paste）、椰糖与纯正鱼露，最后在铁板边缘打碎一枚鸭蛋迅速划散包裹粉条，起锅配以生鲜韭菜段、带根鲜豆芽、粗碎花生碎与鲜青柠角，热气甜酸焦香。",
+    "visual_features": {
+      "form": "超大圆形平底铸铁煎盘斜置于不锈钢小贩车正中，四周分格陈列黄豆腐丁、红椒碎与白豆芽。",
+      "color": "罗望子汁熬出的温暖焦糖琥珀色，点缀姜黄炸豆腐丁、鲜红大虾肉、翠绿生韭菜与象牙白粗花生碎碎屑。",
+      "material": "厚重黑色铸铁平底大煎盘、不锈钢食材调料调味碗、木柄宽口翻炒铁铲、复古蜡纸/环保油纸盘托。",
+      "pattern": "粉条表面均匀裹挟的焦黄色酱汁反光、碎花生颗粒粗犷的细密质感。",
+      "space": "小贩立于中央一铲一推翻飞作业，顾客围绕在铁板两侧仅一米之外驻足观摩，明火热气与酸香直扑面颊。",
+      "distinction": "使用罗望子酸角酱而非普通食醋提供天然厚重果酸果香，配合平底大铁盘的半煎半炒手法，面体Q弹干香而不黏烂。"
+    },
+    "visual_keywords": "平底铸铁大煎盘|罗望子琥珀色酱汁|黄豆腐丁鲜虾|生韭菜鲜豆芽|粗碎花生米|街头铁板锅气",
+    "tags": "特色美食|街头排档|烹饪表演|小吃车设计|餐饮空间|市井烟火",
+    "images_meta": [
+      {
+        "file_title": "File:Phat Thai kung Chang Khien street stall.jpg",
+        "title": "清迈街头排档现炒大虾Pad Thai大平底铸铁锅与配料食材陈列",
+        "content_type": "整体/使用场景"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Tourism Authority of Thailand - The Origins of Pad Thai",
+        "url": "https://www.tourismthailand.org"
+      },
+      {
+        "title": "Michelin Guide Bangkok - The Story Behind Pad Thai",
+        "url": "https://guide.michelin.com"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "清迈街头排档现炒大虾Pad Thai大平底铸铁锅与配料食材陈列",
+        "content_type": "整体/使用场景",
+        "local_path": "12_图片素材库/TH/06/TH-06-0002_1.jpg",
+        "html_rel_path": "../12_图片素材库/TH/06/TH-06-0002_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Phat_Thai_kung_Chang_Khien_street_stall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Phat_Thai_kung_Chang_Khien_street_stall.jpg/1280px-Phat_Thai_kung_Chang_Khien_street_stall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Phat_Thai_kung_Chang_Khien_street_stall.jpg",
+        "author": "Takeaway",
+        "license": "CC BY-SA 3.0",
+        "verification": "已访问源页面",
+        "file_size": 416823
+      }
+    ],
+    "tags_array": [
+      "特色美食",
+      "街头排档",
+      "烹饪表演",
+      "小吃车设计",
+      "餐饮空间",
+      "市井烟火"
+    ],
+    "visual_keywords_array": [
+      "平底铸铁大煎盘",
+      "罗望子琥珀色酱汁",
+      "黄豆腐丁鲜虾",
+      "生韭菜鲜豆芽",
+      "粗碎花生米",
+      "街头铁板锅气"
+    ]
+  },
+  {
+    "id": "TH-07-0001",
+    "country_code": "TH",
+    "country": "泰国",
+    "region": "呵叻府北标府及曼谷",
+    "name_cn": "泰国传统手工真丝织锦与查克里泰服（Thai Silk）",
+    "name_en": "Traditional Thai Silk Weaving & Chakkri Royal Costume",
+    "name_local": "ผ้าไหมไทย / Thai Silk",
+    "name_local_roman": "Pha Mai Thai",
+    "tradition": "依善高原本土黄蚕丝养殖、传统木织机手工挑织丝绸国礼",
+    "summary": "泰丝（Thai Silk）以其独特的粗细不匀手工竹节节结肌理与温润刚柔并济的金属光泽闻名全球，由美军退役军官金·汤普森（Jim Thompson）在战后引入西方高定时装界。其原料来自泰国东北部依善高原生长的纯种黄色小蚕茧，丝线呈天然金黄色且富含天然丝胶。传统织娘使用老木织机，经纬线手工挑织出举世闻名的扎染依卡织锦（Mudmee）或金银线提花。泰丝质地坚挺、垂坠感极强，在光线折射下呈现出双色甚至三色微弱变色效应，是制作泰国诗丽吉王后创立的八套传统皇家女装（如查克里泰装 Ruean Chakkri）的至高面料。",
+    "visual_features": {
+      "form": "单肩斜披式长披肩（Sabai）垂坠过膝，下身紧密围裹及踝长筒裙（Pha Sin），腰部饰以金属精雕金腰带。",
+      "color": "深宝石孔雀蓝、翡翠绿、紫罗兰、紫铜金红；表面因生丝天然折射随视角呈现微妙变色幻彩（Iridescence）。",
+      "material": "天然依善金黄色原茧生丝、金银线（Lurex）、手工老木框架织布机。",
+      "pattern": "传统扎染经纬防染纹样（Mudmee 依卡波纹）、菱形网格连环纹与折枝热带莲花暗花纹。",
+      "space": "面料挺括悬挺，单肩斜披的Sabai在走动时呈现如雕塑般挺立且流动的建筑感线条。",
+      "distinction": "绝无中国或日本机制丝绸的绝对平滑纤薄，泰丝刻意保留手工纺线天然粗细不一的竹节感与厚重硬挺度，折射光彩极尽华美富丽。"
+    },
+    "visual_keywords": "天然依善黄蚕丝|手工竹节微肌理|单肩斜披Sabai|多重视角变色变彩|扎染Mudmee纹|皇家礼服质感",
+    "tags": "传统纺织|丝绸工艺|高级面料|民族服饰|光影材质|装置布艺",
+    "images_meta": [
+      {
+        "file_title": "File:Jim Thompson Thai Silk Hand Weaving Gallery by Don Ramey Logan.jpg",
+        "title": "曼谷传统木织机手工挑织华丽双色泰丝面料织造现场全景",
+        "content_type": "整体/使用场景"
+      },
+      {
+        "file_title": "File:Thai man spools silk at Jim Thompson House photo Don Ramey Logan.jpg",
+        "title": "老工匠将天然亮金黄色泰丝生丝卷绕于木纺轮上的工艺细节",
+        "content_type": "局部细节"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Queen Sirikit Museum of Textiles Bangkok - Royal Thai Silk Collection",
+        "url": "http://www.qsmtbangkok.org"
+      },
+      {
+        "title": "The Support Arts and Crafts International Centre of Thailand (SACIT)",
+        "url": "https://www.sacit.or.th"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "曼谷传统木织机手工挑织华丽双色泰丝面料织造现场全景",
+        "content_type": "整体/使用场景",
+        "local_path": "12_图片素材库/TH/07/TH-07-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/TH/07/TH-07-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Jim_Thompson_Thai_Silk_Hand_Weaving_Gallery_by_Don_Ramey_Logan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Jim_Thompson_Thai_Silk_Hand_Weaving_Gallery_by_Don_Ramey_Logan.jpg/1280px-Jim_Thompson_Thai_Silk_Hand_Weaving_Gallery_by_Don_Ramey_Logan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Jim_Thompson_Thai_Silk_Hand_Weaving_Gallery_by_Don_Ramey_Logan.jpg",
+        "author": "Don Ramey Logan",
+        "license": "CC BY 4.0",
+        "verification": "已访问源页面",
+        "file_size": 298519
+      },
+      {
+        "index": 2,
+        "title": "老工匠将天然亮金黄色泰丝生丝卷绕于木纺轮上的工艺细节",
+        "content_type": "局部细节",
+        "local_path": "12_图片素材库/TH/07/TH-07-0001_2.jpg",
+        "html_rel_path": "../12_图片素材库/TH/07/TH-07-0001_2.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Thai_man_spools_silk_at_Jim_Thompson_House_photo_Don_Ramey_Logan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Thai_man_spools_silk_at_Jim_Thompson_House_photo_Don_Ramey_Logan.jpg/1280px-Thai_man_spools_silk_at_Jim_Thompson_House_photo_Don_Ramey_Logan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Thai_man_spools_silk_at_Jim_Thompson_House_photo_Don_Ramey_Logan.jpg",
+        "author": "Don Ramey Logan",
+        "license": "CC BY-SA 3.0",
+        "verification": "已访问源页面",
+        "file_size": 568462
+      }
+    ],
+    "tags_array": [
+      "传统纺织",
+      "丝绸工艺",
+      "高级面料",
+      "民族服饰",
+      "光影材质",
+      "装置布艺"
+    ],
+    "visual_keywords_array": [
+      "天然依善黄蚕丝",
+      "手工竹节微肌理",
+      "单肩斜披Sabai",
+      "多重视角变色变彩",
+      "扎染Mudmee纹",
+      "皇家礼服质感"
+    ]
+  },
+  {
+    "id": "TH-12-0001",
+    "country_code": "TH",
+    "country": "泰国",
+    "region": "曼谷国家剧院及大王宫",
+    "name_cn": "泰国传统大王宫孔剧神魔面具（Khon Mask 贴金彩绘面谱）",
+    "name_en": "Thai Royal Khon Dance Drama Gilded Masks",
+    "name_local": "หัวโขน / Hua Khon",
+    "name_local_roman": "Hua Khon",
+    "tradition": "泰国大城与曼谷王朝宫廷古典哑剧舞蹈（Khon）、《拉玛坚》史诗全脸面具",
+    "summary": "孔剧（Khon）是泰国最高等级的宫廷古典假面舞蹈戏剧，2018年被联合国教科文组织列入人类非物质文化遗产。除极少数饰演男女主角的演员露脸外，所有饰演猴神、夜叉恶魔与神祇的舞者均须佩戴头盔式全包全脸孔剧面具（Hua Khon）。面具选用特制纸浆在泥模上手工糊压成型，经雕鼻、刻嘴后，工匠运用极细毛笔以纯金金箔、真碎玻璃镜片与矿物颜料细密描金贴金，将猴王哈努曼的雪白灵动、十首魔王托萨坎的碧绿狞厉刻画得入木三分，威严神圣。",
+    "visual_features": {
+      "form": "全包式硬质头盔面罩，头顶根据角色等级耸立不同形制的尖顶王冠、宝塔冠（Chada）或卷发髻；五官极度夸张戏剧化。",
+      "color": "严格按神谱定色：哈努曼为圣洁纯白描金、托萨坎魔王为深孔雀绿描金、神鸟迦楼罗为火红与朱砂，金箔大面积满勾。",
+      "material": "手工桑皮纸纸浆层叠胎骨、纯生漆油灰浮雕塑线、24K真金箔贴金、彩色碎镜片嵌饰、矿物重彩彩绘。",
+      "pattern": "面具眼眶与额角的泰式火焰拉花纹（Kranok）、尖冠上的多层环形莲瓣几何雕花、手绘神兽獠牙与威严眼眸。",
+      "space": "佩戴后演员完全封口不可言语，纯粹通过肢体手印手势与面具造型在舞台聚光灯下传达情绪，金箔闪烁具有极强戏剧聚焦度。",
+      "distinction": "头盔式深包裹结构，融合了印度神话谱系与泰式皇家金冠建筑造型，表面纯金勾线与镜面剪粘细致度超越普通戏剧面具。"
+    },
+    "visual_keywords": "尖顶宝塔金冠Chada|纯金箔满工勾金|猴王纯白与魔王翠绿|全包式纸胎头盔|火焰纹Kranok|孔剧非遗道具",
+    "tags": "民间艺术|非遗戏曲|面具艺术|金色装饰|戏剧道具|雕塑陈列",
+    "images_meta": [
+      {
+        "file_title": "File:Khon mask at National Cultural Center, Bangkok.jpg",
+        "title": "曼谷国家文化中心展出的孔剧神猴与魔王贴金彩绘面具特写",
+        "content_type": "整体/局部细节"
+      },
+      {
+        "file_title": "File:Crown Khon Mask.JPG",
+        "title": "高耸尖顶宝塔冠（Chada）孔剧面具顶部精湛金箔浮雕细节",
+        "content_type": "局部细节"
+      }
+    ],
+    "sources": [
+      {
+        "title": "UNESCO Intangible Cultural Heritage - Khon, masked dance drama in Thailand",
+        "url": "https://ich.unesco.org/en/RL/khon-masked-dance-drama-in-thailand-01385"
+      },
+      {
+        "title": "Fine Arts Department Thailand - The Craft of Royal Khon Mask Making",
+        "url": "https://www.finearts.go.th"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "曼谷国家文化中心展出的孔剧神猴与魔王贴金彩绘面具特写",
+        "content_type": "整体/局部细节",
+        "local_path": "12_图片素材库/TH/12/TH-12-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/TH/12/TH-12-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Khon_mask_at_National_Cultural_Center%2C_Bangkok.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Khon_mask_at_National_Cultural_Center%2C_Bangkok.jpg/1280px-Khon_mask_at_National_Cultural_Center%2C_Bangkok.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Khon_mask_at_National_Cultural_Center,_Bangkok.jpg",
+        "author": "Vee Satayamas",
+        "license": "CC BY 4.0",
+        "verification": "已访问源页面",
+        "file_size": 271365
+      },
+      {
+        "index": 2,
+        "title": "高耸尖顶宝塔冠（Chada）孔剧面具顶部精湛金箔浮雕细节",
+        "content_type": "局部细节",
+        "local_path": "12_图片素材库/TH/12/TH-12-0001_2.jpg",
+        "html_rel_path": "../12_图片素材库/TH/12/TH-12-0001_2.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Crown_Khon_Mask.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Crown_Khon_Mask.JPG/1280px-Crown_Khon_Mask.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Crown_Khon_Mask.JPG",
+        "author": "Saerin",
+        "license": "CC BY-SA 3.0",
+        "verification": "已访问源页面",
+        "file_size": 299988
+      }
+    ],
+    "tags_array": [
+      "民间艺术",
+      "非遗戏曲",
+      "面具艺术",
+      "金色装饰",
+      "戏剧道具",
+      "雕塑陈列"
+    ],
+    "visual_keywords_array": [
+      "尖顶宝塔金冠Chada",
+      "纯金箔满工勾金",
+      "猴王纯白与魔王翠绿",
+      "全包式纸胎头盔",
+      "火焰纹Kranok",
+      "孔剧非遗道具"
+    ]
+  },
+  {
+    "id": "TH-15-0001",
+    "country_code": "TH",
+    "country": "泰国",
+    "region": "曼谷昭披耶河畔吞武里区",
+    "name_cn": "曼谷郑王庙彩色碎瓷片剪粘镶嵌与主塔群（Wat Arun Prang）",
+    "name_en": "Wat Arun Multi-Color Porcelain Mosaic & Central Prang",
+    "name_local": "วัดอรุณราชวราราม / Wat Arun",
+    "name_local_roman": "Wat Arun",
+    "tradition": "拉玛三世时期中国压舱瓷片本土再造、高棉式大佛塔（Prang）装饰艺术",
+    "summary": "郑王庙（Wat Arun，黎明寺）耸立于湄南河西岸，其高达82米的高棉式主佛塔（Phra Prang）被誉为'泰国的埃菲尔铁塔'。拉玛三世扩建该寺时创造性地化废为宝——号召民间收集大量来自中国商船作为压舱物运来的破损青花瓷、五彩海碗、紫砂盘与彩色药坛瓷片。工匠将碎瓷片手工敲砸、修整成大小不一的花瓣与几何菱片，以白石灰砂浆嵌贴在巨大的佛塔表面，拼贴出数以万计的立体大丽花、缠枝金莲、猴神哈奴曼金刚与守护夜叉金身，在清晨阳光照射下折射出极绚烂清透的白瓷青花与彩釉光晕。",
+    "visual_features": {
+      "form": "主塔为高棉玉米棒形高耸佛塔（Prang），四方各对称立有一座附属小角塔，外壁呈多道折角向内收分。",
+      "color": "象牙白石灰基底色，密布青花靛蓝、粉彩紫红、孔雀绿与明黄碎瓷花卉，在阳光下呈现纯净透亮的马赛克反光。",
+      "material": "碎裂中国外销青花/粉彩瓷片、彩色陶土瓦片、贝壳、白色贝灰生石灰砂浆混合物。",
+      "pattern": "六瓣与八瓣立体突起大瓷花朵、缠枝卷草花蔓、托塔金刚夜叉神像剪粘立体雕塑。",
+      "space": "极陡峭的登塔台阶与多层回廊环绕，人身紧贴塔壁向上仰望，被四周数以万计的瓷片花卉立体包裹，极具微观与宏观对撞的震撼力。",
+      "distinction": "将中国破碎日用陶瓷转化为神圣宏大建筑的马赛克表皮，彻底打破了西方大理石雕刻或传统纯金漆寺庙的常规质感，生态再利用与视觉美感惊人兼备。"
+    },
+    "visual_keywords": "压舱碎瓷片拼贴|高棉玉米状佛塔Prang|青花与粉彩瓷花|白色石灰底灰|托塔夜叉立体剪粘|湄南河畔晨曦地标",
+    "tags": "建筑装饰|瓷片剪粘|材质语言|地标建筑|立体马赛克|再生材料美学",
+    "images_meta": [
+      {
+        "file_title": "File:Wat Arun. Pagoda. 2016-10-10 14-38-20.jpg",
+        "title": "曼谷郑王庙82米高耸主塔全景与白色瓷片花卉马赛克表面",
+        "content_type": "整体"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Fine Arts Department Thailand - Conservation of Wat Arun Phra Prang",
+        "url": "https://www.finearts.go.th"
+      },
+      {
+        "title": "Tourism Authority of Thailand - Wat Arun: Temple of Dawn",
+        "url": "https://www.tourismthailand.org"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "曼谷郑王庙82米高耸主塔全景与白色瓷片花卉马赛克表面",
+        "content_type": "整体",
+        "local_path": "12_图片素材库/TH/15/TH-15-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/TH/15/TH-15-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Wat_Arun._Pagoda._2016-10-10_14-38-20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Wat_Arun._Pagoda._2016-10-10_14-38-20.jpg/1280px-Wat_Arun._Pagoda._2016-10-10_14-38-20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Wat_Arun._Pagoda._2016-10-10_14-38-20.jpg",
+        "author": "Shesmax",
+        "license": "CC BY-SA 4.0",
+        "verification": "已访问源页面",
+        "file_size": 841409
+      }
+    ],
+    "tags_array": [
+      "建筑装饰",
+      "瓷片剪粘",
+      "材质语言",
+      "地标建筑",
+      "立体马赛克",
+      "再生材料美学"
+    ],
+    "visual_keywords_array": [
+      "压舱碎瓷片拼贴",
+      "高棉玉米状佛塔Prang",
+      "青花与粉彩瓷花",
+      "白色石灰底灰",
+      "托塔夜叉立体剪粘",
+      "湄南河畔晨曦地标"
+    ]
+  },
+  {
+    "id": "VN-01-0001",
+    "country_code": "VN",
+    "country": "越南",
+    "region": "广宁省下龙市",
+    "name_cn": "下龙湾海上喀斯特峰林与翡翠海湾（Ha Long Bay）",
+    "name_en": "Hạ Long Bay Marine Karst & Limestone Islands",
+    "name_local": "Vịnh Hạ Long",
+    "name_local_roman": "Vinh Ha Long",
+    "tradition": "东京湾（北部湾）古热带潮汐喀斯特演化、越南神龙下海庇佑神话",
+    "summary": "下龙湾（Vịnh Hạ Long，意为'龙降之湾'）位于越南东北部北部湾，1994年被联合国教科文组织评为世界自然遗产。在广达1553平方公里的平静海面上，耸立着1969座形态各异的石灰岩岛屿与溶洞峰林，地质学家称之为'沉没的海上喀斯特地貌'。千万年来海平面的多次升降与海水无情溶蚀，造就了斗鸡石、香炉石与顶风石等嶙峋奇石，岛上密布幽深的天宫洞（Động Thiên Cung）与惊奇洞。碧绿温润的海水倒映着千座青葱翠绿的岩石仙山，薄雾氤氲时如同一幅在天地间无限横向舒展的天然巨幅青绿山水画卷。",
+    "visual_features": {
+      "form": "无数垂直峭壁的圆锥状、塔状与弧形孤岛散布水面，岛屿下部带有一圈明显的水平海蚀凹槽凹陷。",
+      "color": "深浅不一的石灰岩青灰色与白垩岩层，顶端覆盖常绿灌木墨绿色，下衬清澈平静的翡翠碧绿色海面。",
+      "material": "泥盆纪至二叠纪坚硬碳酸盐石灰岩、多孔钟乳石洞穴结构、耐咸水热带岛屿植被。",
+      "pattern": "垂直流水雨痕溶沟、水面海浪冲蚀的水平平行环带刻线、传统红褐色折扇状帆船（Junk boat）剪影。",
+      "space": "群岛纵深极大，游船穿梭于狭窄水道与开阔海面之间，峰峦层层叠叠阻隔视线又逐步豁然开朗，移步换景极具东方隐逸空间感。",
+      "distinction": "中国桂林喀斯特在陆地平原与江河两岸，下龙湾则是完全浸泡在深水海湾之中的'海上峰林'，水面无流无波如翡翠明镜，倒影深沉辽远。"
+    },
+    "visual_keywords": "海上喀斯特千岛|倒悬海蚀凹槽|翡翠碧绿水面|青绿山水画卷|红帆传统木船|神龙降海传说",
+    "tags": "自然景观|世界遗产|山水意境|水景背景|绿色空间|生态审美",
+    "images_meta": [
+      {
+        "file_title": "File:Ha Long Bay 2019-09 02.jpg",
+        "title": "越南下龙湾千峰竞秀的石灰岩岛屿与平静翠绿海水全景",
+        "content_type": "整体"
+      },
+      {
+        "file_title": "File:Ha Long Bay 2019-09 01.jpg",
+        "title": "游船穿梭于下龙湾陡峭岩峰水道间的沉浸式游逛视角",
+        "content_type": "使用场景"
+      }
+    ],
+    "sources": [
+      {
+        "title": "UNESCO World Heritage Centre - Ha Long Bay",
+        "url": "https://whc.unesco.org/en/list/672"
+      },
+      {
+        "title": "Quang Ninh Tourism Promotion Information Center - Ha Long Bay Official",
+        "url": "https://halongbay.info"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "越南下龙湾千峰竞秀的石灰岩岛屿与平静翠绿海水全景",
+        "content_type": "整体",
+        "local_path": "12_图片素材库/VN/01/VN-01-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/VN/01/VN-01-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Ha_Long_Bay_2019-09_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Ha_Long_Bay_2019-09_02.jpg/1280px-Ha_Long_Bay_2019-09_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Ha_Long_Bay_2019-09_02.jpg",
+        "author": "Pasztilla aka Attila Terbócs",
+        "license": "CC BY-SA 4.0",
+        "verification": "已访问源页面",
+        "file_size": 181143
+      },
+      {
+        "index": 2,
+        "title": "游船穿梭于下龙湾陡峭岩峰水道间的沉浸式游逛视角",
+        "content_type": "使用场景",
+        "local_path": "12_图片素材库/VN/01/VN-01-0001_2.jpg",
+        "html_rel_path": "../12_图片素材库/VN/01/VN-01-0001_2.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Ha_Long_Bay_2019-09_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Ha_Long_Bay_2019-09_01.jpg/1280px-Ha_Long_Bay_2019-09_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Ha_Long_Bay_2019-09_01.jpg",
+        "author": "Pasztilla aka Attila Terbócs",
+        "license": "CC BY-SA 4.0",
+        "verification": "已访问源页面",
+        "file_size": 272889
+      }
+    ],
+    "tags_array": [
+      "自然景观",
+      "世界遗产",
+      "山水意境",
+      "水景背景",
+      "绿色空间",
+      "生态审美"
+    ],
+    "visual_keywords_array": [
+      "海上喀斯特千岛",
+      "倒悬海蚀凹槽",
+      "翡翠碧绿水面",
+      "青绿山水画卷",
+      "红帆传统木船",
+      "神龙降海传说"
+    ]
+  },
+  {
+    "id": "VN-02-0001",
+    "country_code": "VN",
+    "country": "越南",
+    "region": "河内市还剑区三十六行街",
+    "name_cn": "河内三十六行街马行街手工艺与节庆纸品市集（Hàng Mã Street）",
+    "name_en": "Hanoi Old Quarter Hàng Mã Paper Craft & Festival Market",
+    "name_local": "Phố Hàng Mã",
+    "name_local_roman": "Pho Hang Ma",
+    "tradition": "河内古城千百年一街一行同业公会传统、中秋与春节民俗纸艺街",
+    "summary": "马行街（Phố Hàng Mã，原为经营纸马冥器与彩纸工艺同业街道）是河内古街三十六行（36 Phố Phường）中视觉色彩饱和度最高的一条传奇老街。数百年来，整条街道两旁密密麻麻开满了经营纸灯笼、纸面具、剪纸吉语、新年红包与彩带的传统手工艺纸庄。尤其在农历中秋节与春节前夕，整条窄巷两侧的店铺将成千上万件手工竹篾纸糊金鲤鱼灯、五角星灯、彩色狮子头与喜庆红对联悬挂满整面门头并一直延伸到街面上空，整条街道被一片极度热烈欢腾的'红金海洋'所完全吞没。",
+    "visual_features": {
+      "form": "两层传统法越窄面宽店屋沿狭窄街道密排，二层阳台与门框完全被无数悬挂与探出的纸扎工艺品遮蔽淹没。",
+      "color": "压倒性的中国红、金黄金箔反光、荧光玫红与电光纸的多彩折射，夜间灯光点亮后全街宛如一座红彤彤的巨型发光灯笼通道。",
+      "material": "劈蔑竹条骨架、彩色皱纹纸、透光红油纸、亮金镭射锡箔纸、LED微型彩灯串。",
+      "pattern": "传统金鲤鱼望月（Cá chép）、五角星（Ngôi sao）、传统汉喃书法横幅与醒狮脸谱彩绘。",
+      "space": "街宽仅约5-6米，空中被层层叠叠的悬挂纸灯笼完全覆盖成天篷，地面挤满推车小贩与摩肩接踵的采购市民，空间密度极高。",
+      "distinction": "完整保留了东亚古代城市'一街专营一行'（Guild street）的典型垂直商品陈列方式，手工纸品悬挂出挑的层次极其立体，视觉冲击力无出其右。"
+    },
+    "visual_keywords": "密集悬挂纸灯笼|金鲤鱼灯与星灯|红金热烈节庆海洋|三十六行街古风|二层立面满铺陈列|中秋除夕民俗街",
+    "tags": "传统街市|节日装置|红色美学|悬挂天棚|纸艺手作|市井商业",
+    "images_meta": [
+      {
+        "file_title": "File:Hàng Mã Street, Hanoi.jpg",
+        "title": "河内马行街（Hang Ma）沿街店铺满铺密集悬挂节日纸品灯笼盛景",
+        "content_type": "整体/使用场景"
+      },
+      {
+        "file_title": "File:Phố Hàng Mã, Hà Nội 003.JPG",
+        "title": "马行街头手工竹扎灯笼与玩具摊位丰富细节实拍",
+        "content_type": "局部细节"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Hanoi Department of Tourism - The 36 Old Streets of Hanoi",
+        "url": "https://hanoitourist.gov.vn"
+      },
+      {
+        "title": "Vietnam National Museum of History - Traditional Crafts of Thang Long",
+        "url": "https://baotanglichsu.vn"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "河内马行街（Hang Ma）沿街店铺满铺密集悬挂节日纸品灯笼盛景",
+        "content_type": "整体/使用场景",
+        "local_path": "12_图片素材库/VN/02/VN-02-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/VN/02/VN-02-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/H%C3%A0ng_M%C3%A3_Street%2C_Hanoi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/H%C3%A0ng_M%C3%A3_Street%2C_Hanoi.jpg/1280px-H%C3%A0ng_M%C3%A3_Street%2C_Hanoi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:H%C3%A0ng_M%C3%A3_Street,_Hanoi.jpg",
+        "author": "Christophe95",
+        "license": "CC BY-SA 4.0",
+        "verification": "已访问源页面",
+        "file_size": 464966
+      },
+      {
+        "index": 2,
+        "title": "马行街头手工竹扎灯笼与玩具摊位丰富细节实拍",
+        "content_type": "局部细节",
+        "local_path": "12_图片素材库/VN/02/VN-02-0001_2.jpg",
+        "html_rel_path": "../12_图片素材库/VN/02/VN-02-0001_2.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Ph%E1%BB%91_H%C3%A0ng_M%C3%A3%2C_H%C3%A0_N%E1%BB%99i_003.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Ph%E1%BB%91_H%C3%A0ng_M%C3%A3%2C_H%C3%A0_N%E1%BB%99i_003.JPG/1280px-Ph%E1%BB%91_H%C3%A0ng_M%C3%A3%2C_H%C3%A0_N%E1%BB%99i_003.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Ph%E1%BB%91_H%C3%A0ng_M%C3%A3,_H%C3%A0_N%E1%BB%99i_003.JPG",
+        "author": "Phan Minh Tuấn",
+        "license": "CC BY-SA 4.0",
+        "verification": "已访问源页面",
+        "file_size": 554341
+      }
+    ],
+    "tags_array": [
+      "传统街市",
+      "节日装置",
+      "红色美学",
+      "悬挂天棚",
+      "纸艺手作",
+      "市井商业"
+    ],
+    "visual_keywords_array": [
+      "密集悬挂纸灯笼",
+      "金鲤鱼灯与星灯",
+      "红金热烈节庆海洋",
+      "三十六行街古风",
+      "二层立面满铺陈列",
+      "中秋除夕民俗街"
+    ]
+  },
+  {
+    "id": "VN-06-0002",
+    "country_code": "VN",
+    "country": "越南",
+    "region": "全越（胡志明市西贡街头为代表）",
+    "name_cn": "越南街头脆皮法棍三明治（Bánh mì）手推餐车与配料陈列",
+    "name_en": "Vietnamese Bánh Mì Street Food Cart & Ingredients Display",
+    "name_local": "Bánh mì / Xe bánh mì",
+    "name_local_roman": "Banh mi",
+    "tradition": "法越殖民饮食深度混血演进、全球公认的越南国民街头三明治",
+    "summary": "越式法棍（Bánh mì）是法式烘焙面包与越南本土香料食材交融的世纪杰作。小贩推车（Xe bánh mì）多设于街头转角与人行道树荫下。车身装有全透明三面玻璃防尘保温展示柜，内部如微缩剧场般层层叠叠码放着烤得金黄酥脆的轻质法棍面包。小贩熟练地手持长刀将面包剖开，抹上一层厚厚的自制猪肝酱（Pâté）与蛋黄黄油蛋黄酱，塞入扎肉（Chả lụa）、五花叉烧肉，以及灵魂所在的腌白萝卜与胡萝卜酸丝（Đồ chua）、新鲜脆黄瓜条、青辣椒圈与大把新鲜翠绿芫荽（香菜），咸甜酸辣酥脆一气呵成。",
+    "visual_features": {
+      "form": "四轮不锈钢移动手推车，上架三层全透明亚克力/玻璃陈列明柜；法棍呈两头尖的纺锤形堆叠如金字塔。",
+      "color": "法棍金黄焦脆的面壳、白萝卜丝的雪白、胡萝卜丝的鲜橙、芫荽的青翠与各色卤肉的酱褐色构成明快开胃的色彩构成。",
+      "material": "镜面不锈钢板车身、透明浮法玻璃、保温红外保温灯泡、实木长条形切包砧板、手写彩字亚克力招牌看板。",
+      "pattern": "面包表皮自然烘烤炸开的麦穗状裂纹刀口；透明玻璃上红黄两色手写字贴（'BÁNH MÌ THỊT'）。",
+      "space": "占地仅约1.0×0.6米，所有食材分盛于十数个不锈钢盆中在视线前整齐一字排开，具有极高的点单即时装配流水线观赏性。",
+      "distinction": "越南法棍在面粉中掺入了本地米粉，表皮比传统法国长棍更为薄脆酥化一咬即碎，内里极尽松软气孔，且融入了大量东南亚新鲜香草与腌酸菜丝。"
+    },
+    "visual_keywords": "不锈钢玻璃手推车|金黄轻脆纺锤法棍|金字塔堆叠陈列|猪肝酱腌萝卜酸丝|即时装配流水线|街头便携早餐",
+    "tags": "特色美食|街头排档|餐车设计|商品陈列|市井烟火|快节奏餐饮",
+    "images_meta": [
+      {
+        "file_title": "File:Bánh-mì - Phương-thảo.jpg",
+        "title": "越南街头典型玻璃明柜Bánh mì法棍面包手推餐车与配料陈列全貌",
+        "content_type": "整体/局部细节"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Michelin Guide - The Anatomy of a Perfect Vietnamese Bánh Mì",
+        "url": "https://guide.michelin.com"
+      },
+      {
+        "title": "Vietnam National Administration of Tourism - Street Food Heritage: Banh Mi",
+        "url": "https://vietnamtourism.gov.vn"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "越南街头典型玻璃明柜Bánh mì法棍面包手推餐车与配料陈列全貌",
+        "content_type": "整体/局部细节",
+        "local_path": "12_图片素材库/VN/06/VN-06-0002_1.jpg",
+        "html_rel_path": "../12_图片素材库/VN/06/VN-06-0002_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/B%C3%A1nh-m%C3%AC_-_Ph%C6%B0%C6%A1ng-th%E1%BA%A3o.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/B%C3%A1nh-m%C3%AC_-_Ph%C6%B0%C6%A1ng-th%E1%BA%A3o.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh-m%C3%AC_-_Ph%C6%B0%C6%A1ng-th%E1%BA%A3o.jpg",
+        "author": "Jean-Marie Hullot",
+        "license": "CC BY 3.0",
+        "verification": "已访问源页面",
+        "file_size": 338425
+      }
+    ],
+    "tags_array": [
+      "特色美食",
+      "街头排档",
+      "餐车设计",
+      "商品陈列",
+      "市井烟火",
+      "快节奏餐饮"
+    ],
+    "visual_keywords_array": [
+      "不锈钢玻璃手推车",
+      "金黄轻脆纺锤法棍",
+      "金字塔堆叠陈列",
+      "猪肝酱腌萝卜酸丝",
+      "即时装配流水线",
+      "街头便携早餐"
+    ]
+  },
+  {
+    "id": "VN-10-0001",
+    "country_code": "VN",
+    "country": "越南",
+    "region": "坚江省富国岛阳东镇",
+    "name_cn": "富国岛传统黑木桶天然发酵原产鱼露（Nước mắm 原浆鱼露）",
+    "name_en": "Phú Quốc Island Traditional Wooden Vats Fish Sauce",
+    "name_local": "Nước mắm Phú Quốc",
+    "name_local_roman": "Nuoc mam Phu Quoc",
+    "tradition": "富国岛百年传统凤尾鱼天然发酵工艺、欧盟与越南原产地地理标志",
+    "summary": "富国岛鱼露（Nước mắm Phú Quốc）是越南饮食风味的灵魂根基，也是东南亚首个获得欧盟原产地保护地理标志（PDO）认证的传统物产。岛上得天独厚地出产蛋白质极高的野生黑凤尾鱼（Cá cơm），渔民出海捕捞后立刻在船舱中以优质海盐按三比一严格比例腌渍。运回岛上的木桶酿造作坊（Nhà thùng）后，倒入高逾三米、由珍贵铁木板手工拼接并以巨型藤条紧密捆扎的巨大圆形木桶中。经过热带阳光恒温静置天然发酵10至12个月，压榨出的第一道头抽初榨原浆鱼露（Nước mắm cốt）呈通体清澈澄明的琥珀红宝石色，鲜香浓郁回甘悠长。",
+    "visual_features": {
+      "form": "直立圆锥台形巨型实木酿造桶，高约3至4米、直径达3米，数十只巨大木桶在挑高阴凉的大厂房内成行成排整齐阵列排列。",
+      "color": "木桶经年受盐水浸润氧化形成的暗深黑红木色，原浆鱼露在透光玻璃瓶中呈现出深邃璀璨的透明琥珀深红色。",
+      "material": "本地坚硬耐酸耐盐的热带山榄木/铁木木板、劈开的野生粗藤条编制的粗大捆箍（Dây mây）、竹制导流阀门。",
+      "pattern": "木桶外围一圈圈如同粗缆绳般的藤条缠绕编织环状肌理；木桶板缝间古朴坚实的榫卯拼缝线。",
+      "space": "巨大木桶群构成了如古希腊神殿多立克石柱般的宏大立柱空间序列，空气中弥漫着发酵鲜咸的浓厚海洋氨基酸气味。",
+      "distinction": "坚决不使用现代工业不锈钢发酵罐或塑料桶，必须在拥有微透气呼吸特性的百年天然实木桶内恒温发酵，桶壁聚集独特的古老菌群，风味层次深厚醇和。"
+    },
+    "visual_keywords": "三米高深黑发酵木桶|粗藤条缠绕捆箍|黑凤尾鱼天然发酵|琥珀红宝石原浆|矩阵阵列巨桶厂房|欧盟地理标志PDO",
+    "tags": "地方物产|传统发酵|非遗工艺|巨型木桶装置|工厂景观|海洋物产",
+    "images_meta": [
+      {
+        "file_title": "File:Vats at a Fish Sauce Factory on Phu Quoc Island in Vietnam 01.jpg",
+        "title": "越南富国岛传统鱼露酿造厂房内数十只巨大藤箍木桶阵列全景",
+        "content_type": "整体"
+      },
+      {
+        "file_title": "File:Fish sauce factory, Phu Quoc.jpg",
+        "title": "富国岛巨型木桶表面粗藤条捆扎肌理与导流龙头细节",
+        "content_type": "局部细节/使用场景"
+      }
+    ],
+    "sources": [
+      {
+        "title": "European Union Protected Designation of Origin (PDO) - Phu Quoc Fish Sauce",
+        "url": "https://ec.europa.eu"
+      },
+      {
+        "title": "Phu Quoc Fish Sauce Association Official Portal",
+        "url": "https://nuocmamphuquoc.info"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "越南富国岛传统鱼露酿造厂房内数十只巨大藤箍木桶阵列全景",
+        "content_type": "整体",
+        "local_path": "12_图片素材库/VN/10/VN-10-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/VN/10/VN-10-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Vats_at_a_Fish_Sauce_Factory_on_Phu_Quoc_Island_in_Vietnam_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Vats_at_a_Fish_Sauce_Factory_on_Phu_Quoc_Island_in_Vietnam_01.jpg/1280px-Vats_at_a_Fish_Sauce_Factory_on_Phu_Quoc_Island_in_Vietnam_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Vats_at_a_Fish_Sauce_Factory_on_Phu_Quoc_Island_in_Vietnam_01.jpg",
+        "author": "Frank Fox",
+        "license": "CC BY-SA 4.0",
+        "verification": "已访问源页面",
+        "file_size": 314386
+      },
+      {
+        "index": 2,
+        "title": "富国岛巨型木桶表面粗藤条捆扎肌理与导流龙头细节",
+        "content_type": "局部细节/使用场景",
+        "local_path": "12_图片素材库/VN/10/VN-10-0001_2.jpg",
+        "html_rel_path": "../12_图片素材库/VN/10/VN-10-0001_2.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Fish_sauce_factory%2C_Phu_Quoc.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Fish_sauce_factory%2C_Phu_Quoc.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Fish_sauce_factory,_Phu_Quoc.jpg",
+        "author": "Stefan from Dresden, Germany",
+        "license": "CC BY 2.0",
+        "verification": "已访问源页面",
+        "file_size": 157913
+      }
+    ],
+    "tags_array": [
+      "地方物产",
+      "传统发酵",
+      "非遗工艺",
+      "巨型木桶装置",
+      "工厂景观",
+      "海洋物产"
+    ],
+    "visual_keywords_array": [
+      "三米高深黑发酵木桶",
+      "粗藤条缠绕捆箍",
+      "黑凤尾鱼天然发酵",
+      "琥珀红宝石原浆",
+      "矩阵阵列巨桶厂房",
+      "欧盟地理标志PDO"
+    ]
+  },
+  {
+    "id": "VN-13-0001",
+    "country_code": "VN",
+    "country": "越南",
+    "region": "河内市还剑区及老城区",
+    "name_cn": "河内街头流动鲜花自行车与双肩竹箩筐（Hoa dạo）",
+    "name_en": "Hanoi Street Vendor Flower Bicycles & Bamboo Baskets",
+    "name_local": "Gánh hoa / Xe hoa dạo Hà Nội",
+    "name_local_roman": "Xe hoa dao",
+    "tradition": "红河沿岸花农清晨进城流动售花、河内法式林荫道诗意日常物景",
+    "summary": "鲜花自行车（Xe hoa dạo）是河内街头被无数诗人与摄影师颂扬为'城市中最优雅的流动风景'。每日清晨，来自西湖（Tây Hồ）与广霸（Quảng Bá）花村的女性小贩，将一辆古旧的凤凰牌单车改造为移动花摊。车后座两侧绑着两只巨大的倒梯形深口竹编箩筐，车尾斜架高耸木架。上面层层叠叠密密麻麻插满了当天清晨刚刚剪下的时令鲜花：深粉与白荷花、明黄向日葵、纯白小雏菊（Cúc họa mi）、重瓣玫瑰与百合花，宛如一座移动的繁花小山，推行穿梭在法式梧桐掩映的黄墙老街中，是越南市井生活中最具诗意的日常物件。",
+    "visual_features": {
+      "form": "一辆老旧黑色铁自行车，后座加装木架向后上方呈扇形发散挑出，高高插满数层鲜花，形成上大下小倒锥状流动花塔。",
+      "color": "荷花粉白、雏菊纯白、向日葵亮黄与绿叶相映，与旧自行车的哑光墨黑/铁锈色及旧报纸包花纸形成朴素与繁华的对比。",
+      "material": "老式碳钢加重自行车、手工编织深竹篾箩筐、草绳捆扎、废旧报纸包裹鲜花根部、塑料水壶喷壶。",
+      "pattern": "不同花材花苞自然紧密簇拥形成的球冠状与放射状肌理，报纸上法文越文铅字排版衬底。",
+      "space": "占地仅约0.6×1.8米，小贩推车缓缓行进于街道边沿或停驻于老教堂广场转角，瞬间改变周围数米冷硬街道空间的柔美气息。",
+      "distinction": "摒弃了现代花店的高级包装纸与塑料丝带，纯用古朴报纸粗草绳束扎，花量极大且完全附着于老自行车之上，散发着天然质朴的平民生活诗意。"
+    },
+    "visual_keywords": "老式加重自行车|后座发散扇形花山|荷花与向日葵白雏菊|粗竹箩筐旧报纸包裹|流动诗意物景|河内法式林荫街",
+    "tags": "日常物件|街头花艺|流动装置|拍照打卡|诗意生活|城市风景",
+    "images_meta": [
+      {
+        "file_title": "File:Daily life in Vietnam Street Vendor Flowers.jpg",
+        "title": "河内街头女性花贩推着载满鲜艳花朵老自行车行进的经典街景",
+        "content_type": "整体/使用场景"
+      },
+      {
+        "file_title": "File:Hanoi street vendor.jpg",
+        "title": "河内老城墙角下停驻的鲜花自行车与后座竹编筐细节",
+        "content_type": "局部细节/使用场景"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Hanoi Department of Culture and Sports - Traditional Flower Villages of Hanoi",
+        "url": "https://sovhtt.hanoi.gov.vn"
+      },
+      {
+        "title": "Vietnam National Administration of Tourism - The Romance of Hanoi Flower Bicycles",
+        "url": "https://vietnamtourism.gov.vn"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "河内街头女性花贩推着载满鲜艳花朵老自行车行进的经典街景",
+        "content_type": "整体/使用场景",
+        "local_path": "12_图片素材库/VN/13/VN-13-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/VN/13/VN-13-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Daily_life_in_Vietnam_Street_Vendor_Flowers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Daily_life_in_Vietnam_Street_Vendor_Flowers.jpg/1280px-Daily_life_in_Vietnam_Street_Vendor_Flowers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Daily_life_in_Vietnam_Street_Vendor_Flowers.jpg",
+        "author": "Célestine M.C. Leroy",
+        "license": "CC BY-SA 2.0",
+        "verification": "已访问源页面",
+        "file_size": 540225
+      },
+      {
+        "index": 2,
+        "title": "河内老城墙角下停驻的鲜花自行车与后座竹编筐细节",
+        "content_type": "局部细节/使用场景",
+        "local_path": "12_图片素材库/VN/13/VN-13-0001_2.jpg",
+        "html_rel_path": "../12_图片素材库/VN/13/VN-13-0001_2.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Hanoi_street_vendor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Hanoi_street_vendor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Hanoi_street_vendor.jpg",
+        "author": "JimPatton",
+        "license": "CC BY 2.0",
+        "verification": "已访问源页面",
+        "file_size": 338567
+      }
+    ],
+    "tags_array": [
+      "日常物件",
+      "街头花艺",
+      "流动装置",
+      "拍照打卡",
+      "诗意生活",
+      "城市风景"
+    ],
+    "visual_keywords_array": [
+      "老式加重自行车",
+      "后座发散扇形花山",
+      "荷花与向日葵白雏菊",
+      "粗竹箩筐旧报纸包裹",
+      "流动诗意物景",
+      "河内法式林荫街"
+    ]
+  },
+  {
+    "id": "ID-01-0001",
+    "country_code": "ID",
+    "country": "印度尼西亚",
+    "region": "东爪哇省玛琅与庞越",
+    "name_cn": "东爪哇布罗莫活火山与腾格尔沙海月球地貌",
+    "name_en": "Mount Bromo Active Volcano & Tengger Sand Sea",
+    "name_local": "Gunung Bromo",
+    "name_local_roman": "Gunung Bromo",
+    "tradition": "东爪哇腾格尔族（Tenggerese）火神雅达尼亚祭典（Yadnya Kasada）",
+    "summary": "布罗莫火山（Gunung Bromo）位于东爪哇腾格尔火山口（Tengger Caldera）中央，是环太平洋火山带最壮阔震撼的活火山景观。一座深达数百米的巨型古破火山口内部铺展着一片平坦浩瀚、寸草不生的暗黑火山灰荒原——'腾格尔沙海'（Laut Pasir）。沙海中央突兀耸立着几座年轻的活火山锥，布罗莫火山口不断翻滚喷涌出遮天蔽日的白色硫磺烟柱与浓烈刺鼻气味。清晨登上火山口边缘，眺望后方拔地而起的爪哇最高峰塞梅鲁火山（Semeru）与被云海覆盖的荒凉沙海，宛如置身史前洪荒或异星月球表面。",
+    "visual_features": {
+      "form": "完美的圆锥形火山口火山锥，四周环绕着如巨大盆地般的开阔沙海平原；火山口边缘带有极陡峭的放射状冲沟棱线。",
+      "color": "深玄武岩炭黑、火山灰鼠灰、白垩硫磺浅黄与纯白火山蒸气柱，与破晓日出的紫红晨曦与金黄天光交织。",
+      "material": "多孔火山玄武岩碎屑、黑色细粒火山灰沙（Volcanic sand）、沉积升华黄色硫磺结晶。",
+      "pattern": "火山外壁如手风琴褶皱般的雨水冲蚀深沟纹理、沙海上被劲风吹拂出的一道道平行细密风蚀波痕。",
+      "space": "数十公里无遮拦的浩瀚视线纵深，人在巨型火山口与沙海面前极其渺小，具有强大的大地崇高感（Sublime）。",
+      "distinction": "活火山与巨大干旱沙海同构于一个火山口盆地之中，不仅有活态喷涌的浓烟火柱，更有腾格尔原住民骑马穿越沙海的史诗游牧感。"
+    },
+    "visual_keywords": "翻滚硫磺白烟柱|腾格尔黑色沙海|风蚀火山灰波纹|破晓云海奇观|圆锥形活火山口|异星月球荒凉地貌",
+    "tags": "自然景观|地质地貌|大地艺术|火山口探险|壮丽旷野|崇高美学",
+    "images_meta": [
+      {
+        "file_title": "File:Mount Bromo at sunrise, showing its volcanoes and Mount Semeru (background).jpg",
+        "title": "破晓晨光下东爪哇布罗莫活火山锥喷烟与腾格尔沙海云海壮阔远景",
+        "content_type": "整体"
+      },
+      {
+        "file_title": "File:Crater of Mount Bromo, Java, Indonesia, 20220820 0558 9456.jpg",
+        "title": "布罗莫火山口边缘近距离俯瞰深邃岩坑与黄色硫磺烟气特写",
+        "content_type": "局部细节"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ministry of Environment and Forestry Indonesia - Bromo Tengger Semeru National Park",
+        "url": "https://bromotenggersemeru.org"
+      },
+      {
+        "title": "East Java Tourism and Culture Office - The Magic of Mount Bromo",
+        "url": "https://disbudpar.jatimprov.go.id"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "破晓晨光下东爪哇布罗莫活火山锥喷烟与腾格尔沙海云海壮阔远景",
+        "content_type": "整体",
+        "local_path": "12_图片素材库/ID/01/ID-01-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/ID/01/ID-01-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Mount_Bromo_at_sunrise%2C_showing_its_volcanoes_and_Mount_Semeru_%28background%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Mount_Bromo_at_sunrise%2C_showing_its_volcanoes_and_Mount_Semeru_%28background%29.jpg/1280px-Mount_Bromo_at_sunrise%2C_showing_its_volcanoes_and_Mount_Semeru_%28background%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Mount_Bromo_at_sunrise,_showing_its_volcanoes_and_Mount_Semeru_(background).jpg",
+        "author": "Thomas Hirsch (= user Ravn)",
+        "license": "CC BY-SA 3.0",
+        "verification": "已访问源页面",
+        "file_size": 126019
+      },
+      {
+        "index": 2,
+        "title": "布罗莫火山口边缘近距离俯瞰深邃岩坑与黄色硫磺烟气特写",
+        "content_type": "局部细节",
+        "local_path": "12_图片素材库/ID/01/ID-01-0001_2.jpg",
+        "html_rel_path": "../12_图片素材库/ID/01/ID-01-0001_2.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Crater_of_Mount_Bromo%2C_Java%2C_Indonesia%2C_20220820_0558_9456.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Crater_of_Mount_Bromo%2C_Java%2C_Indonesia%2C_20220820_0558_9456.jpg/1280px-Crater_of_Mount_Bromo%2C_Java%2C_Indonesia%2C_20220820_0558_9456.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Crater_of_Mount_Bromo,_Java,_Indonesia,_20220820_0558_9456.jpg",
+        "author": "Jakub Hałun",
+        "license": "CC BY-SA 4.0",
+        "verification": "已访问源页面",
+        "file_size": 307352
+      }
+    ],
+    "tags_array": [
+      "自然景观",
+      "地质地貌",
+      "大地艺术",
+      "火山口探险",
+      "壮丽旷野",
+      "崇高美学"
+    ],
+    "visual_keywords_array": [
+      "翻滚硫磺白烟柱",
+      "腾格尔黑色沙海",
+      "风蚀火山灰波纹",
+      "破晓云海奇观",
+      "圆锥形活火山口",
+      "异星月球荒凉地貌"
+    ]
+  },
+  {
+    "id": "ID-02-0001",
+    "country_code": "ID",
+    "country": "印度尼西亚",
+    "region": "日惹特区日惹市中心",
+    "name_cn": "日惹马里奥博罗大街传统安东双轮马车与夜市骑楼",
+    "name_en": "Yogyakarta Malioboro Street & Traditional Andong Carriages",
+    "name_local": "Jalan Malioboro / Kereta Andong",
+    "name_local_roman": "Jalan Malioboro",
+    "tradition": "日惹苏丹国皇家迎宾御道轴线、爪哇传统马车交通与夜市连廊",
+    "summary": "马里奥博罗大街（Jalan Malioboro）是爪哇文化古都日惹的心脏主轴，在地理与哲学上连接着默拉皮火山（Merapi）、日惹苏丹王宫（Kraton）与南罗盘印度洋。大街两侧保留了长达两公里的连续荷兰与爪哇混血拱廊，沿街林立着数以百计的地席夜市小摊（Lesehan）与蜡染铺。街沿最迷人的景观是排队待客的爪哇传统四轮或双轮马车'安东'（Andong）。马车装饰着黑红高漆与镀铜灯饰，骏马头顶高翘彩色羽翎与红流苏，在夜幕下随着蹄声踏踏穿过霓虹闪烁的骑楼，将爪哇古典贵族遗风与现代街头夜市完美编织一体。",
+    "visual_features": {
+      "form": "双排座或四人对坐敞篷黑色硬木马车，配有弧形车门与两面挂置的古典煤油灯造型车灯；马匹头部饰以红色高耸皮头饰。",
+      "color": "马车深黑高光大漆与镀金铜扣件，马夫身着爪哇褐色巴迪蜡染服配深色布头巾（Blangkon），街头夜市暖黄灯光交织。",
+      "material": "红木车架、大直径钢圈木轮、铜质铆钉与车灯、真皮挽具、橡胶马蹄垫减震。",
+      "pattern": "马车侧面雕刻的日惹王室双翼徽章（Kraton emblem）、马车夫蜡染制服上的帕朗剑纹与菱形花纹。",
+      "space": "林荫大道宽阔，马车慢速行驶在专属慢行道上，清脆铃声在骑楼回廊间荡漾，为嘈杂现代摩托车流注入从容舒缓的慢节奏。",
+      "distinction": "与一般游览马车不同，日惹Andong具有严格的皇家规制传承，马夫身着完整的日惹宫廷服饰并戴Blangkon头巾，极具爪哇传统礼仪风范。"
+    },
+    "visual_keywords": "日惹王道中轴线|古典黑漆安东马车Andong|马车夫蜡染服配Blangkon|清脆马蹄铃铛声|两公里连廊夜市Lesehan|苏丹王室遗风",
+    "tags": "城市街道|传统交通|夜市生活|马车巡游|骑楼街区|慢生活体验",
+    "images_meta": [
+      {
+        "file_title": "File:Malioboro Street, Yogyakarta.JPG",
+        "title": "日惹马里奥博罗大街沿街停靠的传统安东马车与骑楼商业界面",
+        "content_type": "整体/使用场景"
+      },
+      {
+        "file_title": "File:Ketandan, the Chinatown area on Malioboro Street, Yogyakarta (2).jpg",
+        "title": "马里奥博罗大街克丹丹中华街入口牌坊与沿街建筑近景",
+        "content_type": "使用场景"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Yogyakarta Tourism Board - Malioboro: The Pulse of Jogja",
+        "url": "https://visitingjogja.jogjaprov.go.id"
+      },
+      {
+        "title": "Kraton Jogja Heritage - Transportation Traditions of Yogyakarta",
+        "url": "https://kratonjogja.id"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "日惹马里奥博罗大街沿街停靠的传统安东马车与骑楼商业界面",
+        "content_type": "整体/使用场景",
+        "local_path": "12_图片素材库/ID/02/ID-02-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/ID/02/ID-02-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Malioboro_Street%2C_Yogyakarta.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Malioboro_Street%2C_Yogyakarta.JPG/1280px-Malioboro_Street%2C_Yogyakarta.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Malioboro_Street,_Yogyakarta.JPG",
+        "author": "Gunawan Kartapranata",
+        "license": "CC BY-SA 3.0",
+        "verification": "已访问源页面",
+        "file_size": 376890
+      },
+      {
+        "index": 2,
+        "title": "马里奥博罗大街克丹丹中华街入口牌坊与沿街建筑近景",
+        "content_type": "使用场景",
+        "local_path": "12_图片素材库/ID/02/ID-02-0001_2.jpg",
+        "html_rel_path": "../12_图片素材库/ID/02/ID-02-0001_2.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Ketandan%2C_the_Chinatown_area_on_Malioboro_Street%2C_Yogyakarta_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Ketandan%2C_the_Chinatown_area_on_Malioboro_Street%2C_Yogyakarta_%282%29.jpg/1280px-Ketandan%2C_the_Chinatown_area_on_Malioboro_Street%2C_Yogyakarta_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Ketandan,_the_Chinatown_area_on_Malioboro_Street,_Yogyakarta_(2).jpg",
+        "author": "Sam Hidayat",
+        "license": "CC BY-SA 4.0",
+        "verification": "已访问源页面",
+        "file_size": 526674
+      }
+    ],
+    "tags_array": [
+      "城市街道",
+      "传统交通",
+      "夜市生活",
+      "马车巡游",
+      "骑楼街区",
+      "慢生活体验"
+    ],
+    "visual_keywords_array": [
+      "日惹王道中轴线",
+      "古典黑漆安东马车Andong",
+      "马车夫蜡染服配Blangkon",
+      "清脆马蹄铃铛声",
+      "两公里连廊夜市Lesehan",
+      "苏丹王室遗风"
+    ]
+  },
+  {
+    "id": "ID-06-0001",
+    "country_code": "ID",
+    "country": "印度尼西亚",
+    "region": "雅加达特区及爪哇岛各城市",
+    "name_cn": "雅加达街头印尼炒饭手推移动餐车（Gerobak Nasi Goreng）",
+    "name_en": "Jakarta Mobile Nasi Goreng Food Cart (Gerobak)",
+    "name_local": "Gerobak Nasi Goreng",
+    "name_local_roman": "Gerobak Nasi Goreng",
+    "tradition": "印尼平民街头手推车移动摊贩（Kaki Lima）深夜小吃文化",
+    "summary": "格罗巴克手推车（Gerobak）是印度尼西亚城乡最具草根生命力的街头流动小吃载体。每当暮色降临，数以万计的炒饭小贩推着两轮木制手推餐车穿行于大街小巷。餐车车身通常刷涂明艳的蓝色、绿色或黄色油漆，上架透明玻璃配料柜，车头支架上挂着一盏发出温暖鹅黄色光晕的煤气灯或白炽灯泡。小贩手持大铁勺，有节奏地敲击圆底生铁大炒锅，将冷米饭混合浓稠甜酱油（Kecap Manis）、参巴辣椒酱（Sambal）、红葱头与鸡蛋在火舌中飞速颠炒，敲锅声铛铛作响，是印尼夜晚最深情的市井归属感。",
+    "visual_features": {
+      "form": "独具一格的双轮手推木制车厢，前部带推手，车架中央架设生铁大圆镬，上方为三面透明玻璃食材架与铁皮遮雨挑檐。",
+      "color": "餐车常涂刷鲜亮高饱和的天蓝、草绿、鲜红亮色油漆，玻璃柜上喷涂黄色或白色加粗泰米尔手写广告字；夜间暖光灯泡格外耀眼。",
+      "material": "胶合木板车身框架、三轮车充气车轮、生铁深炒锅、透明薄玻璃、煤气喷火炉与铝合金调料盘。",
+      "pattern": "玻璃窗上手工彩绘的炒饭、炸鸡图样与'NASI GORENG SPESIAL'手绘艺术字体；生铁锅底长期油烟熏黑的深邃包浆。",
+      "space": "占地仅约1.5×0.8米，小贩一人即可独立移动推行，随时随地停驻在街角人行道旁摆开两张折叠矮凳，瞬间化身深夜路边餐馆。",
+      "distinction": "小贩用铁铲敲击铁锅边沿发出的清脆节奏响声（铛、铛、铛铛铛）作为行街叫卖的独特声音信号（Soundmark），辨识度极高。"
+    },
+    "visual_keywords": "双轮手推木餐车Gerobak|明艳天蓝草绿漆色|甜酱油Kecap焦香|夜间煤气暖灯|敲铁锅声叫卖|印尼炒饭流动摊",
+    "tags": "特色餐饮|移动餐车|街头排档|夜市烟火|声音景观|平民设计",
+    "images_meta": [
+      {
+        "file_title": "File:Nasi Goreng Travelling Vendor in Jakarta.JPG",
+        "title": "雅加达街头走街串巷的传统双轮木制印尼炒饭手推餐车全貌",
+        "content_type": "整体/使用场景"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ministry of Tourism and Creative Economy Indonesia - Culinary Icons: Nasi Goreng",
+        "url": "https://www.indonesia.travel"
+      },
+      {
+        "title": "Jakarta Smart City - Street Vendors and Informal Economy in Jakarta",
+        "url": "https://smartcity.jakarta.go.id"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "雅加达街头走街串巷的传统双轮木制印尼炒饭手推餐车全貌",
+        "content_type": "整体/使用场景",
+        "local_path": "12_图片素材库/ID/06/ID-06-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/ID/06/ID-06-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Nasi_Goreng_Travelling_Vendor_in_Jakarta.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Nasi_Goreng_Travelling_Vendor_in_Jakarta.JPG/1280px-Nasi_Goreng_Travelling_Vendor_in_Jakarta.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Nasi_Goreng_Travelling_Vendor_in_Jakarta.JPG",
+        "author": "Gunkarta",
+        "license": "CC BY-SA 3.0",
+        "verification": "已访问源页面",
+        "file_size": 368217
+      }
+    ],
+    "tags_array": [
+      "特色餐饮",
+      "移动餐车",
+      "街头排档",
+      "夜市烟火",
+      "声音景观",
+      "平民设计"
+    ],
+    "visual_keywords_array": [
+      "双轮手推木餐车Gerobak",
+      "明艳天蓝草绿漆色",
+      "甜酱油Kecap焦香",
+      "夜间煤气暖灯",
+      "敲铁锅声叫卖",
+      "印尼炒饭流动摊"
+    ]
+  },
+  {
+    "id": "ID-10-0001",
+    "country_code": "ID",
+    "country": "印度尼西亚",
+    "region": "中爪哇省与东爪哇省",
+    "name_cn": "爪哇传统天然草本养生饮品佳木药草背篓（Jamu Gendong）",
+    "name_en": "Javanese Traditional Herbal Medicine Carrier (Jamu Gendong)",
+    "name_local": "Jamu Gendong",
+    "name_local_roman": "Jamu Gendong",
+    "tradition": "印尼千年宫廷与民间草本自然疗法（Jamu）、2023年联合国人类非遗",
+    "summary": "佳木（Jamu，源自古爪哇语 Djampi 意为'祈祷祈愿'）是印度尼西亚拥有逾1200年历史的传统天然草本健康体系，2023年正式列入联合国人类非物质文化遗产名录。背篓佳木小贩（Jamu Gendong）是爪哇乡村与城市最温情的女性文化符号。身着蜡染筒裙的爪哇妇女，用一条长长的蜡染背带（Selendang）将一只装满七至八个透明玻璃瓶的手编竹背篓斜系在背后。瓶中盛装着色泽斑斓的草本鲜榨汁液：金黄的姜黄罗望子汁（Kunyit Asam）、墨绿的苦胆叶汁（Pahitan）与乳白的米姜汤（Beras Kencur），现倒现喝，滋养了千百年来印尼人的日常体魄。",
+    "visual_features": {
+      "form": "圆形深口手工编织竹背篓（Bakul），内部插满一圈约7-8只高圆柱玻璃酒瓶，中间放一小盆洗杯清水与磨砂玻璃小酒杯。",
+      "color": "玻璃瓶中药汁呈现极其明艳天然的植物原色：亮金黄（姜黄）、浓墨绿（苦木）、焦糖褐（罗望子）与乳白米汤色并列。",
+      "material": "天然青竹篾编织背篓、回收再利用透明玻璃瓶、传统爪哇棉质印花蜡染长背带、新鲜草本植物原汁。",
+      "pattern": "蜡染背带上的传统棕色蜡染几何图样；竹背篓细密的斜纹经纬编织肌理。",
+      "space": "完全依靠人体背负移动，小贩走入社区、集市或田间地头，驻足解下背篓席地而坐即可为街坊调配草药，具有极亲密的人际治愈氛围。",
+      "distinction": "拒绝任何化学添加剂与工业胶囊，完全以生鲜植物根茎（姜黄、高良姜、生姜）现磨熬汁装瓶，斑斓的自然液体色彩与竹背篓构成极独特的草本视觉谱系。"
+    },
+    "visual_keywords": "蜡染背带斜系竹篓|一圈金黄墨绿草药玻璃瓶|姜黄罗望子鲜榨汁Kunyit Asam|爪哇女性流动养生|2023联合国非遗",
+    "tags": "地方物产|传统草药|非遗养生|编织器物|女性手艺|自然疗法",
+    "images_meta": [
+      {
+        "file_title": "File:Jamu Gendong.JPG",
+        "title": "中爪哇妇女用蜡染花布背带斜背装满天然彩色草药瓶竹篓特写",
+        "content_type": "整体/局部细节"
+      },
+      {
+        "file_title": "File:Penjual Jamu Gendong Di Kebumen.jpg",
+        "title": "克布门集市街头佳木背篓药农驻足为顾客倾倒调配药饮生活场景",
+        "content_type": "使用场景"
+      }
+    ],
+    "sources": [
+      {
+        "title": "UNESCO Intangible Cultural Heritage - Jamu wellness culture",
+        "url": "https://ich.unesco.org/en/RL/jamu-wellness-culture-01972"
+      },
+      {
+        "title": "Ministry of Health Republic of Indonesia - The Philosophy of Traditional Jamu",
+        "url": "https://kemkes.go.id"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "中爪哇妇女用蜡染花布背带斜背装满天然彩色草药瓶竹篓特写",
+        "content_type": "整体/局部细节",
+        "local_path": "12_图片素材库/ID/10/ID-10-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/ID/10/ID-10-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Jamu_Gendong.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Jamu_Gendong.JPG/1280px-Jamu_Gendong.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Jamu_Gendong.JPG",
+        "author": "aa",
+        "license": "CC BY-SA 3.0",
+        "verification": "已访问源页面",
+        "file_size": 798721
+      },
+      {
+        "index": 2,
+        "title": "克布门集市街头佳木背篓药农驻足为顾客倾倒调配药饮生活场景",
+        "content_type": "使用场景",
+        "local_path": "12_图片素材库/ID/10/ID-10-0001_2.jpg",
+        "html_rel_path": "../12_图片素材库/ID/10/ID-10-0001_2.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Penjual_Jamu_Gendong_Di_Kebumen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Penjual_Jamu_Gendong_Di_Kebumen.jpg/1280px-Penjual_Jamu_Gendong_Di_Kebumen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Penjual_Jamu_Gendong_Di_Kebumen.jpg",
+        "author": "DARMAS BS 9",
+        "license": "CC BY-SA 4.0",
+        "verification": "已访问源页面",
+        "file_size": 668659
+      }
+    ],
+    "tags_array": [
+      "地方物产",
+      "传统草药",
+      "非遗养生",
+      "编织器物",
+      "女性手艺",
+      "自然疗法"
+    ],
+    "visual_keywords_array": [
+      "蜡染背带斜系竹篓",
+      "一圈金黄墨绿草药玻璃瓶",
+      "姜黄罗望子鲜榨汁Kunyit Asam",
+      "爪哇女性流动养生",
+      "2023联合国非遗"
+    ]
+  },
+  {
+    "id": "ID-12-0002",
+    "country_code": "ID",
+    "country": "印度尼西亚",
+    "region": "巴厘省巴达旺与吉安雅",
+    "name_cn": "巴厘岛神兽巴龙舞狮面具与金色圣甲（Barong Dance）",
+    "name_en": "Balinese Sacred Barong Beast Mask & Dance Drama",
+    "name_local": "Tari Barong",
+    "name_local_roman": "Tari Barong",
+    "tradition": "巴厘印度教善恶永恒对立宇宙观（Rwa Bhineda）、卡拉村落驱邪仪式",
+    "summary": "巴龙舞（Tari Barong）是巴厘岛印度教宗教仪式中最具视觉压迫感与神圣张力的假面神话舞剧。巴龙（Barong Ket）是象征光明与善的森林之王神兽，其形态如同四足长毛雄狮与飞龙的结合体。整具神兽由两名舞者前后钻入操纵：兽首由整块圣木手工精雕，下颚装有可活动弹簧机关，舞动时发出极其清脆威严的'啪、啪'咬合撞击声；兽身披覆着数百根纯白或黑色天然牛马长毛，背部覆满重工贴金箔并镶嵌数千面小镜片的华丽镂空皮革圣甲（Bapang）。与象征黑暗与死亡的寡妇魔女朗达（Rangda）交战，展现宇宙善恶无始无终的动态平衡。",
+    "visual_features": {
+      "form": "兽首宽阔扁平，两只圆瞪的大眼睛与两只金光闪闪的向上弯翘耳朵；身长约3米，身躯覆厚重浓密动物长毛，尾部高高翘起。",
+      "color": "兽首纯红面膛、白犬齿，全身长毛白黑相间，背脊皮甲金光耀眼，镶嵌的玻璃小镜片在热带阳光下折射出极炫目的碎光。",
+      "material": "神圣刺桐木（Kayu Dapdap）雕刻面具、天然树皮纤维与牛尾长毛、水牛皮镂空雕花贴金、纯银或玻璃反光小圆镜。",
+      "pattern": "巴厘传统植物火焰浮雕纹样、兽首额头中央的第三只眼神符与尖锐洁白的獠牙造型。",
+      "space": "在神庙中庭露天沙地上表演，后方由高亢清脆的甘美兰铜锣排钟（Gong Kebyar）伴奏，舞者在信徒环抱中激烈旋转狂舞，张力极强。",
+      "distinction": "与中国舞狮的写实喜庆不同，巴龙是具有半人半兽神圣力量的图腾法器，下颚机关咬合发出的机械击木声带有极其神圣的辟邪法音意味。"
+    },
+    "visual_keywords": "森林神兽巴龙狮首|可活动下颚咬合击打声|贴金皮革圣甲镶碎镜|黑白浓密动物长毛|甘美兰大铜锣激奏|善恶永恒对立",
+    "tags": "民间表演|非遗舞蹈|神圣图腾|面具艺术|金箔金属|舞台美术",
+    "images_meta": [
+      {
+        "file_title": "File:Barong Tanah Kilap - 2025-02-15 - Andy Mabbett - 12.jpg",
+        "title": "巴厘岛神庙祭祀中装饰极其华贵金甲与长毛的神兽巴龙（Barong）特写",
+        "content_type": "整体/局部细节"
+      }
+    ],
+    "sources": [
+      {
+        "title": "UNESCO Intangible Cultural Heritage - Three genres of traditional dance in Bali",
+        "url": "https://ich.unesco.org/en/RL/three-genres-of-traditional-dance-in-bali-00617"
+      },
+      {
+        "title": "Bali Cultural Agency - The Sacred Heritage of Barong Ket",
+        "url": "https://disbud.baliprov.go.id"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "巴厘岛神庙祭祀中装饰极其华贵金甲与长毛的神兽巴龙（Barong）特写",
+        "content_type": "整体/局部细节",
+        "local_path": "12_图片素材库/ID/12/ID-12-0002_1.jpg",
+        "html_rel_path": "../12_图片素材库/ID/12/ID-12-0002_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Barong_Tanah_Kilap_-_2025-02-15_-_Andy_Mabbett_-_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Barong_Tanah_Kilap_-_2025-02-15_-_Andy_Mabbett_-_12.jpg/1280px-Barong_Tanah_Kilap_-_2025-02-15_-_Andy_Mabbett_-_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Barong_Tanah_Kilap_-_2025-02-15_-_Andy_Mabbett_-_12.jpg",
+        "author": "Andy Mabbett",
+        "license": "CC BY-SA 4.0",
+        "verification": "已访问源页面",
+        "file_size": 310783
+      }
+    ],
+    "tags_array": [
+      "民间表演",
+      "非遗舞蹈",
+      "神圣图腾",
+      "面具艺术",
+      "金箔金属",
+      "舞台美术"
+    ],
+    "visual_keywords_array": [
+      "森林神兽巴龙狮首",
+      "可活动下颚咬合击打声",
+      "贴金皮革圣甲镶碎镜",
+      "黑白浓密动物长毛",
+      "甘美兰大铜锣激奏",
+      "善恶永恒对立"
+    ]
+  },
+  {
+    "id": "ID-15-0001",
+    "country_code": "ID",
+    "country": "印度尼西亚",
+    "region": "中爪哇日惹特区与梭罗",
+    "name_cn": "爪哇日惹皇宫古典蜡染折线帕朗纹（Motif Batik Parang）",
+    "name_en": "Javanese Royal Sacred Diagonal Parang Batik Pattern",
+    "name_local": "Batik Parang Rusak Barong",
+    "name_local_roman": "Batik Parang",
+    "tradition": "马打兰苏丹国与日惹克拉通皇室专属禁忌蜡染（Batik Larangan）",
+    "summary": "帕朗纹（Motif Batik Parang，源自爪哇语 Parang 意为'悬崖'或'斜刀'）是印尼爪哇最古老、最神圣且等级最高的蜡染图案，相传由马打兰王朝苏丹阿贡（Sultan Agung）在南部印度洋狂风巨浪拍击海礁岩壁的冥想中领悟创制。在过去，帕朗纹属于王室专用'禁忌图案'（Batik Larangan），严禁平民擅自穿着。其构图以45度角严格平行的对角线折线连续展开，由形似奔涌海浪或锋利短剑的'S'形连续折叠回旋纹（Mlinjon）交错相扣，象征着永不停歇的意志力、王权神圣延续与抵御邪祟的强大精神结界。",
+    "visual_features": {
+      "form": "严格按45度对角线连续贯穿的阶梯状折线带，由连续重复的S形流动曲线波纹与菱形小点紧密咬合排列。",
+      "color": "爪哇宫廷最纯正的'索甘色谱'（Sogan）：天然热带树皮熬出的深巧克力棕褐色、焦糖浅杏棕与原棉象牙白三色构图，深沉庄严。",
+      "material": "顶级细密平纹纯棉原色白布（Primissima）、天然植物染料（苏木红、大戟树皮黄、洋茉莉叶蓝）、高温蜂蜡防染。",
+      "pattern": "经典帕朗断裂纹（Parang Rusak）：大号如巨刃波浪，纹带间穿插菱形果核状小图腾（Mlinjon）与水滴纹。",
+      "space": "对角线在人体或空间中呈现极强的视觉流动感与向上升腾动势，打破水平与垂直的呆板，具有强大的几何动态秩序。",
+      "distinction": "区别于欧洲花卉或中式散点花鸟，帕朗纹是纯粹高度抽象的数学对角线几何循环，极度内敛而充满男性力量与王权神圣感。"
+    },
+    "visual_keywords": "45度对角线连续折线|经典S形波纹海浪|深巧克力棕索甘色Sogan|王室专属禁忌纹Larangan|大水牛角短剑象征|爪哇几何美学",
+    "tags": "材质语言|经典纹样|蜡染艺术|几何图案|色彩配方|非遗手工艺",
+    "images_meta": [
+      {
+        "file_title": "File:Collectie NMvWereldculturen, 7082-S-4393-29, Wikkelrok, 'Wikkelrok met parang patroon', Batikatelier van Lawick van Pabst, 1875-1900.jpg",
+        "title": "19世纪爪哇传统经典索甘色对角线折线帕朗纹蜡染筒裙全幅展开",
+        "content_type": "整体/局部细节"
+      }
+    ],
+    "sources": [
+      {
+        "title": "UNESCO Intangible Cultural Heritage - Indonesian Batik Inscription",
+        "url": "https://ich.unesco.org/en/RL/indonesian-batik-00170"
+      },
+      {
+        "title": "Kraton Ngayogyakarta Hadiningrat - The Philosophy of Forbidden Batik Motifs",
+        "url": "https://kratonjogja.id"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "19世纪爪哇传统经典索甘色对角线折线帕朗纹蜡染筒裙全幅展开",
+        "content_type": "整体/局部细节",
+        "local_path": "12_图片素材库/ID/15/ID-15-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/ID/15/ID-15-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Collectie_NMvWereldculturen%2C_7082-S-4393-29%2C_Wikkelrok%2C_%27Wikkelrok_met_parang_patroon%27%2C_Batikatelier_van_Lawick_van_Pabst%2C_1875-1900.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Collectie_NMvWereldculturen%2C_7082-S-4393-29%2C_Wikkelrok%2C_%27Wikkelrok_met_parang_patroon%27%2C_Batikatelier_van_Lawick_van_Pabst%2C_1875-1900.jpg/1280px-Collectie_NMvWereldculturen%2C_7082-S-4393-29%2C_Wikkelrok%2C_%27Wikkelrok_met_parang_patroon%27%2C_Batikatelier_van_Lawick_van_Pabst%2C_1875-1900.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Collectie_NMvWereldculturen,_7082-S-4393-29,_Wikkelrok,_%27Wikkelrok_met_parang_patroon%27,_Batikatelier_van_Lawick_van_Pabst,_1875-1900.jpg",
+        "author": "Q100422095",
+        "license": "Public domain",
+        "verification": "已访问源页面",
+        "file_size": 815040
+      }
+    ],
+    "tags_array": [
+      "材质语言",
+      "经典纹样",
+      "蜡染艺术",
+      "几何图案",
+      "色彩配方",
+      "非遗手工艺"
+    ],
+    "visual_keywords_array": [
+      "45度对角线连续折线",
+      "经典S形波纹海浪",
+      "深巧克力棕索甘色Sogan",
+      "王室专属禁忌纹Larangan",
+      "大水牛角短剑象征",
+      "爪哇几何美学"
+    ]
+  },
+  {
+    "id": "SG-14-0001",
+    "country_code": "SG",
+    "country": "新加坡",
+    "region": "滨海湾滨海花园",
+    "name_cn": "滨海湾花园超级树垂直植物绿墙与空中步道（Supertree Grove）",
+    "name_en": "Gardens by the Bay Supertree Grove & Vertical Gardens",
+    "name_local": "Supertree Grove",
+    "name_local_roman": "Supertree Grove",
+    "tradition": "新加坡花园城市向'自然之城'转型标杆、现代生态仿生巨构建筑",
+    "summary": "超级树丛（Supertree Grove）是新加坡滨海湾花园最具未来科幻感与生态工程突破性的视觉地标。由18棵高度在25米至50米（相当于9至16层楼高）之间的钢筋混凝土与钢桁架仿生树形巨构组成。树干表面包裹着活态植物绿墙，种植了来自全球200多个物种的逾16万株附生兰花、空气凤梨、羊齿蕨类和热带攀缘植物。部分超级树树冠装有光伏太阳能电池板并承担冷室排风冷却功能，两棵巨树之间悬挂着一条蜿蜒起伏的空中漫步长桥（OCBC Skyway），夜间伴随音乐上演璀璨的声光交响秀（Garden Rhapsody），将热带园艺、生态科技与公共空间景观推向世界巅峰。",
+    "visual_features": {
+      "form": "倒喇叭形巨大树冠高耸入云，纤细树干向上逐渐扩展如巨伞张开；空中轻质悬索桥如银白飘带穿梭于树冠之间。",
+      "color": "工业钢结构红褐色与铁锈红骨架，表面覆盖植物丰富多变的深绿、翠绿、紫红叶片，夜间打出绚烂变幻的霓虹紫粉与金蓝灯光。",
+      "material": "高强度预应力混凝土核心筒、镀锌外挂钢网架、无土轻质种植基质袋、不锈钢悬索步道桥面。",
+      "pattern": "十几万株附生植物自然生长的粗粝有机毛茸肌理，与钢结构几何经纬网格形成鲜明的'机械与生命'杂糅对比。",
+      "space": "尺度极为震撼，人们仰望巨树如同进入阿凡达潘多拉星球，空中步道悬空离地22米，提供360度俯瞰海湾与未来城市天际线的全景视界。",
+      "distinction": "并非单纯景观雕塑，而是将太阳能发电、雨水收集和温室换气排热系统隐形融入仿生垂直植物外立面之中的世界级生态科技建筑。"
+    },
+    "visual_keywords": "50米仿生超级树|16万株垂直附生绿墙|离地22米空中漫步桥|钢结构倒喇叭树冠|阿凡达未来科幻感|夜间生态声光秀",
+    "tags": "现代建筑|生态科技|垂直绿化|地标空间|公共装置|未来美学",
+    "images_meta": [
+      {
+        "file_title": "File:Supertree Grove, Gardens by the Bay, Singapore1.jpg",
+        "title": "新加坡滨海湾花园数座50米高超级树与空中悬索步道白昼全景",
+        "content_type": "整体"
+      },
+      {
+        "file_title": "File:Singapore (SG), Gardens by the Bay, Supertree Grove -- 2019 -- 4752.jpg",
+        "title": "超级树干表面密密麻麻种植的热带附生蕨类与攀缘植物微距特写",
+        "content_type": "局部细节"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Gardens by the Bay Singapore Official Architectural Guide",
+        "url": "https://www.gardensbythebay.com.sg"
+      },
+      {
+        "title": "Singapore National Parks Board - Supertree Grove Engineering",
+        "url": "https://www.nparks.gov.sg"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "新加坡滨海湾花园数座50米高超级树与空中悬索步道白昼全景",
+        "content_type": "整体",
+        "local_path": "12_图片素材库/SG/14/SG-14-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/SG/14/SG-14-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Supertree_Grove%2C_Gardens_by_the_Bay%2C_Singapore1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Supertree_Grove%2C_Gardens_by_the_Bay%2C_Singapore1.jpg/1280px-Supertree_Grove%2C_Gardens_by_the_Bay%2C_Singapore1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Supertree_Grove,_Gardens_by_the_Bay,_Singapore1.jpg",
+        "author": "Mustang Joe",
+        "license": "CC0",
+        "verification": "已访问源页面",
+        "file_size": 468219
+      },
+      {
+        "index": 2,
+        "title": "超级树干表面密密麻麻种植的热带附生蕨类与攀缘植物微距特写",
+        "content_type": "局部细节",
+        "local_path": "12_图片素材库/SG/14/SG-14-0001_2.jpg",
+        "html_rel_path": "../12_图片素材库/SG/14/SG-14-0001_2.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Singapore_%28SG%29%2C_Gardens_by_the_Bay%2C_Supertree_Grove_--_2019_--_4752.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Singapore_%28SG%29%2C_Gardens_by_the_Bay%2C_Supertree_Grove_--_2019_--_4752.jpg/1280px-Singapore_%28SG%29%2C_Gardens_by_the_Bay%2C_Supertree_Grove_--_2019_--_4752.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Singapore_(SG),_Gardens_by_the_Bay,_Supertree_Grove_--_2019_--_4752.jpg",
+        "author": "Dietmar Rabich",
+        "license": "CC BY-SA 4.0",
+        "verification": "已访问源页面",
+        "file_size": 415809
+      }
+    ],
+    "tags_array": [
+      "现代建筑",
+      "生态科技",
+      "垂直绿化",
+      "地标空间",
+      "公共装置",
+      "未来美学"
+    ],
+    "visual_keywords_array": [
+      "50米仿生超级树",
+      "16万株垂直附生绿墙",
+      "离地22米空中漫步桥",
+      "钢结构倒喇叭树冠",
+      "阿凡达未来科幻感",
+      "夜间生态声光秀"
+    ]
+  },
+  {
+    "id": "PH-04-0001",
+    "country_code": "PH",
+    "country": "菲律宾",
+    "region": "邦板牙省圣费尔南多市及全菲",
+    "name_cn": "菲律宾传统发光星形圣诞灯笼（Parol 节日星灯）",
+    "name_en": "Philippine Traditional Star Lantern (Parol)",
+    "name_local": "Paról",
+    "name_local_roman": "Parol",
+    "tradition": "菲律宾天主教长达四个月的超长圣诞季、圣费尔南多巨型星灯节",
+    "summary": "帕罗尔（Paról，源自西班牙语 Farol 意为'灯笼'）是菲律宾圣诞文化最耀眼的传统视觉符号。其经典形态为五角星形，象征引领东方三博士找到圣婴耶稣的伯利恒之星。最早由民间工匠用竹篾削成五角星骨架，外糊各色彩色玻璃纸或薄和纸，两只尾角悬垂下两条长长的多节纸流苏。在当代，工匠更利用菲律宾著名的天然海月贝壳（Capiz shell）与内置成百上千只微型彩色电灯泡，通过微型机械开关控制，在夜幕下交替爆发出璀璨万千的花卉几何光斑图案，整座群岛的大街小巷家家户户门楣均悬挂此灯，温暖动人。",
+    "visual_features": {
+      "form": "以中央五角星为核心，外围环绕多层如齿轮、雪花或太阳光芒般的几何放射花环，下方垂挂两条华丽多节长流苏垂尾。",
+      "color": "白日里呈现卡皮斯贝壳高雅半透的乳白与珍珠虹彩；夜晚亮灯后呈现耀眼强烈的红、绿、黄、蓝高饱和万花筒光斑。",
+      "material": "劈蔑竹篾骨架、天然海月贝（Capiz shell）、彩色电线、金属黄铜镶边框架、微型程控彩灯泡。",
+      "pattern": "万花筒对称几何星芒图案、卡皮斯贝壳边缘精致的手工黄铜折边牙口、如同烟花盛放的光束线条。",
+      "space": "悬挂于住宅门头、街道电线杆或商场中庭空中，成排点亮时形成一条流光溢彩的星辰走廊，带来无与伦比的暖意与节庆欢腾感。",
+      "distinction": "将西班牙天主教宗教信仰完全转化为极具南洋海岛特色的热带贝壳与竹编发光工艺品，规模之盛大与悬挂时间之持久全球独一无二。"
+    },
+    "visual_keywords": "伯利恒五角星造型|海月贝壳Capiz透光|双长条垂尾流苏|机械程控万花筒闪光|街头长街悬挂|菲律宾圣诞之光",
+    "tags": "节日装置|灯彩艺术|民间手作|贝壳工艺|夜景光影|温暖氛围",
+    "images_meta": [
+      {
+        "file_title": "File:Parol Maker.jpg",
+        "title": "菲律宾手工艺老匠人手工编扎竹篾骨架制作传统五角星Parol灯笼现场",
+        "content_type": "整体/使用场景"
+      },
+      {
+        "file_title": "File:Electronic parol covered with colored plastic.jpg",
+        "title": "点亮后的菲律宾多重几何星芒Parol彩灯璀璨光芒细节特写",
+        "content_type": "局部细节/使用场景"
+      }
+    ],
+    "sources": [
+      {
+        "title": "National Commission for Culture and the Arts Philippines - The Tradition of the Parol",
+        "url": "https://ncca.gov.ph"
+      },
+      {
+        "title": "City of San Fernando Tourism Office - Giant Lantern Festival Heritage",
+        "url": "https://cityofsanfernando.gov.ph"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "菲律宾手工艺老匠人手工编扎竹篾骨架制作传统五角星Parol灯笼现场",
+        "content_type": "整体/使用场景",
+        "local_path": "12_图片素材库/PH/04/PH-04-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/PH/04/PH-04-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Parol_Maker.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Parol_Maker.jpg/1280px-Parol_Maker.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Parol_Maker.jpg",
+        "author": "Richmond Chi",
+        "license": "CC BY-SA 4.0",
+        "verification": "已访问源页面",
+        "file_size": 604429
+      },
+      {
+        "index": 2,
+        "title": "点亮后的菲律宾多重几何星芒Parol彩灯璀璨光芒细节特写",
+        "content_type": "局部细节/使用场景",
+        "local_path": "12_图片素材库/PH/04/PH-04-0001_2.jpg",
+        "html_rel_path": "../12_图片素材库/PH/04/PH-04-0001_2.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Electronic_parol_covered_with_colored_plastic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Electronic_parol_covered_with_colored_plastic.jpg/1280px-Electronic_parol_covered_with_colored_plastic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Electronic_parol_covered_with_colored_plastic.jpg",
+        "author": "Eugene Alvin Villar (seav)",
+        "license": "CC BY-SA 4.0",
+        "verification": "已访问源页面",
+        "file_size": 378579
+      }
+    ],
+    "tags_array": [
+      "节日装置",
+      "灯彩艺术",
+      "民间手作",
+      "贝壳工艺",
+      "夜景光影",
+      "温暖氛围"
+    ],
+    "visual_keywords_array": [
+      "伯利恒五角星造型",
+      "海月贝壳Capiz透光",
+      "双长条垂尾流苏",
+      "机械程控万花筒闪光",
+      "街头长街悬挂",
+      "菲律宾圣诞之光"
+    ]
+  },
+  {
+    "id": "MM-13-0001",
+    "country_code": "MM",
+    "country": "缅甸",
+    "region": "曼德勒、仰光及全缅",
+    "name_cn": "缅甸传统黄香楝树皮防晒磨浆面妆（特纳卡 Thanaka 面妆）",
+    "name_en": "Myanmar Traditional Thanaka Bark Paste & Circular Face Makeup",
+    "name_local": "သနပ်ခါး / Thanaka",
+    "name_local_roman": "Thanaka",
+    "tradition": "缅甸两千年古老纯天然草本护肤防晒面妆、女性与儿童日常身体图腾",
+    "summary": "特纳卡（Thanaka，意为'纯净芳香与清凉'）是缅甸人民两千年来从未间断的独特日常生活标志，堪称缅甸独有的天然身体文化图腾。每日清晨，缅甸妇女与儿童手持一段黄香楝树树干（Limonia acidissima），在带有环形流水凹槽的圆形天然玄武岩磨石（Kyauk pyin）上滴上几滴清水，耐心画圈研磨出散发着淡淡檀香气味的细腻乳黄色树皮粉浆。随后蘸取粉浆涂抹在两颊与鼻梁，既能完全抵御热带酷烈紫外线并带来清凉镇静感，更被巧手画出圆饼形、树叶形或螺旋纹等精巧手绘图案，是缅甸街头最纯真朴实的生命美学。",
+    "visual_features": {
+      "form": "粗糙黄褐色树枝断木段（长约15-20厘米），圆形打磨平整的石磨盘；面颊上呈规则正圆形、对称椭圆块或手绘叶脉状涂层。",
+      "color": "天然淡粉黄色、乳白微黄的哑光矿物植物泥浆质感，干燥后呈极柔和的米黄色粉膜，衬托在深色热带皮肤上轮廓鲜明。",
+      "material": "天然多年生黄香楝木段、天然火山玄武石磨板（Kyauk pyin）、清洁井水。",
+      "pattern": "面颊上的经典圆形涂抹印记，巧妇常用细牙签在未干泥浆上划出精巧的叶脉纹、波浪花纹或平行线条图案。",
+      "space": "在喧闹的仰光环形火车、曼德勒早市或学校操场上，几乎每一个微笑转头的孩童与少女面庞上都带着这抹黄白面妆，构成整座国家扑面而来的视觉符号。",
+      "distinction": "全球独一无二的利用纯天然树皮研磨作为全天候日常防护与公开美学装饰的面部文化，绝无现代化学防晒霜的工业感，质朴天真而芳香怡人。"
+    },
+    "visual_keywords": "黄香楝树皮木段|圆形流水石磨盘Kyauk pyin|两颊乳黄圆形粉浆|天然草本防晒清凉|树叶叶脉手绘肌理|缅甸全民日常面妆",
+    "tags": "日常物件|身体图腾|天然护肤|草本植物|民俗生活|纯真美学",
+    "images_meta": [
+      {
+        "file_title": "File:THANAKA FACE PAINTING IN MYANMAR 01.jpg",
+        "title": "缅甸集市上脸颊涂抹精巧特纳卡（Thanaka）树皮防晒面妆的少女面孔",
+        "content_type": "整体/使用场景"
+      },
+      {
+        "file_title": "File:THANAKA FACE PAINTING IN MYANMAR 02.jpg",
+        "title": "缅甸儿童两颊细致手绘叶脉状特纳卡清凉药浆近景特写",
+        "content_type": "局部细节/使用场景"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ministry of Religious Affairs and Culture Myanmar - Thanaka Culture Nomination to UNESCO",
+        "url": "https://www.mora.gov.mm"
+      },
+      {
+        "title": "Myanmar Heritage Trust - The Ancient Thanaka Tradition",
+        "url": "https://myanmarheritagetrust.org"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "缅甸集市上脸颊涂抹精巧特纳卡（Thanaka）树皮防晒面妆的少女面孔",
+        "content_type": "整体/使用场景",
+        "local_path": "12_图片素材库/MM/13/MM-13-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/MM/13/MM-13-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/THANAKA_FACE_PAINTING_IN_MYANMAR_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/THANAKA_FACE_PAINTING_IN_MYANMAR_01.jpg/1280px-THANAKA_FACE_PAINTING_IN_MYANMAR_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:THANAKA_FACE_PAINTING_IN_MYANMAR_01.jpg",
+        "author": "DEBA PRASAD ROY",
+        "license": "CC0",
+        "verification": "已访问源页面",
+        "file_size": 276045
+      },
+      {
+        "index": 2,
+        "title": "缅甸儿童两颊细致手绘叶脉状特纳卡清凉药浆近景特写",
+        "content_type": "局部细节/使用场景",
+        "local_path": "12_图片素材库/MM/13/MM-13-0001_2.jpg",
+        "html_rel_path": "../12_图片素材库/MM/13/MM-13-0001_2.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/THANAKA_FACE_PAINTING_IN_MYANMAR_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/THANAKA_FACE_PAINTING_IN_MYANMAR_02.jpg/1280px-THANAKA_FACE_PAINTING_IN_MYANMAR_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:THANAKA_FACE_PAINTING_IN_MYANMAR_02.jpg",
+        "author": "DEBA PRASAD ROY",
+        "license": "CC0",
+        "verification": "已访问源页面",
+        "file_size": 755401
+      }
+    ],
+    "tags_array": [
+      "日常物件",
+      "身体图腾",
+      "天然护肤",
+      "草本植物",
+      "民俗生活",
+      "纯真美学"
+    ],
+    "visual_keywords_array": [
+      "黄香楝树皮木段",
+      "圆形流水石磨盘Kyauk pyin",
+      "两颊乳黄圆形粉浆",
+      "天然草本防晒清凉",
+      "树叶叶脉手绘肌理",
+      "缅甸全民日常面妆"
     ]
   }
 ];
