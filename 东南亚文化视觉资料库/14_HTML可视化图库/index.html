@@ -1,406 +1,1443 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>东南亚文化风物与视觉素材图库 | 泉州市井十洲城「番货市集」</title>
+  <title>番货市集 · 东南亚十一国文化风物视觉档案 | 泉州市井十洲城策展图录</title>
   <style>
+    /* -------------------------------------------------------------
+       Curatorial Typography & Theme Tokens
+       ------------------------------------------------------------- */
     :root {
-      --bg-primary: #0f141c;
-      --bg-secondary: #171f2b;
-      --bg-card: #1e293b;
-      --text-main: #f8fafc;
-      --text-muted: #94a3b8;
-      --text-dim: #64748b;
-      --accent-coral: #ea580c;
-      --accent-gold: #f59e0b;
-      --accent-teal: #0d9488;
-      --accent-blue: #38bdf8;
-      --border-color: rgba(255, 255, 255, 0.08);
-      --border-highlight: rgba(255, 255, 255, 0.16);
-      --radius-sm: 6px;
-      --radius-md: 10px;
-      --radius-lg: 16px;
-      --shadow-card: 0 4px 20px -2px rgba(0, 0, 0, 0.5);
-      --font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+      --font-serif: "Songti SC", "Noto Serif SC", "Source Han Serif SC", "STSong", "Baskerville", "Georgia", serif;
+      --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      --font-mono: "SF Mono", "Consolas", "Courier New", monospace;
+      
+      --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+      --transition-smooth: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
     }
+
+    [data-theme="dark"] {
+      --bg-base: #121110;
+      --bg-surface: #1a1816;
+      --bg-surface-elevated: #23201d;
+      --bg-surface-hover: #2d2925;
+      --border-subtle: rgba(237, 233, 222, 0.08);
+      --border-medium: rgba(237, 233, 222, 0.16);
+      --border-accent: rgba(212, 107, 65, 0.4);
+      
+      --text-primary: #f5f2eb;
+      --text-secondary: #b8b3a7;
+      --text-muted: #7d776d;
+      
+      --accent-terracotta: #d9623e;
+      --accent-ochre: #d4a34b;
+      --accent-celadon: #5a7d6e;
+      --accent-indigo: #4a6fa5;
+      
+      --card-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+      --card-shadow-hover: 0 16px 40px rgba(0, 0, 0, 0.65), 0 0 0 1px rgba(217, 98, 62, 0.3);
+      --mat-bg: #090807;
+      --badge-bg: rgba(217, 98, 62, 0.12);
+      --badge-text: #e07d5d;
+    }
+
+    [data-theme="light"] {
+      --bg-base: #f7f5f0;
+      --bg-surface: #ffffff;
+      --bg-surface-elevated: #f0ede4;
+      --bg-surface-hover: #e8e4d8;
+      --border-subtle: rgba(26, 24, 22, 0.08);
+      --border-medium: rgba(26, 24, 22, 0.15);
+      --border-accent: rgba(184, 71, 41, 0.35);
+      
+      --text-primary: #1c1a17;
+      --text-secondary: #59544c;
+      --text-muted: #8c8579;
+      
+      --accent-terracotta: #b84729;
+      --accent-ochre: #aa7d26;
+      --accent-celadon: #3d6353;
+      --accent-indigo: #2c4d75;
+      
+      --card-shadow: 0 6px 24px rgba(28, 26, 23, 0.06);
+      --card-shadow-hover: 0 16px 36px rgba(28, 26, 23, 0.12), 0 0 0 1px rgba(184, 71, 41, 0.25);
+      --mat-bg: #ebe7dc;
+      --badge-bg: rgba(184, 71, 41, 0.08);
+      --badge-text: #b84729;
+    }
+
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { background-color: var(--bg-primary); color: var(--text-main); font-family: var(--font-stack); line-height: 1.6; min-height: 100vh; display: flex; flex-direction: column; }
-    header { background: linear-gradient(180deg, #131b26 0%, #0f141c 100%); border-bottom: 1px solid var(--border-color); padding: 24px 32px 18px; position: sticky; top: 0; z-index: 50; backdrop-filter: blur(12px); }
-    .header-top { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; margin-bottom: 16px; }
-    .brand-title { display: flex; align-items: center; gap: 12px; }
-    .brand-logo { width: 40px; height: 40px; background: linear-gradient(135deg, var(--accent-coral), var(--accent-gold)); border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 20px; color: #fff; box-shadow: 0 4px 12px rgba(234, 88, 12, 0.35); }
-    .brand-text h1 { font-size: 20px; font-weight: 700; color: #fff; }
-    .brand-text p { font-size: 13px; color: var(--text-muted); }
-    .stats-bar { display: flex; gap: 20px; font-size: 13px; background: var(--bg-secondary); padding: 8px 16px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); }
-    .stat-value { font-weight: 700; color: var(--accent-gold); }
-    .controls-wrapper { display: flex; flex-direction: column; gap: 10px; }
-    .search-row { display: flex; gap: 12px; }
-    .search-box { flex: 1; position: relative; }
-    .search-input { width: 100%; background: var(--bg-secondary); border: 1px solid var(--border-color); color: #fff; padding: 10px 16px 10px 38px; border-radius: var(--radius-sm); font-size: 14px; outline: none; transition: border-color 0.2s; }
-    .search-input:focus { border-color: var(--accent-coral); box-shadow: 0 0 0 2px rgba(234, 88, 12, 0.2); }
-    .search-icon { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: var(--text-dim); }
-    .filter-pills-row { display: flex; align-items: center; gap: 8px; overflow-x: auto; padding-bottom: 4px; }
-    .filter-label { font-size: 12px; color: var(--text-dim); text-transform: uppercase; margin-right: 4px; }
-    .pill-btn { background: var(--bg-secondary); border: 1px solid var(--border-color); color: var(--text-muted); padding: 5px 12px; border-radius: 20px; font-size: 13px; cursor: pointer; white-space: nowrap; transition: all 0.2s; }
-    .pill-btn:hover { background: var(--bg-card); color: #fff; }
-    .pill-btn.active { background: var(--accent-coral); color: #fff; border-color: var(--accent-coral); font-weight: 600; box-shadow: 0 2px 8px rgba(234, 88, 12, 0.3); }
-    main { flex: 1; padding: 24px 32px 60px; max-width: 1600px; margin: 0 auto; width: 100%; }
-    .result-info { margin-bottom: 18px; font-size: 14px; color: var(--text-muted); display: flex; justify-content: space-between; align-items: center; }
-    .cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 24px; }
-    .card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-md); overflow: hidden; cursor: pointer; transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1); display: flex; flex-direction: column; box-shadow: var(--shadow-card); position: relative; }
-    .card:hover { transform: translateY(-4px); border-color: rgba(234, 88, 12, 0.4); box-shadow: 0 12px 30px -4px rgba(0, 0, 0, 0.6); }
-    .card-img-wrap { width: 100%; height: 220px; position: relative; background: #090d13; overflow: hidden; }
-    .card-img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
-    .card:hover .card-img { transform: scale(1.05); }
-    .card-badge-id { position: absolute; top: 12px; left: 12px; background: rgba(15, 20, 28, 0.85); border: 1px solid rgba(255, 255, 255, 0.15); backdrop-filter: blur(8px); padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; color: var(--accent-gold); }
-    .card-img-count { position: absolute; bottom: 10px; right: 12px; background: rgba(0, 0, 0, 0.7); backdrop-filter: blur(6px); padding: 3px 8px; border-radius: 4px; font-size: 11px; color: #fff; }
-    .card-body { padding: 16px 18px 18px; flex: 1; display: flex; flex-direction: column; gap: 10px; }
-    .card-meta-top { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--text-muted); }
-    .card-region { color: var(--accent-blue); font-weight: 500; }
-    .card-category { background: rgba(255, 255, 255, 0.05); padding: 2px 6px; border-radius: 4px; font-size: 11px; }
-    .card-title { font-size: 16px; font-weight: 700; color: #fff; line-height: 1.4; }
-    .card-title-en { font-size: 12px; color: var(--text-dim); margin-top: -4px; }
-    .card-desc { font-size: 13px; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-    .card-tags { margin-top: auto; padding-top: 8px; display: flex; flex-wrap: wrap; gap: 6px; }
-    .tag-badge { font-size: 11px; background: rgba(255, 255, 255, 0.05); color: #cbd5e1; padding: 2px 7px; border-radius: 4px; border: 1px solid rgba(255, 255, 255, 0.04); }
-    .modal-overlay { position: fixed; inset: 0; background: rgba(5, 8, 12, 0.85); backdrop-filter: blur(10px); z-index: 100; display: none; align-items: center; justify-content: center; padding: 20px; }
-    .modal-overlay.active { display: flex; }
-    .modal-box { background: var(--bg-secondary); border: 1px solid var(--border-highlight); border-radius: var(--radius-lg); width: 100%; max-width: 1100px; max-height: 90vh; overflow-y: auto; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8); display: flex; flex-direction: column; }
-    .modal-header { padding: 20px 24px; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: flex-start; position: sticky; top: 0; background: var(--bg-secondary); z-index: 10; }
-    .modal-close-btn { background: rgba(255, 255, 255, 0.1); border: none; color: #fff; width: 32px; height: 32px; border-radius: 50%; cursor: pointer; font-size: 18px; transition: background 0.2s; }
-    .modal-close-btn:hover { background: var(--accent-coral); }
-    .modal-body { padding: 24px; display: grid; grid-template-columns: 1.1fr 1fr; gap: 28px; }
-    @media (max-width: 860px) { .modal-body { grid-template-columns: 1fr; } }
-    .modal-gallery { display: flex; flex-direction: column; gap: 12px; }
-    .modal-main-img-wrap { width: 100%; height: 380px; background: #000; border-radius: var(--radius-md); overflow: hidden; display: flex; align-items: center; justify-content: center; border: 1px solid var(--border-color); }
-    .modal-main-img { max-width: 100%; max-height: 100%; object-fit: contain; }
-    .modal-thumbs-row { display: flex; gap: 10px; overflow-x: auto; padding-bottom: 4px; }
-    .modal-thumb { width: 80px; height: 60px; border-radius: var(--radius-sm); object-fit: cover; cursor: pointer; opacity: 0.6; border: 2px solid transparent; transition: all 0.2s; }
-    .modal-thumb.active { opacity: 1; border-color: var(--accent-coral); }
-    .modal-img-caption { font-size: 12px; color: var(--text-muted); background: rgba(0, 0, 0, 0.3); padding: 8px 12px; border-radius: var(--radius-sm); line-height: 1.4; }
-    .modal-info { display: flex; flex-direction: column; gap: 16px; }
-    .info-section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; color: var(--accent-coral); margin-bottom: 6px; display: flex; align-items: center; gap: 6px; }
-    .info-section-title::before { content: ""; width: 4px; height: 12px; background: var(--accent-coral); border-radius: 2px; }
-    .detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; font-size: 13px; background: rgba(0,0,0,0.2); padding: 12px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); }
-    .detail-item { display: flex; flex-direction: column; gap: 2px; }
-    .detail-k { color: var(--text-dim); font-size: 11px; }
-    .detail-v { color: var(--text-main); font-weight: 500; }
-    .features-list { display: flex; flex-direction: column; gap: 8px; font-size: 13px; }
-    .feature-row { display: grid; grid-template-columns: 75px 1fr; gap: 8px; line-height: 1.5; }
-    .feature-k { color: var(--accent-gold); font-weight: 600; }
-    .feature-v { color: #cbd5e1; }
-    .source-list { list-style: none; display: flex; flex-direction: column; gap: 6px; font-size: 12px; }
-    .source-list a { color: var(--accent-blue); text-decoration: none; word-break: break-all; }
-    .source-list a:hover { text-decoration: underline; }
-    footer { border-top: 1px solid var(--border-color); padding: 24px 32px; text-align: center; font-size: 13px; color: var(--text-dim); background: #0b0f15; }
+
+    body {
+      background-color: var(--bg-base);
+      color: var(--text-primary);
+      font-family: var(--font-sans);
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      transition: background-color 0.4s ease, color 0.4s ease;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* -------------------------------------------------------------
+       Exhibition Masthead (Header)
+       ------------------------------------------------------------- */
+    header {
+      border-bottom: 1px solid var(--border-medium);
+      background-color: var(--bg-surface);
+      position: sticky;
+      top: 0;
+      z-index: 60;
+      backdrop-filter: blur(16px);
+      transition: background-color 0.4s ease;
+    }
+
+    .masthead-inner {
+      max-width: 1680px;
+      margin: 0 auto;
+      padding: 24px 36px 18px;
+    }
+
+    .masthead-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding-bottom: 20px;
+      border-bottom: 1px dashed var(--border-subtle);
+    }
+
+    .curatorial-label {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent-terracotta);
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 4px;
+    }
+
+    .curatorial-label::before {
+      content: "";
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      background: var(--accent-terracotta);
+      border-radius: 50%;
+    }
+
+    .exhibition-title h1 {
+      font-family: var(--font-serif);
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      line-height: 1.25;
+      color: var(--text-primary);
+    }
+
+    .exhibition-subtitle {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-top: 4px;
+      font-family: var(--font-serif);
+      font-style: italic;
+    }
+
+    .masthead-meta {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .curatorial-stats {
+      display: flex;
+      gap: 20px;
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--text-secondary);
+      background: var(--bg-surface-elevated);
+      padding: 8px 16px;
+      border-radius: 4px;
+      border: 1px solid var(--border-subtle);
+    }
+
+    .curatorial-stats span strong {
+      color: var(--accent-ochre);
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    .theme-toggle-btn {
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border-medium);
+      color: var(--text-secondary);
+      padding: 7px 14px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-family: var(--font-mono);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: var(--transition-smooth);
+    }
+
+    .theme-toggle-btn:hover {
+      color: var(--text-primary);
+      border-color: var(--accent-terracotta);
+    }
+
+    /* -------------------------------------------------------------
+       Archival Directory Controls (Filters & Search)
+       ------------------------------------------------------------- */
+    .controls-panel {
+      padding-top: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .search-filter-row {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .search-bar {
+      flex: 1;
+      min-width: 300px;
+      position: relative;
+    }
+
+    .search-input {
+      width: 100%;
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border-medium);
+      color: var(--text-primary);
+      font-family: var(--font-sans);
+      font-size: 14px;
+      padding: 10px 18px 10px 40px;
+      border-radius: 6px;
+      outline: none;
+      transition: var(--transition-smooth);
+    }
+
+    .search-input:focus {
+      border-color: var(--accent-terracotta);
+      box-shadow: 0 0 0 3px rgba(217, 98, 62, 0.15);
+      background: var(--bg-surface);
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+      font-size: 14px;
+      pointer-events: none;
+    }
+
+    .view-toggle-btns {
+      display: flex;
+      gap: 4px;
+      background: var(--bg-surface-elevated);
+      padding: 3px;
+      border-radius: 6px;
+      border: 1px solid var(--border-subtle);
+    }
+
+    .view-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      padding: 6px 12px;
+      border-radius: 4px;
+      font-size: 12px;
+      cursor: pointer;
+      font-family: var(--font-mono);
+      transition: var(--transition-smooth);
+    }
+
+    .view-btn.active {
+      background: var(--bg-surface);
+      color: var(--text-primary);
+      font-weight: 600;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    /* Filter Ribbon */
+    .filter-ribbon {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      overflow-x: auto;
+      scrollbar-width: none;
+      padding-bottom: 2px;
+    }
+
+    .filter-ribbon::-webkit-scrollbar { display: none; }
+
+    .filter-tag-label {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      white-space: nowrap;
+      margin-right: 6px;
+    }
+
+    .ribbon-pill {
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-secondary);
+      padding: 5px 14px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-family: var(--font-sans);
+      cursor: pointer;
+      white-space: nowrap;
+      transition: var(--transition-smooth);
+      user-select: none;
+    }
+
+    .ribbon-pill:hover {
+      background: var(--bg-surface-hover);
+      color: var(--text-primary);
+      border-color: var(--border-medium);
+    }
+
+    .ribbon-pill.active {
+      background: var(--accent-terracotta);
+      color: #ffffff;
+      border-color: var(--accent-terracotta);
+      font-weight: 600;
+      box-shadow: 0 2px 8px rgba(217, 98, 62, 0.35);
+    }
+
+    .category-ribbon .ribbon-pill {
+      font-size: 12px;
+      border-radius: 4px;
+      padding: 4px 10px;
+      font-family: var(--font-serif);
+    }
+
+    /* -------------------------------------------------------------
+       Main Exhibition Floor (Grid & Cards)
+       ------------------------------------------------------------- */
+    main {
+      flex: 1;
+      max-width: 1680px;
+      margin: 0 auto;
+      padding: 32px 36px 80px;
+      width: 100%;
+    }
+
+    .gallery-status-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border-subtle);
+      font-size: 13px;
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+      gap: 32px;
+    }
+
+    /* The Exhibition Plaque Card */
+    .plaque-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      overflow: hidden;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      box-shadow: var(--card-shadow);
+      transition: var(--transition-smooth);
+      position: relative;
+    }
+
+    .plaque-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--card-shadow-hover);
+      border-color: var(--border-accent);
+    }
+
+    /* Photo Museum Mat Frame */
+    .card-mat {
+      width: 100%;
+      height: 250px;
+      background: var(--mat-bg);
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 8px;
+    }
+
+    .card-photo {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 4px;
+      transition: transform 0.6s var(--ease-out);
+    }
+
+    .plaque-card:hover .card-photo {
+      transform: scale(1.04);
+    }
+
+    .card-id-stamp {
+      position: absolute;
+      top: 16px;
+      left: 16px;
+      background: rgba(18, 17, 16, 0.88);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: var(--accent-ochre);
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      padding: 3px 8px;
+      border-radius: 3px;
+      backdrop-filter: blur(8px);
+    }
+
+    .card-photo-count {
+      position: absolute;
+      bottom: 14px;
+      right: 14px;
+      background: rgba(18, 17, 16, 0.75);
+      color: #fff;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      padding: 3px 8px;
+      border-radius: 3px;
+      backdrop-filter: blur(6px);
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    /* Placard Content */
+    .card-placard {
+      padding: 20px 22px 22px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      border-top: 1px solid var(--border-subtle);
+    }
+
+    .placard-provenance {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    .placard-region {
+      color: var(--accent-indigo);
+      font-weight: 600;
+    }
+
+    .placard-cat-pill {
+      background: var(--bg-surface-elevated);
+      color: var(--text-secondary);
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: var(--font-serif);
+      font-size: 11px;
+    }
+
+    .placard-titles {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+
+    .placard-title-cn {
+      font-family: var(--font-serif);
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--text-primary);
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+    }
+
+    .placard-title-en {
+      font-family: var(--font-serif);
+      font-size: 13px;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    .placard-desc {
+      font-size: 13px;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .placard-tags {
+      margin-top: auto;
+      padding-top: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      border-top: 1px dashed var(--border-subtle);
+    }
+
+    .placard-tag {
+      font-size: 11px;
+      font-family: var(--font-mono);
+      background: var(--bg-surface-elevated);
+      color: var(--text-secondary);
+      padding: 2px 7px;
+      border-radius: 3px;
+      border: 1px solid var(--border-subtle);
+    }
+
+    /* -------------------------------------------------------------
+       The Archival Dossier Modal (展品档案弹窗)
+       ------------------------------------------------------------- */
+    .dossier-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(10, 9, 8, 0.88);
+      backdrop-filter: blur(12px);
+      z-index: 100;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .dossier-overlay.active { display: flex; }
+
+    .dossier-binder {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-medium);
+      border-radius: 12px;
+      width: 100%;
+      max-width: 1240px;
+      max-height: 92vh;
+      overflow-y: auto;
+      box-shadow: 0 30px 70px rgba(0, 0, 0, 0.7);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+
+    .dossier-header {
+      padding: 24px 32px;
+      border-bottom: 1px solid var(--border-medium);
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      position: sticky;
+      top: 0;
+      background: var(--bg-surface);
+      z-index: 20;
+    }
+
+    .dossier-header-meta {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 6px;
+      font-family: var(--font-mono);
+      font-size: 12px;
+    }
+
+    .dossier-badge-id {
+      background: var(--accent-terracotta);
+      color: #fff;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 3px;
+      letter-spacing: 0.05em;
+    }
+
+    .dossier-badge-country {
+      color: var(--accent-indigo);
+      font-weight: 600;
+    }
+
+    .dossier-title-cn {
+      font-family: var(--font-serif);
+      font-size: 26px;
+      font-weight: 700;
+      color: var(--text-primary);
+      line-height: 1.25;
+    }
+
+    .dossier-title-en {
+      font-family: var(--font-serif);
+      font-size: 15px;
+      color: var(--text-muted);
+      font-style: italic;
+      margin-top: 2px;
+    }
+
+    .dossier-close-btn {
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border-medium);
+      color: var(--text-secondary);
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: var(--transition-smooth);
+    }
+
+    .dossier-close-btn:hover {
+      background: var(--accent-terracotta);
+      color: #fff;
+      border-color: var(--accent-terracotta);
+    }
+
+    .dossier-content {
+      padding: 32px;
+      display: grid;
+      grid-template-columns: 1.15fr 1fr;
+      gap: 36px;
+    }
+
+    @media (max-width: 960px) {
+      .dossier-content { grid-template-columns: 1fr; }
+    }
+
+    /* Left: Visual Exhibition Stage */
+    .stage-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .stage-viewport {
+      width: 100%;
+      height: 440px;
+      background: var(--mat-bg);
+      border: 1px solid var(--border-medium);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      padding: 12px;
+      box-shadow: inset 0 0 40px rgba(0,0,0,0.5);
+    }
+
+    .stage-photo {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      border-radius: 4px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    }
+
+    .stage-caption {
+      font-size: 13px;
+      color: var(--text-secondary);
+      background: var(--bg-surface-elevated);
+      padding: 10px 14px;
+      border-radius: 6px;
+      border-left: 3px solid var(--accent-terracotta);
+      line-height: 1.5;
+    }
+
+    .stage-filmstrip {
+      display: flex;
+      gap: 12px;
+      overflow-x: auto;
+      padding-bottom: 6px;
+    }
+
+    .filmstrip-frame {
+      width: 90px;
+      height: 65px;
+      border-radius: 4px;
+      object-fit: cover;
+      cursor: pointer;
+      opacity: 0.5;
+      border: 2px solid transparent;
+      background: var(--mat-bg);
+      padding: 2px;
+      transition: var(--transition-smooth);
+    }
+
+    .filmstrip-frame:hover { opacity: 0.85; }
+    .filmstrip-frame.active {
+      opacity: 1;
+      border-color: var(--accent-terracotta);
+      box-shadow: 0 4px 12px rgba(217, 98, 62, 0.4);
+    }
+
+    .provenance-card {
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border-subtle);
+      border-radius: 6px;
+      padding: 14px 16px;
+      font-family: var(--font-mono);
+      font-size: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .provenance-row {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px dashed var(--border-subtle);
+      padding-bottom: 4px;
+    }
+
+    .provenance-k { color: var(--text-muted); }
+    .provenance-v { color: var(--text-primary); font-weight: 500; }
+
+    /* Right: Curatorial Analysis */
+    .analysis-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .analysis-section {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .analysis-heading {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--accent-terracotta);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .analysis-heading::after {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: var(--border-subtle);
+    }
+
+    .curatorial-essay {
+      font-family: var(--font-serif);
+      font-size: 15px;
+      line-height: 1.8;
+      color: var(--text-primary);
+      text-align: justify;
+      background: var(--bg-surface-elevated);
+      padding: 18px 20px;
+      border-radius: 6px;
+      border-left: 2px solid var(--border-medium);
+    }
+
+    .matrix-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      font-size: 13px;
+    }
+
+    .matrix-item {
+      background: var(--bg-surface-elevated);
+      padding: 10px 14px;
+      border-radius: 4px;
+      border: 1px solid var(--border-subtle);
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .matrix-k {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+    }
+
+    .matrix-v {
+      font-size: 13px;
+      color: var(--text-primary);
+      font-weight: 500;
+    }
+
+    .formal-breakdown {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      font-size: 13px;
+    }
+
+    .formal-row {
+      display: grid;
+      grid-template-columns: 80px 1fr;
+      gap: 12px;
+      line-height: 1.6;
+      border-bottom: 1px dashed var(--border-subtle);
+      padding-bottom: 8px;
+    }
+
+    .formal-k {
+      font-family: var(--font-serif);
+      font-weight: 700;
+      color: var(--accent-ochre);
+    }
+
+    .formal-v {
+      color: var(--text-secondary);
+    }
+
+    .app-tag-cloud {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .app-tag-pill {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      background: var(--badge-bg);
+      color: var(--badge-text);
+      padding: 4px 12px;
+      border-radius: 4px;
+      border: 1px solid rgba(217, 98, 62, 0.2);
+    }
+
+    .citations-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      font-size: 12px;
+      font-family: var(--font-mono);
+    }
+
+    .citations-list a {
+      color: var(--accent-indigo);
+      text-decoration: none;
+      word-break: break-all;
+    }
+
+    .citations-list a:hover {
+      text-decoration: underline;
+    }
+
+    /* -------------------------------------------------------------
+       Colophon & Curatorial Footer
+       ------------------------------------------------------------- */
+    footer {
+      border-top: 1px solid var(--border-medium);
+      background-color: var(--bg-surface);
+      padding: 40px 36px;
+      margin-top: auto;
+    }
+
+    .colophon {
+      max-width: 1680px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    .colophon-title {
+      font-family: var(--font-serif);
+      font-size: 16px;
+      color: var(--text-primary);
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
   </style>
 </head>
 <body>
+
+  <!-- ================= Masthead ================= -->
   <header>
-    <div class="header-top">
-      <div class="brand-title">
-        <div class="brand-logo">番</div>
-        <div class="brand-text">
-          <h1>东南亚文化风物与视觉素材图库</h1>
-          <p>泉州「市井十洲城」· 番货市集文化商业策划与空间设计素材库</p>
+    <div class="masthead-inner">
+      <div class="masthead-top">
+        <div class="exhibition-title">
+          <div class="curatorial-label">Quanzhou Cultural Project · 番货市集典藏卷</div>
+          <h1>东南亚十一国文化风物与视觉设计图集</h1>
+          <p class="exhibition-subtitle">A Curatorial Fieldwork & Visual Architecture Archive for Shijing Shizhoucheng</p>
+        </div>
+
+        <div class="masthead-meta">
+          <div class="curatorial-stats">
+            <div>收录风物: <span id="statItems"><strong>0</strong></span></div>
+            <div>高清视点: <span id="statImages"><strong>0</strong></span></div>
+            <div>覆盖国度: <span id="statCountries"><strong>0</strong>/11</span></div>
+            <div>核验标准: <span style="color:var(--accent-celadon); font-weight:700;">100% 原始考据</span></div>
+          </div>
+
+          <button class="theme-toggle-btn" id="themeToggleBtn" title="切换展厅光照氛围 (暗室 / 暖白)">
+            <span id="themeIcon">🌓</span> <span id="themeText">展厅氛围</span>
+          </button>
         </div>
       </div>
-      <div class="stats-bar">
-        <div>收录元素: <span class="stat-value" id="statElements">0</span></div>
-        <div>高清图源: <span class="stat-value" id="statImages">0</span></div>
-        <div>覆盖国家: <span class="stat-value" id="statCountries">0</span></div>
-        <div>核验状态: <span class="stat-value" style="color:#10b981;">100% 实勘认证</span></div>
-      </div>
-    </div>
-    <div class="controls-wrapper">
-      <div class="search-row">
-        <div class="search-box">
-          <span class="search-icon">🔍</span>
-          <input type="text" id="searchInput" class="search-input" placeholder="输入名称、地区、族群、视觉特征或空间标签搜索...">
+
+      <!-- Controls Panel -->
+      <div class="controls-panel">
+        <div class="search-filter-row">
+          <div class="search-bar">
+            <span class="search-icon">⚲</span>
+            <input type="text" id="searchInput" class="search-input" placeholder="检索条目名称、地志、族群、建筑材质或策展应用标签...">
+          </div>
+
+          <div class="view-toggle-btns">
+            <button class="view-btn active" id="viewAllBtn" onclick="resetAllFilters()">重置全览</button>
+          </div>
         </div>
-      </div>
-      <div class="filter-pills-row" id="countryFilters">
-        <span class="filter-label">国家:</span>
-        <button class="pill-btn active" data-country="all">全部国家 (56)</button>
-        <button class="pill-btn" data-country="MY">马来西亚 (18)</button>
-        <button class="pill-btn" data-country="TH">泰国 (7)</button>
-        <button class="pill-btn" data-country="VN">越南 (7)</button>
-        <button class="pill-btn" data-country="ID">印度尼西亚 (6)</button>
-        <button class="pill-btn" data-country="SG">新加坡 (4)</button>
-        <button class="pill-btn" data-country="PH">菲律宾 (4)</button>
-        <button class="pill-btn" data-country="KH">柬埔寨 (3)</button>
-        <button class="pill-btn" data-country="LA">老挝 (1)</button>
-        <button class="pill-btn" data-country="MM">缅甸 (2)</button>
-        <button class="pill-btn" data-country="BN">文莱 (2)</button>
-        <button class="pill-btn" data-country="TL">东帝汶 (2)</button>
-      </div>
-      <div class="filter-pills-row" id="categoryFilters">
-        <span class="filter-label">类别:</span>
-        <button class="pill-btn active" data-category="all">全部类别</button>
-        <button class="pill-btn" data-category="01">01 自然景观</button>
-        <button class="pill-btn" data-category="02">02 城市街头</button>
-        <button class="pill-btn" data-category="03">03 地方建筑</button>
-        <button class="pill-btn" data-category="04">04 民俗节庆</button>
-        <button class="pill-btn" data-category="05">05 工艺器物</button>
-        <button class="pill-btn" data-category="06">06 饮食小贩</button>
-        <button class="pill-btn" data-category="07">07 传统服饰</button>
-        <button class="pill-btn" data-category="08">08 交通流动</button>
-        <button class="pill-btn" data-category="09">09 平面视觉</button>
-        <button class="pill-btn" data-category="10">10 地方物产</button>
-        <button class="pill-btn" data-category="11">11 宗教艺术</button>
-        <button class="pill-btn" data-category="12">12 民间表演</button>
-        <button class="pill-btn" data-category="13">13 日常物件</button>
-        <button class="pill-btn" data-category="14">14 创意商业</button>
-        <button class="pill-btn" data-category="15">15 色彩材质</button>
+
+        <!-- Country Ribbon -->
+        <div class="filter-ribbon" id="countryRibbon">
+          <span class="filter-tag-label">国家展区:</span>
+          <!-- Injected via JavaScript -->
+        </div>
+
+        <!-- Category Ribbon -->
+        <div class="filter-ribbon category-ribbon" id="categoryRibbon">
+          <span class="filter-tag-label">文化分类:</span>
+          <!-- Injected via JavaScript -->
+        </div>
       </div>
     </div>
   </header>
+
+  <!-- ================= Main Gallery Wall ================= -->
   <main>
-    <div class="result-info">
-      <span>正在展示 <strong id="visibleCount" style="color:#fff;">0</strong> 个精选文化视觉元素</span>
-      <span style="font-size:12px; color:var(--text-dim);">点击卡片查看多角度图片、视觉特征拆解与空间策展应用</span>
+    <div class="gallery-status-bar">
+      <span>当前陈列 / EXHIBITING: <strong id="curCount" style="color:var(--accent-ochre);">0</strong> 件代表性风物视觉母题</span>
+      <span style="font-size:12px;">点击展签卡片调取完整《策展实勘文献档案与多视角图录》</span>
     </div>
-    <div class="cards-grid" id="cardsGrid"></div>
+
+    <div class="gallery-grid" id="galleryGrid">
+      <!-- Injected via JavaScript -->
+    </div>
   </main>
-  <div class="modal-overlay" id="detailModal">
-    <div class="modal-box">
-      <div class="modal-header">
+
+  <!-- ================= Archival Dossier Modal ================= -->
+  <div class="dossier-overlay" id="dossierModal">
+    <div class="dossier-binder">
+      <div class="dossier-header">
         <div>
-          <div style="display:flex; align-items:center; gap:8px; margin-bottom:4px;">
-            <span id="modalIdBadge" style="background:var(--accent-coral); color:#fff; font-size:11px; font-weight:700; padding:2px 8px; border-radius:4px;"></span>
-            <span id="modalCountryBadge" style="color:var(--accent-blue); font-size:13px; font-weight:600;"></span>
-            <span id="modalCategoryBadge" style="color:var(--text-muted); font-size:12px;"></span>
+          <div class="dossier-header-meta">
+            <span class="dossier-badge-id" id="mId"></span>
+            <span class="dossier-badge-country" id="mCountry"></span>
+            <span style="color:var(--text-muted);" id="mCategory"></span>
           </div>
-          <h2 id="modalTitleCn" style="color:#fff; font-size:22px; font-weight:700;"></h2>
-          <div id="modalTitleEn" style="color:var(--text-dim); font-size:14px;"></div>
+          <h2 class="dossier-title-cn" id="mTitleCn"></h2>
+          <div class="dossier-title-en" id="mTitleEn"></div>
         </div>
-        <button class="modal-close-btn" id="modalCloseBtn">✕</button>
+        <button class="dossier-close-btn" id="mCloseBtn" title="关闭档案 (ESC)">✕</button>
       </div>
-      <div class="modal-body">
-        <div class="modal-gallery">
-          <div class="modal-main-img-wrap">
-            <img id="modalMainImg" class="modal-main-img" src="" alt="">
+
+      <div class="dossier-content">
+        <!-- Left: Visual Examination Stage -->
+        <div class="stage-wrapper">
+          <div class="stage-viewport">
+            <img class="stage-photo" id="mStagePhoto" src="" alt="">
           </div>
-          <div class="modal-img-caption" id="modalImgCaption"></div>
-          <div class="modal-thumbs-row" id="modalThumbsRow"></div>
-          <div style="margin-top:12px; background:rgba(0,0,0,0.25); padding:12px; border-radius:var(--radius-sm); border:1px solid var(--border-color); font-size:12px;">
-            <div style="font-weight:600; color:var(--text-muted); margin-bottom:6px;">当前展示图片版权与核验来源</div>
-            <div style="display:flex; justify-content:space-between; margin-bottom:4px;"><span style="color:var(--text-dim);">摄影作者/机构:</span><span id="modalImgAuthor" style="color:#fff;"></span></div>
-            <div style="display:flex; justify-content:space-between; margin-bottom:4px;"><span style="color:var(--text-dim);">授权协议:</span><span id="modalImgLicense" style="color:var(--accent-gold); font-weight:600;"></span></div>
-            <div style="display:flex; justify-content:space-between; margin-bottom:4px;"><span style="color:var(--text-dim);">核验状态:</span><span id="modalImgVerif" style="color:#10b981; font-weight:600;"></span></div>
-            <div style="margin-top:6px;"><a id="modalImgSourceLink" href="#" target="_blank" style="color:var(--accent-blue); text-decoration:none;">查看维基共享资源描述页面 ↗</a></div>
+          <div class="stage-caption" id="mStageCaption"></div>
+          <div class="stage-filmstrip" id="mFilmstrip"></div>
+
+          <!-- Provenance / Verification Card -->
+          <div class="provenance-card">
+            <div class="provenance-row">
+              <span class="provenance-k">影像文献源 / SOURCE</span>
+              <span class="provenance-v" id="mAuthor"></span>
+            </div>
+            <div class="provenance-row">
+              <span class="provenance-k">知识共享许可 / LICENSE</span>
+              <span class="provenance-v" id="mLicense" style="color:var(--accent-ochre);"></span>
+            </div>
+            <div class="provenance-row">
+              <span class="provenance-k">实勘核验状态 / STATUS</span>
+              <span class="provenance-v" id="mVerif" style="color:var(--accent-celadon);"></span>
+            </div>
+            <div style="margin-top:6px;">
+              <a id="mSourceUrl" href="#" target="_blank" rel="noopener noreferrer" style="color:var(--accent-indigo); text-decoration:none;">
+                维基共享资源学术原案描述页 ↗
+              </a>
+            </div>
           </div>
         </div>
-        <div class="modal-info">
-          <div>
-            <div class="info-section-title">基础档案</div>
-            <div class="detail-grid">
-              <div class="detail-item"><span class="detail-k">当地语言名称</span><span class="detail-v" id="modalLocalName"></span></div>
-              <div class="detail-item"><span class="detail-k">罗马拼音转写</span><span class="detail-v" id="modalLocalRoman"></span></div>
-              <div class="detail-item"><span class="detail-k">具体城市/地区</span><span class="detail-v" id="modalRegion"></span></div>
-              <div class="detail-item"><span class="detail-k">族群/文化传统</span><span class="detail-v" id="modalTradition"></span></div>
+
+        <!-- Right: Curatorial & Formal Analysis -->
+        <div class="analysis-wrapper">
+          <!-- Identity Matrix -->
+          <div class="analysis-section">
+            <div class="analysis-heading">01 / 田野地志档案 (PROVENANCE)</div>
+            <div class="matrix-grid">
+              <div class="matrix-item">
+                <span class="matrix-k">在地原生名称</span>
+                <span class="matrix-v" id="mLocalName"></span>
+              </div>
+              <div class="matrix-item">
+                <span class="matrix-k">罗马拼音转写</span>
+                <span class="matrix-v" id="mLocalRoman"></span>
+              </div>
+              <div class="matrix-item">
+                <span class="matrix-k">所属具体城市/地域</span>
+                <span class="matrix-v" id="mRegion"></span>
+              </div>
+              <div class="matrix-item">
+                <span class="matrix-k">历史传承与族群流变</span>
+                <span class="matrix-v" id="mTradition"></span>
+              </div>
             </div>
           </div>
-          <div>
-            <div class="info-section-title">文化介绍与地方背景</div>
-            <p id="modalSummary" style="font-size:13px; color:#cbd5e1; line-height:1.6;"></p>
+
+          <!-- Curatorial Essay -->
+          <div class="analysis-section">
+            <div class="analysis-heading">02 / 策展释文与在地文化演进 (CURATORIAL ESSAY)</div>
+            <p class="curatorial-essay" id="mSummary"></p>
           </div>
-          <div>
-            <div class="info-section-title">设计视觉特征拆解</div>
-            <div class="features-list">
-              <div class="feature-row"><span class="feature-k">造型形态</span><span class="feature-v" id="modalVfForm"></span></div>
-              <div class="feature-row"><span class="feature-k">色彩倾向</span><span class="feature-v" id="modalVfColor"></span></div>
-              <div class="feature-row"><span class="feature-k">质感材质</span><span class="feature-v" id="modalVfMaterial"></span></div>
-              <div class="feature-row"><span class="feature-k">图案纹样</span><span class="feature-v" id="modalVfPattern"></span></div>
-              <div class="feature-row"><span class="feature-k">空间形态</span><span class="feature-v" id="modalVfSpace"></span></div>
-              <div class="feature-row"><span class="feature-k">辨识差异</span><span class="feature-v" id="modalVfDistinction"></span></div>
+
+          <!-- Formal Aesthetics Breakdown -->
+          <div class="analysis-section">
+            <div class="analysis-heading">03 / 形式、物料与空间句法 (FORMAL & SPATIAL GRAMMAR)</div>
+            <div class="formal-breakdown">
+              <div class="formal-row">
+                <span class="formal-k">造型结构</span>
+                <span class="formal-v" id="mVfForm"></span>
+              </div>
+              <div class="formal-row">
+                <span class="formal-k">色彩谱系</span>
+                <span class="formal-v" id="mVfColor"></span>
+              </div>
+              <div class="formal-row">
+                <span class="formal-k">材质触感</span>
+                <span class="formal-v" id="mVfMaterial"></span>
+              </div>
+              <div class="formal-row">
+                <span class="formal-k">图腾纹样</span>
+                <span class="formal-v" id="mVfPattern"></span>
+              </div>
+              <div class="formal-row">
+                <span class="formal-k">空间形态</span>
+                <span class="formal-v" id="mVfSpace"></span>
+              </div>
+              <div class="formal-row">
+                <span class="formal-k">辨识差异</span>
+                <span class="formal-v" id="mVfDistinction"></span>
+              </div>
             </div>
           </div>
-          <div>
-            <div class="info-section-title">策展与空间设计应用标签</div>
-            <div id="modalTags" style="display:flex; flex-wrap:wrap; gap:6px;"></div>
+
+          <!-- Spatial Application Tags -->
+          <div class="analysis-section">
+            <div class="analysis-heading">04 / 商业慢闪空间与策展转化标签 (SPATIAL APPLICATION)</div>
+            <div class="app-tag-cloud" id="mTags"></div>
           </div>
-          <div>
-            <div class="info-section-title">可靠参考资料来源</div>
-            <ul class="source-list" id="modalSourcesList"></ul>
+
+          <!-- Academic Sources -->
+          <div class="analysis-section">
+            <div class="analysis-heading">05 / 官方文献与田野著录考据 (CITATIONS)</div>
+            <ul class="citations-list" id="mSources"></ul>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+  <!-- ================= Colophon Footer ================= -->
   <footer>
-    <p>东南亚十一国文化风物与视觉素材数据库 · 福建泉州「市井十洲城」番货市集项目组 · 2026</p>
-    <p style="margin-top:4px; font-size:11px;">数据严禁虚构 · 所有图片均经权威源页面核验并遵循开源共享许可</p>
+    <div class="colophon">
+      <div>
+        <div class="colophon-title">番货市集 · 东南亚十一国风物视觉数据库</div>
+        <p>福建泉州「市井十洲城」三个月慢闪商业文化项目 · 策展研究组</p>
+      </div>
+      <div style="font-family:var(--font-mono); font-size:12px; text-align:right;">
+        <p>CURATORIAL EDITION 2026 // ALL ASSETS REAL & VERIFIED</p>
+        <p style="color:var(--text-muted); margin-top:4px;">遵循 Creative Commons 知识共享与维基学术引证规范</p>
+      </div>
+    </div>
   </footer>
+
+  <!-- Direct script inclusion avoids CORS/fetch restrictions -->
   <script src="data.js"></script>
+
   <script>
-    let currentCountry = 'all';
-    let currentCategory = 'all';
-    let currentSearch = '';
-    let activeModalItem = null;
-    let activeModalImgIdx = 0;
+    // -----------------------------------------------------------------
+    // Core Exhibition State
+    // -----------------------------------------------------------------
+    let curCountry = 'all';
+    let curCategory = 'all';
+    let curSearch = '';
+    let curItem = null;
+    let curPhotoIndex = 0;
 
-    const cardsGrid = document.getElementById('cardsGrid');
-    const visibleCount = document.getElementById('visibleCount');
+    const countries = [
+      { code: 'all', name: '全部国度' },
+      { code: 'MY', name: '马来西亚' },
+      { code: 'TH', name: '泰国' },
+      { code: 'VN', name: '越南' },
+      { code: 'ID', name: '印度尼西亚' },
+      { code: 'SG', name: '新加坡' },
+      { code: 'PH', name: '菲律宾' },
+      { code: 'KH', name: '柬埔寨' },
+      { code: 'LA', name: '老挝' },
+      { code: 'MM', name: '缅甸' },
+      { code: 'BN', name: '文莱' },
+      { code: 'TL', name: '东帝汶' }
+    ];
+
+    const categories = [
+      { id: 'all', name: '全部分类' },
+      { id: '01', name: '01 自然景观' },
+      { id: '02', name: '02 城市街头' },
+      { id: '03', name: '03 地方建筑' },
+      { id: '04', name: '04 民俗节庆' },
+      { id: '05', name: '05 工艺器物' },
+      { id: '06', name: '06 饮食小贩' },
+      { id: '07', name: '07 传统服饰' },
+      { id: '08', name: '08 交通流动' },
+      { id: '09', name: '09 平面视觉' },
+      { id: '10', name: '10 地方物产' },
+      { id: '11', name: '11 宗教艺术' },
+      { id: '12', name: '12 民间表演' },
+      { id: '13', name: '13 日常物件' },
+      { id: '14', name: '14 创意商业' },
+      { id: '15', name: '15 色彩材质' }
+    ];
+
+    // DOM Elements
+    const galleryGrid = document.getElementById('galleryGrid');
+    const curCount = document.getElementById('curCount');
     const searchInput = document.getElementById('searchInput');
-    const countryFilters = document.getElementById('countryFilters');
-    const categoryFilters = document.getElementById('categoryFilters');
-    const detailModal = document.getElementById('detailModal');
-    const modalCloseBtn = document.getElementById('modalCloseBtn');
+    const countryRibbon = document.getElementById('countryRibbon');
+    const categoryRibbon = document.getElementById('categoryRibbon');
+    const themeToggleBtn = document.getElementById('themeToggleBtn');
+    const themeIcon = document.getElementById('themeIcon');
+    const dossierModal = document.getElementById('dossierModal');
+    const mCloseBtn = document.getElementById('mCloseBtn');
 
-    function initStats() {
-      if (typeof MATERIALS === 'undefined') return;
-      document.getElementById('statElements').innerText = MATERIALS.length;
-      let totalImgs = MATERIALS.reduce((sum, it) => sum + (it.images ? it.images.length : 0), 0);
-      document.getElementById('statImages').innerText = totalImgs;
-      let countries = new Set(MATERIALS.map(it => it.country_code));
-      document.getElementById('statCountries').innerText = countries.size;
+    // -----------------------------------------------------------------
+    // Theme Engine (Dark / Light Exhibition Atmosphere)
+    // -----------------------------------------------------------------
+    function initTheme() {
+      const saved = localStorage.getItem('curatorial_theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', saved);
+      updateThemeBtn(saved);
     }
 
-    function renderCards() {
-      if (typeof MATERIALS === 'undefined') {
-        cardsGrid.innerHTML = '<div style="color:red; padding:40px;">错误：未能加载 data.js。</div>';
-        return;
+    function toggleTheme() {
+      const cur = document.documentElement.getAttribute('data-theme');
+      const next = cur === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('curatorial_theme', next);
+      updateThemeBtn(next);
+    }
+
+    function updateThemeBtn(theme) {
+      if (theme === 'dark') {
+        themeIcon.innerText = '🌙';
+        document.getElementById('themeText').innerText = '暗室展厅';
+      } else {
+        themeIcon.innerText = '☀️';
+        document.getElementById('themeText').innerText = '暖白展厅';
       }
-      const q = currentSearch.trim().toLowerCase();
-      const filtered = MATERIALS.filter(item => {
-        if (currentCountry !== 'all' && item.country_code !== currentCountry) return false;
-        if (currentCategory !== 'all' && item.category_id !== currentCategory) return false;
-        if (q) {
-          const matchText = [item.id, item.name_cn, item.name_en, item.name_local, item.country, item.region, item.tradition, item.summary, item.tags, item.visual_keywords].join(' ').toLowerCase();
-          if (!matchText.includes(q)) return false;
-        }
-        return true;
-      });
-      visibleCount.innerText = filtered.length;
-      if (filtered.length === 0) {
-        cardsGrid.innerHTML = '<div style="grid-column: 1 / -1; padding: 60px 20px; text-align: center; color: var(--text-dim);"><p>未找到匹配的文化元素</p></div>';
-        return;
-      }
-      cardsGrid.innerHTML = filtered.map(item => {
-        const coverImg = (item.images && item.images.length > 0) ? item.images[0] : null;
-        const imgCount = item.images ? item.images.length : 0;
-        const tagsArr = item.tags ? item.tags.split('|').slice(0, 4) : [];
-        let imgHtml = coverImg ? '<img class="card-img" src="' + coverImg.html_rel_path + '" alt="' + item.name_cn + '" loading="lazy">' : '<div style="padding:40px; text-align:center;">待补图</div>';
-        return '<div class="card" onclick="openDetailModal(\'' + item.id + '\')">' +
-          '<div class="card-img-wrap">' +
-            imgHtml +
-            '<div class="card-badge-id">' + item.id + '</div>' +
-            (imgCount > 0 ? '<div class="card-img-count">📷 ' + imgCount + '张视点</div>' : '') +
-          '</div>' +
-          '<div class="card-body">' +
-            '<div class="card-meta-top">' +
-              '<span class="card-region">📍 ' + item.region + '</span>' +
-              '<span class="card-category">' + (item.category.split('｜')[1] || item.category) + '</span>' +
-            '</div>' +
-            '<h3 class="card-title">' + item.name_cn + '</h3>' +
-            '<div class="card-title-en">' + item.name_en + '</div>' +
-            '<p class="card-desc">' + item.summary + '</p>' +
-            '<div class="card-tags">' +
-              tagsArr.map(t => '<span class="tag-badge">' + t + '</span>').join('') +
-            '</div>' +
-          '</div>' +
-        '</div>';
+    }
+
+    themeToggleBtn.addEventListener('click', toggleTheme);
+
+    // -----------------------------------------------------------------
+    // Stats & Ribbon Init
+    // -----------------------------------------------------------------
+    function initStats() {
+      if (typeof MATERIALS === 'undefined') return;
+      document.getElementById('statItems').innerHTML = '<strong>' + MATERIALS.length + '</strong>';
+      const totalImgs = MATERIALS.reduce((sum, it) => sum + (it.images ? it.images.length : 0), 0);
+      document.getElementById('statImages').innerHTML = '<strong>' + totalImgs + '</strong>';
+      const cSet = new Set(MATERIALS.map(it => it.country_code));
+      document.getElementById('statCountries').innerHTML = '<strong>' + cSet.size + '</strong>';
+    }
+
+    function buildRibbons() {
+      if (typeof MATERIALS === 'undefined') return;
+
+      // Countries Ribbon
+      countryRibbon.innerHTML = '<span class="filter-tag-label">国家展区:</span>' + countries.map(c => {
+        const count = c.code === 'all' ? MATERIALS.length : MATERIALS.filter(x => x.country_code === c.code).length;
+        if (c.code !== 'all' && count === 0) return '';
+        const activeClass = c.code === curCountry ? 'active' : '';
+        return '<button class="ribbon-pill ' + activeClass + '" data-code="' + c.code + '">' + c.name + ' (' + count + ')</button>';
+      }).join('');
+
+      // Categories Ribbon
+      categoryRibbon.innerHTML = '<span class="filter-tag-label">文化分类:</span>' + categories.map(cat => {
+        const count = cat.id === 'all' ? MATERIALS.length : MATERIALS.filter(x => x.category_id === cat.id).length;
+        const activeClass = cat.id === curCategory ? 'active' : '';
+        return '<button class="ribbon-pill ' + activeClass + '" data-cat="' + cat.id + '">' + cat.name + ' (' + count + ')</button>';
       }).join('');
     }
 
-    function openDetailModal(id) {
-      const item = MATERIALS.find(it => it.id === id);
-      if (!item) return;
-      activeModalItem = item;
-      activeModalImgIdx = 0;
-      document.getElementById('modalIdBadge').innerText = item.id;
-      document.getElementById('modalCountryBadge').innerText = item.country;
-      document.getElementById('modalCategoryBadge').innerText = item.category;
-      document.getElementById('modalTitleCn').innerText = item.name_cn;
-      document.getElementById('modalTitleEn').innerText = item.name_en;
-      document.getElementById('modalLocalName').innerText = item.name_local || '待核';
-      document.getElementById('modalLocalRoman').innerText = item.name_local_roman || '—';
-      document.getElementById('modalRegion').innerText = item.region || '—';
-      document.getElementById('modalTradition').innerText = item.tradition || '—';
-      document.getElementById('modalSummary').innerText = item.summary;
-      const vf = item.visual_features || {};
-      document.getElementById('modalVfForm').innerText = vf.form || '—';
-      document.getElementById('modalVfColor').innerText = vf.color || '—';
-      document.getElementById('modalVfMaterial').innerText = vf.material || '—';
-      document.getElementById('modalVfPattern').innerText = vf.pattern || '—';
-      document.getElementById('modalVfSpace').innerText = vf.space || '—';
-      document.getElementById('modalVfDistinction').innerText = vf.distinction || '—';
-      const tagsContainer = document.getElementById('modalTags');
-      tagsContainer.innerHTML = item.tags ? item.tags.split('|').map(t => '<span class="tag-badge" style="font-size:12px; padding:3px 9px;">' + t + '</span>').join('') : '—';
-      const sourcesContainer = document.getElementById('modalSourcesList');
-      sourcesContainer.innerHTML = (item.sources && item.sources.length > 0) ? item.sources.map((src, i) => '<li>' + (i+1) + '. <a href="' + src.url + '" target="_blank">' + src.title + ' ↗</a></li>').join('') : '<li>暂无外部文献记录</li>';
-      renderModalImages();
-      detailModal.classList.add('active');
+    // -----------------------------------------------------------------
+    // Gallery Wall Rendering
+    // -----------------------------------------------------------------
+    function renderGallery() {
+      if (typeof MATERIALS === 'undefined') {
+        galleryGrid.innerHTML = '<div style="padding:60px; color:red; font-family:var(--font-mono);">未能加载 data.js，请确保 data.js 与 index.html 位于同级目录。</div>';
+        return;
+      }
+
+      const q = curSearch.trim().toLowerCase();
+
+      const items = MATERIALS.filter(it => {
+        if (curCountry !== 'all' && it.country_code !== curCountry) return false;
+        if (curCategory !== 'all' && it.category_id !== curCategory) return false;
+        if (q) {
+          const haystack = [
+            it.id, it.name_cn, it.name_en, it.name_local,
+            it.country, it.region, it.tradition, it.summary,
+            it.tags, it.visual_keywords
+          ].join(' ').toLowerCase();
+          if (!haystack.includes(q)) return false;
+        }
+        return true;
+      });
+
+      curCount.innerText = items.length;
+
+      if (items.length === 0) {
+        galleryGrid.innerHTML = `
+          <div style="grid-column: 1 / -1; padding: 100px 20px; text-align: center; color: var(--text-muted);">
+            <div style="font-size: 40px; margin-bottom: 12px; opacity: 0.6;">⟢</div>
+            <div style="font-family: var(--font-serif); font-size: 18px; color: var(--text-primary);">暂未寻绎到匹配之文化风物</div>
+            <p style="font-size: 13px; margin-top: 6px;">可尝试调整展区过滤或清空搜索关键词</p>
+          </div>
+        `;
+        return;
+      }
+
+      galleryGrid.innerHTML = items.map(item => {
+        const cover = (item.images && item.images.length > 0) ? item.images[0] : null;
+        const imgLen = item.images ? item.images.length : 0;
+        const tags = item.tags ? item.tags.split('|').slice(0, 3) : [];
+
+        const imgDom = cover
+          ? '<img class="card-photo" src="' + cover.html_rel_path + '" alt="' + item.name_cn + '" loading="lazy" onerror="this.onerror=null; this.parentElement.innerHTML=\'<div style=\\\"color:var(--text-muted); font-size:12px;\\\">📷 视点归档中</div>\';">'
+          : '<div style="color:var(--text-muted); font-size:12px;">🎨 待补图</div>';
+
+        return `
+          <article class="plaque-card" onclick="openDossier('${item.id}')">
+            <div class="card-mat">
+              ${imgDom}
+              <div class="card-id-stamp">${item.id}</div>
+              ${imgLen > 0 ? `<div class="card-photo-count">⎔ ${imgLen}视点</div>` : ''}
+            </div>
+            <div class="card-placard">
+              <div class="placard-provenance">
+                <span class="placard-region">📍 ${item.region}</span>
+                <span class="placard-cat-pill">${item.category.split('｜')[1] || item.category}</span>
+              </div>
+              <div class="placard-titles">
+                <h3 class="placard-title-cn">${item.name_cn}</h3>
+                <div class="placard-title-en">${item.name_en}</div>
+              </div>
+              <p class="placard-desc">${item.summary}</p>
+              <div class="placard-tags">
+                ${tags.map(t => `<span class="placard-tag"># ${t}</span>`).join('')}
+              </div>
+            </div>
+          </article>
+        `;
+      }).join('');
+    }
+
+    // -----------------------------------------------------------------
+    // Dossier Modal Interactions
+    // -----------------------------------------------------------------
+    function openDossier(id) {
+      const it = MATERIALS.find(x => x.id === id);
+      if (!it) return;
+
+      curItem = it;
+      curPhotoIndex = 0;
+
+      document.getElementById('mId').innerText = it.id;
+      document.getElementById('mCountry').innerText = it.country;
+      document.getElementById('mCategory').innerText = it.category;
+      document.getElementById('mTitleCn').innerText = it.name_cn;
+      document.getElementById('mTitleEn').innerText = it.name_en;
+
+      document.getElementById('mLocalName').innerText = it.name_local || '待核';
+      document.getElementById('mLocalRoman').innerText = it.name_local_roman || '—';
+      document.getElementById('mRegion').innerText = it.region || '—';
+      document.getElementById('mTradition').innerText = it.tradition || '—';
+      document.getElementById('mSummary').innerText = it.summary;
+
+      const vf = it.visual_features || {};
+      document.getElementById('mVfForm').innerText = vf.form || '—';
+      document.getElementById('mVfColor').innerText = vf.color || '—';
+      document.getElementById('mVfMaterial').innerText = vf.material || '—';
+      document.getElementById('mVfPattern').innerText = vf.pattern || '—';
+      document.getElementById('mVfSpace').innerText = vf.space || '—';
+      document.getElementById('mVfDistinction').innerText = vf.distinction || '—';
+
+      // Application Tags
+      const tagsEl = document.getElementById('mTags');
+      if (it.tags) {
+        tagsEl.innerHTML = it.tags.split('|').map(t => '<span class="app-tag-pill">' + t + '</span>').join('');
+      } else {
+        tagsEl.innerHTML = '—';
+      }
+
+      // Academic Sources
+      const sourcesEl = document.getElementById('mSources');
+      if (it.sources && it.sources.length > 0) {
+        sourcesEl.innerHTML = it.sources.map((s, idx) => 
+          '<li>' + (idx + 1) + '. <a href="' + s.url + '" target="_blank" rel="noopener noreferrer">' + s.title + ' ↗</a></li>'
+        ).join('');
+      } else {
+        sourcesEl.innerHTML = '<li>暂无著录</li>';
+      }
+
+      renderStagePhoto();
+
+      dossierModal.classList.add('active');
       document.body.style.overflow = 'hidden';
     }
 
-    function renderModalImages() {
-      const item = activeModalItem;
-      const mainImg = document.getElementById('modalMainImg');
-      const caption = document.getElementById('modalImgCaption');
-      const thumbsRow = document.getElementById('modalThumbsRow');
-      if (!item.images || item.images.length === 0) {
-        mainImg.src = '';
-        caption.innerText = '暂无本地图片';
-        thumbsRow.innerHTML = '';
+    function renderStagePhoto() {
+      const it = curItem;
+      const stagePhoto = document.getElementById('mStagePhoto');
+      const stageCaption = document.getElementById('mStageCaption');
+      const filmstrip = document.getElementById('mFilmstrip');
+
+      if (!it.images || it.images.length === 0) {
+        stagePhoto.src = '';
+        stageCaption.innerText = '暂无已核验的高清本地视点影像';
+        filmstrip.innerHTML = '';
+        document.getElementById('mAuthor').innerText = '—';
+        document.getElementById('mLicense').innerText = '—';
+        document.getElementById('mVerif').innerText = '待补图';
+        document.getElementById('mSourceUrl').style.display = 'none';
         return;
       }
-      const curImg = item.images[activeModalImgIdx] || item.images[0];
-      mainImg.src = curImg.html_rel_path;
-      caption.innerHTML = '<strong>视点 ' + (activeModalImgIdx + 1) + ' (' + curImg.content_type + ')</strong>：' + curImg.title;
-      document.getElementById('modalImgAuthor').innerText = curImg.author || 'Wikimedia Commons';
-      document.getElementById('modalImgLicense').innerText = curImg.license || 'CC-BY-SA';
-      document.getElementById('modalImgVerif').innerText = curImg.verification || '已核验';
-      const srcLink = document.getElementById('modalImgSourceLink');
-      srcLink.href = curImg.source_page_url;
-      thumbsRow.innerHTML = item.images.map((img, idx) => 
-        '<img class="modal-thumb ' + (idx === activeModalImgIdx ? 'active' : '') + '" src="' + img.html_rel_path + '" onclick="switchModalImage(' + idx + ')">'
-      ).join('');
+
+      const photo = it.images[curPhotoIndex] || it.images[0];
+      stagePhoto.src = photo.html_rel_path;
+      stageCaption.innerHTML = '<strong>视点 ' + (curPhotoIndex + 1) + ' · ' + photo.content_type + '</strong> ── ' + photo.title;
+
+      document.getElementById('mAuthor').innerText = photo.author || 'Wikimedia Contributor';
+      document.getElementById('mLicense').innerText = photo.license || 'CC-BY-SA';
+      document.getElementById('mVerif').innerText = photo.verification || '已访问实勘源';
+
+      const urlEl = document.getElementById('mSourceUrl');
+      urlEl.href = photo.source_page_url;
+      urlEl.style.display = 'inline-block';
+
+      filmstrip.innerHTML = it.images.map((img, i) => `
+        <img class="filmstrip-frame ${i === curPhotoIndex ? 'active' : ''}" src="${img.html_rel_path}" onclick="switchStagePhoto(${i})">
+      `).join('');
     }
 
-    function switchModalImage(idx) {
-      activeModalImgIdx = idx;
-      renderModalImages();
+    function switchStagePhoto(index) {
+      curPhotoIndex = index;
+      renderStagePhoto();
     }
 
-    function closeModal() {
-      detailModal.classList.remove('active');
+    function closeDossier() {
+      dossierModal.classList.remove('active');
       document.body.style.overflow = '';
-      activeModalItem = null;
+      curItem = null;
     }
 
-    modalCloseBtn.addEventListener('click', closeModal);
-    detailModal.addEventListener('click', (e) => { if (e.target === detailModal) closeModal(); });
-    document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && detailModal.classList.contains('active')) closeModal(); });
-
-    countryFilters.addEventListener('click', (e) => {
-      const btn = e.target.closest('.pill-btn');
-      if (!btn) return;
-      countryFilters.querySelectorAll('.pill-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      currentCountry = btn.dataset.country;
-      renderCards();
+    mCloseBtn.addEventListener('click', closeDossier);
+    dossierModal.addEventListener('click', (e) => {
+      if (e.target === dossierModal) closeDossier();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && dossierModal.classList.contains('active')) closeDossier();
     });
 
-    categoryFilters.addEventListener('click', (e) => {
-      const btn = e.target.closest('.pill-btn');
+    // -----------------------------------------------------------------
+    // Filters & Event Delegation
+    // -----------------------------------------------------------------
+    countryRibbon.addEventListener('click', (e) => {
+      const btn = e.target.closest('.ribbon-pill');
       if (!btn) return;
-      categoryFilters.querySelectorAll('.pill-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      currentCategory = btn.dataset.category;
-      renderCards();
+      curCountry = btn.dataset.code;
+      buildRibbons();
+      renderGallery();
     });
 
+    categoryRibbon.addEventListener('click', (e) => {
+      const btn = e.target.closest('.ribbon-pill');
+      if (!btn) return;
+      curCategory = btn.dataset.cat;
+      buildRibbons();
+      renderGallery();
+    });
+
+    function resetAllFilters() {
+      curCountry = 'all';
+      curCategory = 'all';
+      curSearch = '';
+      searchInput.value = '';
+      buildRibbons();
+      renderGallery();
+    }
+
+    let searchDebounce = null;
     searchInput.addEventListener('input', (e) => {
-      currentSearch = e.target.value;
-      renderCards();
+      clearTimeout(searchDebounce);
+      searchDebounce = setTimeout(() => {
+        curSearch = e.target.value;
+        renderGallery();
+      }, 150);
     });
 
+    // -----------------------------------------------------------------
+    // Boot Initialization
+    // -----------------------------------------------------------------
     window.addEventListener('DOMContentLoaded', () => {
+      initTheme();
       initStats();
-      renderCards();
+      buildRibbons();
+      renderGallery();
     });
   </script>
 </body>
