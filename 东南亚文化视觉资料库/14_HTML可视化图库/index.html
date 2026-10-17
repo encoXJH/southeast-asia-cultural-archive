@@ -382,22 +382,46 @@
     /* Photo Museum Mat Frame */
     .card-mat {
       width: 100%;
-      height: 250px;
+      height: 260px;
       background: var(--mat-bg);
       position: relative;
       overflow: hidden;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 8px;
+      display: block;
     }
 
     .card-photo {
       width: 100%;
       height: 100%;
       object-fit: cover;
-      border-radius: 4px;
-      transition: transform 0.6s var(--ease-out);
+      object-position: center;
+      display: block;
+      opacity: 0;
+      transition: transform 0.6s var(--ease-out), opacity 0.4s ease;
+    }
+    .plaque-card:hover .card-photo {
+      transform: scale(1.05);
+    }
+    .card-photo-fallback {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: var(--bg-surface-elevated);
+      color: var(--text-muted);
+      font-size: 13px;
+      font-family: var(--font-mono);
+      z-index: 1;
+    }
+    .card-photo {
+      position: relative;
+      z-index: 2;
+    }
+    /* Contain mode support */
+    [data-fit="contain"] .card-photo {
+      object-fit: contain;
+      background: #000;
     }
 
     .plaque-card:hover .card-photo {
@@ -910,6 +934,9 @@
             <div>核验标准: <span style="color:var(--accent-celadon); font-weight:700;">100% 原始考据</span></div>
           </div>
 
+          <button class="theme-toggle-btn" id="fitToggleBtn" title="切换画面填充方式 (充满裁剪 / 完整保留原图比例)" style="margin-right:8px;">
+            <span id="fitIcon">🖼️</span> <span id="fitText">填充: 充满</span>
+          </button>
           <button class="theme-toggle-btn" id="themeToggleBtn" title="切换展厅光照氛围 (暗室 / 暖白)">
             <span id="themeIcon">🌓</span> <span id="themeText">展厅氛围</span>
           </button>
@@ -1230,14 +1257,14 @@
         const imgLen = item.images ? item.images.length : 0;
         const tags = item.tags ? item.tags.split('|').slice(0, 3) : [];
 
-        const imgDom = cover
-          ? '<img class="card-photo" src="' + cover.html_rel_path + '" alt="' + item.name_cn + '" loading="lazy" onerror="this.onerror=null; this.parentElement.innerHTML=\'<div style=\\\"color:var(--text-muted); font-size:12px;\\\">📷 视点归档中</div>\';">'
-          : '<div style="color:var(--text-muted); font-size:12px;">🎨 待补图</div>';
-
         return `
           <div class="plaque-card" data-id="${item.id}" onclick="openDossier('${item.id}')" role="button" tabindex="0">
             <div class="card-mat">
-              ${imgDom}
+              <div class="card-photo-fallback">
+                <span>📷 视点载入中</span>
+                <span style="font-size:11px; color:var(--text-muted); margin-top:4px;">${item.name_cn}</span>
+              </div>
+              ${cover ? `<img class="card-photo" src="${cover.html_rel_path}" alt="${item.name_cn}" loading="lazy" onload="this.style.opacity='1'" onerror="this.style.opacity='0'">` : ''}
               <div class="card-id-stamp">${item.id}</div>
               ${imgLen > 0 ? `<div class="card-photo-count">⎔ ${imgLen}视点</div>` : ''}
             </div>
@@ -1427,6 +1454,31 @@
     // -----------------------------------------------------------------
     // Boot Initialization
     // -----------------------------------------------------------------
+    
+    // -----------------------------------------------------------------
+    // Image Fit Toggle (Cover / Contain)
+    // -----------------------------------------------------------------
+    let curFitMode = localStorage.getItem('gallery_fit_mode') || 'cover';
+    const fitToggleBtn = document.getElementById('fitToggleBtn');
+    const fitText = document.getElementById('fitText');
+
+    function applyFitMode(mode) {
+      curFitMode = mode;
+      document.body.setAttribute('data-fit', mode);
+      localStorage.setItem('gallery_fit_mode', mode);
+      if (fitText) {
+        fitText.innerText = mode === 'cover' ? '填充: 充满' : '填充: 适应';
+      }
+    }
+
+    if (fitToggleBtn) {
+      fitToggleBtn.addEventListener('click', () => {
+        const next = curFitMode === 'cover' ? 'contain' : 'cover';
+        applyFitMode(next);
+      });
+    }
+    applyFitMode(curFitMode);
+
     window.addEventListener('DOMContentLoaded', () => {
       initTheme();
       initStats();
