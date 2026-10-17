@@ -3013,5 +3013,2123 @@ const MATERIALS = [
       "老陶瓮堆叠陈设",
       "安南古风"
     ]
+  },
+  {
+    "id": "ID-03-0001",
+    "country_code": "ID",
+    "country": "印度尼西亚",
+    "region": "巴厘省登巴萨及吉安雅",
+    "category_id": "03",
+    "category": "03｜地方特色建筑",
+    "name_cn": "巴厘岛传统善恶门（Candi Bentar 劈裂式入口大门）",
+    "name_en": "Balinese Split Gateway (Candi Bentar)",
+    "name_local": "Candi Bentar",
+    "name_local_roman": "—",
+    "tradition": "巴厘印度教神庙建筑空间序列、宇宙神山剖分哲学",
+    "summary": "善恶门（Candi Bentar，意为'开裂的佛塔'）是巴厘岛印度教神庙（Pura）与传统聚落大门最具震撼力的标志性建筑构件。大门在外观上如同将一座完整的阶梯状锥形神塔自正中垂直劈裂为两半，两扇高耸的红砖或火山岩门扇呈左右严格镜面对称，中间空出狭窄通道。其神学寓意源自印度教曼陀罗山（Mount Meru）被劈为两半以压制善恶力量的创世神话，象征跨入此门即跨越世俗与神圣的界限，恶念与污秽将被阻挡于门外，在巴厘岛碧海蓝天与梯田掩映下形成直插云霄的深邃视觉框景。",
+    "visual_features": {
+      "form": "左右两尊高约4至8米的阶梯形对称直立石门，外缘呈阶梯级层层跌落并带微挑翼角，内侧为绝对垂直的门道切面。",
+      "color": "暗红粘土烧结砖与风化深灰/纯黑色火山熔岩石（Batu Candi）交错，局部镶嵌白色灰浆或金色漆饰。",
+      "material": "红黏土砖、黑色多孔火山安山岩、石灰砂浆、黑色棕榈纤维草（Ijuk）护檐。",
+      "pattern": "巴厘传统卡拉神面（Bhoma / Kala，辟邪饕餮兽面）、蔓草波状浮雕与繁密层叠的回纹台基。",
+      "space": "两门之间净宽通常仅1.5至2.2米，形成极其强烈的视线收缩聚集效应与向内庭神圣空间的戏剧化'框景'透视。",
+      "distinction": "门顶完全不设横梁或过梁连接，纯靠两个独立自由立于地面的高耸体块形成强烈的垂直张力与'破开'视觉冲击。"
+    },
+    "visual_keywords": "垂直劈裂神山|左右严格镜像|火山黑石与红砖|卡拉兽面浮雕|神圣边界框景|无过梁门洞",
+    "tags": "特色建筑|神庙门楼|空间入口|视觉对景|火山石雕|仪式感装置",
+    "images_meta": [
+      {
+        "file_title": "File:Kebun Raya Bali Candi Bentar IMG 8794.jpg",
+        "title": "巴厘岛典型善恶门红砖与火山石阶梯式对称全貌",
+        "content_type": "整体"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ministry of Tourism and Creative Economy Republic of Indonesia - Balinese Sacred Architecture",
+        "url": "https://www.indonesia.travel"
+      },
+      {
+        "title": "Balinese Architecture Heritage Archive",
+        "url": "https://kebunraya.id"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "巴厘岛典型善恶门红砖与火山石阶梯式对称全貌",
+        "content_type": "整体",
+        "local_path": "12_图片素材库/ID/03/ID-03-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/ID/03/ID-03-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Kebun_Raya_Bali_Candi_Bentar_IMG_8794.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Kebun_Raya_Bali_Candi_Bentar_IMG_8794.jpg/1280px-Kebun_Raya_Bali_Candi_Bentar_IMG_8794.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Kebun_Raya_Bali_Candi_Bentar_IMG_8794.jpg",
+        "author": "KRBali",
+        "license": "CC0",
+        "verification": "已访问源页面",
+        "file_size": 425828
+      }
+    ],
+    "tags_array": [
+      "特色建筑",
+      "神庙门楼",
+      "空间入口",
+      "视觉对景",
+      "火山石雕",
+      "仪式感装置"
+    ],
+    "visual_keywords_array": [
+      "垂直劈裂神山",
+      "左右严格镜像",
+      "火山黑石与红砖",
+      "卡拉兽面浮雕",
+      "神圣边界框景",
+      "无过梁门洞"
+    ]
+  },
+  {
+    "id": "ID-11-0001",
+    "country_code": "ID",
+    "country": "印度尼西亚",
+    "region": "巴厘省全岛",
+    "category_id": "11",
+    "category": "11｜宗教艺术与民间信仰",
+    "name_cn": "巴厘岛每日街头花祭祭品盒（Canang Sari 椰叶花篮）",
+    "name_en": "Balinese Daily Floral Offerings (Canang Sari)",
+    "name_local": "Canang sari",
+    "name_local_roman": "—",
+    "tradition": "巴厘印度教宇宙平衡秩序（Tri Hita Karana）每日谢恩祈福",
+    "summary": "查南萨里（Canang Sari）是巴厘岛街头巷尾出镜率最高、最具自然生命香气的民间信仰物产。每日清晨，巴厘岛妇女使用嫩黄绿色的天然椰子树叶（Janur）手工折叠、牙签钉合出边长约10厘米的精巧方形无底或浅盘花盒。盒内整齐按方位安放代表印度教四大主神的各色鲜花瓣：东向白姜花、南向红朱槿、西向黄万寿菊、北向蓝紫蝴蝶花，正中点缀象征平静的绿色香兰叶丝（Porosan）与一枚硬币，并点燃一支细长檀香线香。从神庙神龛、家门石阶、路口转角到店铺收银台与摩托车踏板，整个海岛空气中皆弥漫着花瓣与焚香交融的宁静气息。",
+    "visual_features": {
+      "form": "扁平正方形或八角星形小浅盘，由椰叶细条经折叠穿插构成边缘锯齿花边；上方鲜花瓣呈放射状色彩分区聚拢。",
+      "color": "嫩黄绿鲜椰叶底托，与白、红、黄、紫四色新鲜花瓣形成极清新的自然生机色盘，升腾起缕缕青灰色檀香烟气。",
+      "material": "幼嫩椰子叶（Janur）、热带新鲜花瓣、槟榔叶包石灰膏（Porosan）、细竹签、草本线香与印尼盾小硬币。",
+      "pattern": "椰树叶编织的锯齿状折边纹理、四方五位花瓣色彩曼陀罗排列秩序。",
+      "space": "单体小巧轻盈，但以数以万计的密度散布在全岛所有地表与台阶拐角，将全岛地面转化为巨大的活态花卉祭坛网络。",
+      "distinction": "强调纯天然植物可生物降解的短暂生命美学（每天必须更换新供），花瓣色彩严格对应哲学方位，绝非随意插花拼凑。"
+    },
+    "visual_keywords": "嫩椰叶折叠盒|四色鲜花曼陀罗|万寿菊黄朱槿红|线香升腾微烟|全岛地表散布|每日生活仪式",
+    "tags": "民间信仰|花艺装置|微型器物|香氛氛围|日常仪式|色彩美学",
+    "images_meta": [
+      {
+        "file_title": "File:Canang sari.jpg",
+        "title": "巴厘岛石雕地面上摆放的新鲜嫩椰叶折叠花盒与四色花瓣特写",
+        "content_type": "整体/局部细节"
+      },
+      {
+        "file_title": "File:Canang sari 1.jpg",
+        "title": "装满五彩热带花瓣并插有燃烧线香的Canang Sari实景视点",
+        "content_type": "局部细节/使用场景"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Wonderful Indonesia - The Philosophy of Canang Sari in Bali",
+        "url": "https://www.indonesia.travel"
+      },
+      {
+        "title": "Denpasar Cultural Office - Traditional Balinese Hindu Rituals",
+        "url": "https://kebudayaan.denpasarkota.go.id"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "巴厘岛石雕地面上摆放的新鲜嫩椰叶折叠花盒与四色花瓣特写",
+        "content_type": "整体/局部细节",
+        "local_path": "12_图片素材库/ID/11/ID-11-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/ID/11/ID-11-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Canang_sari.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Canang_sari.jpg/1280px-Canang_sari.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Canang_sari.jpg",
+        "author": "Dennis Sylvester Hurd",
+        "license": "CC0",
+        "verification": "已访问源页面",
+        "file_size": 353933
+      },
+      {
+        "index": 2,
+        "title": "装满五彩热带花瓣并插有燃烧线香的Canang Sari实景视点",
+        "content_type": "局部细节/使用场景",
+        "local_path": "12_图片素材库/ID/11/ID-11-0001_2.jpg",
+        "html_rel_path": "../12_图片素材库/ID/11/ID-11-0001_2.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Canang_sari_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Canang_sari_1.jpg/1280px-Canang_sari_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Canang_sari_1.jpg",
+        "author": "Mx. Granger",
+        "license": "CC0",
+        "verification": "已访问源页面",
+        "file_size": 825092
+      }
+    ],
+    "tags_array": [
+      "民间信仰",
+      "花艺装置",
+      "微型器物",
+      "香氛氛围",
+      "日常仪式",
+      "色彩美学"
+    ],
+    "visual_keywords_array": [
+      "嫩椰叶折叠盒",
+      "四色鲜花曼陀罗",
+      "万寿菊黄朱槿红",
+      "线香升腾微烟",
+      "全岛地表散布",
+      "每日生活仪式"
+    ]
+  },
+  {
+    "id": "ID-03-0002",
+    "country_code": "ID",
+    "country": "印度尼西亚",
+    "region": "西苏门答腊省巴东及巴东班让",
+    "category_id": "03",
+    "category": "03｜地方特色建筑",
+    "name_cn": "西苏门答腊米南加保水牛角形大屋（Rumah Gadang）",
+    "name_en": "Minangkabau Buffalo Horn Curved House (Rumah Gadang)",
+    "name_local": "Rumah Gadang",
+    "name_local_roman": "—",
+    "tradition": "米南加保母系氏族大家族长屋、苏门答腊高原水牛图腾崇拜",
+    "summary": "大屋（Rumah Gadang）是西苏门答腊省米南加保族（Minangkabau）母系氏族社会的传统宗族大宅。其最震撼人心的视觉特征是其高耸入云的鞍形屋顶（Gonjong）——多达四至六个屋脊尖端呈极夸张的倒抛物线弧度向天空翻卷翘起，形似昂首挺立的雄水牛双角，直刺苍穹。整栋长屋长达数十米，采用重型高脚硬木柱网支撑架空，外立面山墙与门窗木板全部满工精雕细琢并彩绘华丽的热带花鸟与几何蔓草纹，具有极强的雕塑感与群族凝聚力象征。",
+    "visual_features": {
+      "form": "两头高翘、中部微沉的巨大弧形鞍形大屋面，屋脊两端及中段耸立多道锋利上扬的牛角状尖角（Gonjong）；下部为长条形柱廊长屋。",
+      "color": "深黑或铁灰色的棕榈糖纤维（Ijuk）屋面，外墙木板施以朱砂红、赭石黄、群青与正黑四色传统矿物彩绘雕花。",
+      "material": "高强度铁木与婆罗洲红木柱梁、野生糖棕树黑纤维皮（Ijuk）层叠铺顶、手工雕刻硬木板墙。",
+      "pattern": "米南加保传统象征图案：水蕨卷芽纹（Itik Pulang Petang 鸭群傍晚归巢纹）、方形菱格几何纹与缠枝木兰花饰。",
+      "space": "进深较浅但横向面宽极大（通常五至七开间，长达20至40米），前方常对称配建两座同样牛角飞檐的小型粮仓（Rangkiang）。",
+      "distinction": "全球独一无二的超大弧度牛角形屋脊造型，飞翘尖角极为尖锐修长，展现出母系氏族建筑超凡的张力与骄傲自信。"
+    },
+    "visual_keywords": "雄水牛角屋脊Gonjong|母系氏族长屋|黑棕榈纤维大屋顶|满雕彩绘木山墙|对称粮仓Rangkiang|高脚架空",
+    "tags": "特色建筑|图腾标志|木雕立面|空间中枢|非遗建筑|民俗地标",
+    "images_meta": [
+      {
+        "file_title": "File:Rumah Gadang.jpg",
+        "title": "西苏门答腊米南加保传统大屋飞翘牛角屋顶与全木结构正面全貌",
+        "content_type": "整体"
+      },
+      {
+        "file_title": "File:Ukiran dinding rumah gadang.jpg",
+        "title": "米南加保大屋木墙表面繁密精细的传统红黄黑彩绘透雕花纹细节",
+        "content_type": "局部细节"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ministry of Education and Culture Indonesia - Rumah Gadang Architecture",
+        "url": "https://kebudayaan.kemdikbud.go.id"
+      },
+      {
+        "title": "West Sumatra Tourism Board - The Heritage of Minangkabau Culture",
+        "url": "https://sumbarprov.go.id"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "西苏门答腊米南加保传统大屋飞翘牛角屋顶与全木结构正面全貌",
+        "content_type": "整体",
+        "local_path": "12_图片素材库/ID/03/ID-03-0002_1.jpg",
+        "html_rel_path": "../12_图片素材库/ID/03/ID-03-0002_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Rumah_Gadang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Rumah_Gadang.jpg/1280px-Rumah_Gadang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Rumah_Gadang.jpg",
+        "author": "MichaelJLowe",
+        "license": "CC BY-SA 2.5",
+        "verification": "已访问源页面",
+        "file_size": 504479
+      },
+      {
+        "index": 2,
+        "title": "米南加保大屋木墙表面繁密精细的传统红黄黑彩绘透雕花纹细节",
+        "content_type": "局部细节",
+        "local_path": "12_图片素材库/ID/03/ID-03-0002_2.jpg",
+        "html_rel_path": "../12_图片素材库/ID/03/ID-03-0002_2.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Ukiran_dinding_rumah_gadang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Ukiran_dinding_rumah_gadang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Ukiran_dinding_rumah_gadang.jpg",
+        "author": "https://www.flickr.com/people/buitenzorger",
+        "license": "CC BY-SA 2.0",
+        "verification": "已访问源页面",
+        "file_size": 1141989
+      }
+    ],
+    "tags_array": [
+      "特色建筑",
+      "图腾标志",
+      "木雕立面",
+      "空间中枢",
+      "非遗建筑",
+      "民俗地标"
+    ],
+    "visual_keywords_array": [
+      "雄水牛角屋脊Gonjong",
+      "母系氏族长屋",
+      "黑棕榈纤维大屋顶",
+      "满雕彩绘木山墙",
+      "对称粮仓Rangkiang",
+      "高脚架空"
+    ]
+  },
+  {
+    "id": "ID-03-0003",
+    "country_code": "ID",
+    "country": "印度尼西亚",
+    "region": "南苏拉威西省托拉雅高地",
+    "category_id": "03",
+    "category": "03｜地方特色建筑",
+    "name_cn": "南苏拉威西托拉雅族船形高脚祖屋（Tongkonan）",
+    "name_en": "Toraja Boat-Shaped Ancestral Houses (Tongkonan)",
+    "name_local": "Tongkonan",
+    "name_local_roman": "—",
+    "tradition": "托拉雅族（Toraja）祖先崇拜与泛灵信仰、传统巨型木构祖屋",
+    "summary": "通科南（Tongkonan，源自托拉雅语 tongkon 意为'聚坐商议之地'）是南苏拉威西省高山地区托拉雅族的原生祖屋与家族精神枢纽。其外观最显著特征为巨型前后悬挑长达数米的弧形大屋顶，两头高高向上翘起，形如一艘破浪前行的巨大独木舟（象征托拉雅祖先渡海南来婆罗洲时所乘之龙舟）。整座房屋由粗大圆木立柱支撑架空，面朝北面圣山，正门前中柱上整齐层叠悬挂家族历代牺牲祭祀的水牛角（Tanduk Kerbau），数量常多达数十支，直接彰显家族的历史声望与财富威望。",
+    "visual_features": {
+      "form": "极度夸张的前后悬挑弧形船形巨型屋顶，前后两端上翘高度远超屋身，下承厚重圆柱架构林立的高脚架空底层。",
+      "color": "传统四色体系：红（血与生命）、黄（上帝之福）、白（纯洁肉身）、黑（死亡与黑暗），绘满整座外墙木板。",
+      "material": "红木与铁木圆木柱身、层叠竹筒瓦/镀锌波纹铁皮大弧度大屋面、天然水牛犄角饰件、矿物泥土颜料。",
+      "pattern": "红黄黑白色几何浮雕木刻：水牛头图腾（Pa'teddong）、太阳放射纹（Pa'barre Allo）与水禽纹理（Pa'manuk Londong）。",
+      "space": "祖屋通常成排朝北排列，对侧严格对称排布数座小型粮食仓（Alang），中间形成宽阔的长方形公共庆典中庭大道。",
+      "distinction": "悬挑跨度极其惊人的船形大顶与门前垂直重叠的水牛角阵列，具有原始神秘且极具压迫感的高山部落史诗感。"
+    },
+    "visual_keywords": "悬挑船形大屋面|成列水牛角中柱|红黄黑白四色木雕|水牛头图腾Pa'teddong|对向粮食仓Alang|祖先纪念建筑",
+    "tags": "特色建筑|原始图腾|船形屋顶|木雕纹样|空间阵列|人类学田野",
+    "images_meta": [
+      {
+        "file_title": "File:Tongkonan, Toraja houses.jpg",
+        "title": "托拉雅高山村落中成排耸立的船形巨顶Tongkonan祖屋群全貌",
+        "content_type": "整体"
+      },
+      {
+        "file_title": "File:Tongkonan Toraja.jpg",
+        "title": "祖屋正立面悬挂的水牛角阵列与繁密四色几何木雕特写",
+        "content_type": "局部细节"
+      }
+    ],
+    "sources": [
+      {
+        "title": "UNESCO World Heritage Centre - Tentative Lists: Tana Toraja Traditional Settlement",
+        "url": "https://whc.unesco.org/en/tentativelists/5462"
+      },
+      {
+        "title": "South Sulawesi Tourism Office - Toraja Heritage Trail",
+        "url": "https://sulselprov.go.id"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "托拉雅高山村落中成排耸立的船形巨顶Tongkonan祖屋群全貌",
+        "content_type": "整体",
+        "local_path": "12_图片素材库/ID/03/ID-03-0003_1.jpg",
+        "html_rel_path": "../12_图片素材库/ID/03/ID-03-0003_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Tongkonan%2C_Toraja_houses.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Tongkonan%2C_Toraja_houses.jpg/1280px-Tongkonan%2C_Toraja_houses.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Tongkonan,_Toraja_houses.jpg",
+        "author": "RianHS",
+        "license": "CC BY-SA 4.0",
+        "verification": "已访问源页面",
+        "file_size": 465091
+      },
+      {
+        "index": 2,
+        "title": "祖屋正立面悬挂的水牛角阵列与繁密四色几何木雕特写",
+        "content_type": "局部细节",
+        "local_path": "12_图片素材库/ID/03/ID-03-0003_2.jpg",
+        "html_rel_path": "../12_图片素材库/ID/03/ID-03-0003_2.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Tongkonan_Toraja.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Tongkonan_Toraja.jpg/1280px-Tongkonan_Toraja.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Tongkonan_Toraja.jpg",
+        "author": "Idris prasetiawan",
+        "license": "CC BY-SA 4.0",
+        "verification": "已访问源页面",
+        "file_size": 346862
+      }
+    ],
+    "tags_array": [
+      "特色建筑",
+      "原始图腾",
+      "船形屋顶",
+      "木雕纹样",
+      "空间阵列",
+      "人类学田野"
+    ],
+    "visual_keywords_array": [
+      "悬挑船形大屋面",
+      "成列水牛角中柱",
+      "红黄黑白四色木雕",
+      "水牛头图腾Pa'teddong",
+      "对向粮食仓Alang",
+      "祖先纪念建筑"
+    ]
+  },
+  {
+    "id": "ID-12-0001",
+    "country_code": "ID",
+    "country": "印度尼西亚",
+    "region": "中爪哇省与日惹特区",
+    "category_id": "12",
+    "category": "12｜民间表演与传统艺术",
+    "name_cn": "爪哇传统古典皮影戏（Wayang Kulit Purwa）",
+    "name_en": "Javanese Classical Shadow Puppetry (Wayang Kulit Purwa)",
+    "name_local": "Wayang Kulit Purwa",
+    "name_local_roman": "—",
+    "tradition": "印尼爪哇古典宫廷与民间史诗皮影、2003年联合国首批非遗代表作",
+    "summary": "爪哇皮影戏（Wayang Kulit Purwa）是印度尼西亚群岛文化中历史最深厚、艺术造诣最完备的戏曲叙事体系，2003年被联合国教科文组织评为人类口头与非物质文化遗产代表作。演职核心为说书操偶大师（Ki Dalang），其在整夜（通常长达7至9小时）演出中一人操弄数十个精巧水牛皮偶人，吟唱古爪哇诗歌（Kawi），并指挥后方由青铜排钟、铜锣组成的甘美兰交响乐团（Gamelan）。影偶造型极度修长抽象，面部线条优雅细长，具有高度风格化的古典贵族审美，透过油灯将黑白剪影投射在白色棉布幕（Kelir）上，传递深刻的宇宙伦理与道德哲学。",
+    "visual_features": {
+      "form": "极度修长挺拔的轮廓线，尖长下巴、杏核细眼、修长双臂；手臂关节由水牛角细杆连接操纵，姿态极尽婀娜优雅。",
+      "color": "偶身双面涂饰纯金金箔、朱砂红、黛黑与石青矿物颜料，透光投射于白布幕上呈现出边缘极锐利的黑色剪影与微光色晕。",
+      "material": "手工鞣制刮薄至半透明的水牛皮、水牛角雕琢手柄（Cempurit）、黄铜铰链铆钉、矿物骨胶颜料。",
+      "pattern": "精密如蛛网的细微圆孔冲子与排线镂空花纹；代表王室的经典几何卷草花纹与神禽羽鳞图案。",
+      "space": "白布幕两端插满芭蕉树树干（Debog），右侧插善神方偶人，左侧插恶神方偶人，大师坐于中央，形成极具仪式感的舞台场域。",
+      "distinction": "比马来西亚皮影更为修长、优雅且抽象化，双臂动作幅度极大，雕刻孔洞极其细密剔透，带有深刻的爪哇王家宫廷哲学底蕴。"
+    },
+    "visual_keywords": "修长水牛皮偶|纯金金箔矿物彩绘|甘美兰大铜锣伴奏|操偶大师Ki Dalang|白布幕芭蕉树台|爪哇宫廷哲学",
+    "tags": "非遗艺术|光影剧场|皮影装置|古典叙事|声音景观|精神图腾",
+    "images_meta": [
+      {
+        "file_title": "File:Pertunjukan Wayang Kulit.jpg",
+        "title": "日惹传统皮影大师幕后伴随甘美兰乐团演奏操纵偶人表演现场",
+        "content_type": "整体/使用场景"
+      },
+      {
+        "file_title": "File:Bercerita dengan Wayang.jpg",
+        "title": "爪哇皮影精致半透明水牛皮镂雕与长柄牛角手把细节特写",
+        "content_type": "局部细节"
+      }
+    ],
+    "sources": [
+      {
+        "title": "UNESCO Intangible Cultural Heritage - Wayang Puppet Theatre",
+        "url": "https://ich.unesco.org/en/RL/wayang-puppet-theatre-00063"
+      },
+      {
+        "title": "Kraton Ngayogyakarta Hadiningrat Official Heritage Portal",
+        "url": "https://kratonjogja.id"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "日惹传统皮影大师幕后伴随甘美兰乐团演奏操纵偶人表演现场",
+        "content_type": "整体/使用场景",
+        "local_path": "12_图片素材库/ID/12/ID-12-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/ID/12/ID-12-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Pertunjukan_Wayang_Kulit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Pertunjukan_Wayang_Kulit.jpg/1280px-Pertunjukan_Wayang_Kulit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Pertunjukan_Wayang_Kulit.jpg",
+        "author": "FaizAttariqi",
+        "license": "CC BY-SA 4.0",
+        "verification": "已访问源页面",
+        "file_size": 168574
+      },
+      {
+        "index": 2,
+        "title": "爪哇皮影精致半透明水牛皮镂雕与长柄牛角手把细节特写",
+        "content_type": "局部细节",
+        "local_path": "12_图片素材库/ID/12/ID-12-0001_2.jpg",
+        "html_rel_path": "../12_图片素材库/ID/12/ID-12-0001_2.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Bercerita_dengan_Wayang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Bercerita_dengan_Wayang.jpg/1280px-Bercerita_dengan_Wayang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Bercerita_dengan_Wayang.jpg",
+        "author": "Candra Firmansyah",
+        "license": "CC BY-SA 4.0",
+        "verification": "已访问源页面",
+        "file_size": 249354
+      }
+    ],
+    "tags_array": [
+      "非遗艺术",
+      "光影剧场",
+      "皮影装置",
+      "古典叙事",
+      "声音景观",
+      "精神图腾"
+    ],
+    "visual_keywords_array": [
+      "修长水牛皮偶",
+      "纯金金箔矿物彩绘",
+      "甘美兰大铜锣伴奏",
+      "操偶大师Ki Dalang",
+      "白布幕芭蕉树台",
+      "爪哇宫廷哲学"
+    ]
+  },
+  {
+    "id": "ID-05-0001",
+    "country_code": "ID",
+    "country": "印度尼西亚",
+    "region": "中爪哇省梭罗与日惹",
+    "category_id": "05",
+    "category": "05｜民间工艺与传统器物",
+    "name_cn": "爪哇传统手绘蜡染铜印印模（Batik Cap / 纯铜印模）",
+    "name_en": "Javanese Traditional Batik Copper Stamp (Canting Cap)",
+    "name_local": "Canting Cap",
+    "name_local_roman": "—",
+    "tradition": "爪哇岛19世纪工业化手艺革新、世界非遗印尼蜡染经典工具",
+    "summary": "铜印蜡染模具（Canting Cap，简称 Cap）是19世纪中叶爪哇工匠针对传统纯手绘蜡壶（Canting Tulis）速度缓慢而发明的革命性工艺器具，直接推动了印尼蜡染（Batik）走向大众化与辉煌的全球贸易，2009年印尼蜡染被列入人类非物质文化遗产。铜模由技艺超凡的铜匠师傅手工将数百根薄如纸片的极细红铜片、铜丝剪切、弯折并紧密焊接在一个带手柄的铜框架上，构成立体图案印面。工匠将重达数公斤的铜模浸入滚烫蜂蜡液中，随后精准地在棉布上盖印，对齐缝合天衣无缝，其自身就是一件令人叹为观止的机械金属雕塑艺术品。",
+    "visual_features": {
+      "form": "方形、长方形或几何异形铜制印模（通常约20×20厘米），正面为密集的凸起铜片线条网格，背面设弧形抓握铸铜手柄。",
+      "color": "老旧红铜经过千百次浸染熔融蜂蜡后呈现的深暗古铜色、黑褐色包浆与熔蜡金黄油亮光泽。",
+      "material": "优质纯紫铜片、薄黄铜带、含铅焊锡焊点、实木或铜铸抓握把手。",
+      "pattern": "爪哇经典王家几何纹样：卡汶纹（Kawung 棕榈果四瓣椭圆纹）、帕朗纹（Parang 锋利折线波浪纹）及复杂的缠枝花鸟锦地。",
+      "space": "挂置于作坊墙面或展柜中呈矩阵陈列，其极度密集的金属线条与繁复镂空透光形成极震撼的机械手工艺浮雕视觉。",
+      "distinction": "区别于木制木雕印章，铜模导热性好、储蜡量适中，铜片极其纤细锋利，能够印出微米级别极为精确锐利且富有手工温度的蜡印线条。"
+    },
+    "visual_keywords": "纯红铜片焊接|手工弯折卡汶纹|蜂蜡油润深古铜包浆|背面抓握手柄|高密度金属肌理|印模矩阵陈列",
+    "tags": "民间工艺|传统印模|金属器物|纹样拓印|手工艺工具|空间装置",
+    "images_meta": [
+      {
+        "file_title": "File:Canting Cap.jpg",
+        "title": "中爪哇传统手工精密焊接纯铜蜡染印模（Canting Cap）正面细节",
+        "content_type": "整体/局部细节"
+      }
+    ],
+    "sources": [
+      {
+        "title": "UNESCO Intangible Cultural Heritage - Indonesian Batik",
+        "url": "https://ich.unesco.org/en/RL/indonesian-batik-00170"
+      },
+      {
+        "title": "Museum Batik Danar Hadi Solo Official Guide",
+        "url": "https://danarhadibatik.com"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "中爪哇传统手工精密焊接纯铜蜡染印模（Canting Cap）正面细节",
+        "content_type": "整体/局部细节",
+        "local_path": "12_图片素材库/ID/05/ID-05-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/ID/05/ID-05-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Canting_Cap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Canting_Cap.jpg/1280px-Canting_Cap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Canting_Cap.jpg",
+        "author": "Irhanz",
+        "license": "CC BY-SA 4.0",
+        "verification": "已访问源页面",
+        "file_size": 288090
+      }
+    ],
+    "tags_array": [
+      "民间工艺",
+      "传统印模",
+      "金属器物",
+      "纹样拓印",
+      "手工艺工具",
+      "空间装置"
+    ],
+    "visual_keywords_array": [
+      "纯红铜片焊接",
+      "手工弯折卡汶纹",
+      "蜂蜡油润深古铜包浆",
+      "背面抓握手柄",
+      "高密度金属肌理",
+      "印模矩阵陈列"
+    ]
+  },
+  {
+    "id": "SG-06-0001",
+    "country_code": "SG",
+    "country": "新加坡",
+    "region": "牛车水麦士威路",
+    "category_id": "06",
+    "category": "06｜饮食与街头小贩文化",
+    "name_cn": "新加坡小贩中心熟食摊档与市井排档（麦士威小贩中心）",
+    "name_en": "Singapore Hawker Centre Stalls & Social Tray Return (Maxwell)",
+    "name_local": "Pusat penjaja / 小贩中心",
+    "name_local_roman": "Hawker Centre",
+    "tradition": "新加坡多元族群共享公共食堂、2020年联合国人类非物质文化遗产",
+    "summary": "新加坡小贩中心（Hawker Centre）是狮城平民社会生活与多元文化交汇的心脏，2020年正式列入联合国人类非物质文化遗产。麦士威熟食中心（Maxwell Food Centre）位于牛车水，原为20世纪前期的街头小贩聚集地。宽敞高挑的半开放式大棚下，数百家紧密相连的独立熟食档口一字排开，发光灯箱招牌上整齐列出海南鸡饭、福建炒虾面、沙爹、罗惹与拉茶等多元菜品。不论阶层背景，人们共享固定圆桌、彩塑圆凳与纸巾占座（Chope）习俗，配合绿色环保的托盘归还台，体现出高度自治有序且极其热气腾腾的现代市井烟火气。",
+    "visual_features": {
+      "form": "大跨度钢结构半开敞通风高挑顶棚，摊位呈方格网或双排中岛排列；彩色圆塑料小凳固定于水磨石地表。",
+      "color": "各档口发光灯箱招牌红、黄、白高亮拼色，搭配彩色塑料餐盘（红、绿、黄、蓝），构成极醒目的现代平民波普视觉谱系。",
+      "material": "工业钢构大屋架、巨型低速节能吊扇（HVLS）、不锈钢小贩操作台、聚丙烯一体成型塑料餐盘餐碗。",
+      "pattern": "灯箱招牌上四种官方语言（英、中、马、泰米尔）手写或印刷排版、卫生等级彩色评级贴纸（A/B/C标志）。",
+      "space": "数百张圆桌方桌高密度排布，视线通透无阻碍，人群川流不息，空气中交织着各种香料镬气、炒勺碰撞声与各族方言。",
+      "distinction": "区别于无序露天夜市，新加坡小贩中心是极少数将传统街头小贩文化与现代严密公共卫生、排污风道及托盘分类回收完美融合的典范空间。"
+    },
+    "visual_keywords": "密集发光灯箱招牌|四语菜单排版|固定彩塑圆凳|不锈钢排档操作台|巨型节能吊扇|多元族群共享长桌",
+    "tags": "特色小贩|公共餐饮|市集规划|导视系统|平民烟火|社区空间",
+    "images_meta": [
+      {
+        "file_title": "File:Maxwell Food Centre, 2025.jpg",
+        "title": "新加坡牛车水麦士威熟食中心高大通透顶棚与成排小贩档口实景",
+        "content_type": "整体/使用场景"
+      },
+      {
+        "file_title": "File:Maxwell Food Centre.jpg",
+        "title": "麦士威小贩中心标志性外观大门与人流熙攘的街头公共界面",
+        "content_type": "整体"
+      }
+    ],
+    "sources": [
+      {
+        "title": "UNESCO Intangible Cultural Heritage - Hawker culture in Singapore",
+        "url": "https://ich.unesco.org/en/RL/hawker-culture-in-singapore-01568"
+      },
+      {
+        "title": "National Heritage Board Singapore - The Story of Singapore's Hawker Centres",
+        "url": "https://www.roots.gov.sg"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "新加坡牛车水麦士威熟食中心高大通透顶棚与成排小贩档口实景",
+        "content_type": "整体/使用场景",
+        "local_path": "12_图片素材库/SG/06/SG-06-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/SG/06/SG-06-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Maxwell_Food_Centre%2C_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Maxwell_Food_Centre%2C_2025.jpg/1280px-Maxwell_Food_Centre%2C_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Maxwell_Food_Centre,_2025.jpg",
+        "author": "Actuall7",
+        "license": "CC0",
+        "verification": "已访问源页面",
+        "file_size": 492644
+      },
+      {
+        "index": 2,
+        "title": "麦士威小贩中心标志性外观大门与人流熙攘的街头公共界面",
+        "content_type": "整体",
+        "local_path": "12_图片素材库/SG/06/SG-06-0001_2.jpg",
+        "html_rel_path": "../12_图片素材库/SG/06/SG-06-0001_2.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Maxwell_Food_Centre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Maxwell_Food_Centre.jpg/1280px-Maxwell_Food_Centre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Maxwell_Food_Centre.jpg",
+        "author": "Aaaatu",
+        "license": "CC BY-SA 4.0",
+        "verification": "已访问源页面",
+        "file_size": 402879
+      }
+    ],
+    "tags_array": [
+      "特色小贩",
+      "公共餐饮",
+      "市集规划",
+      "导视系统",
+      "平民烟火",
+      "社区空间"
+    ],
+    "visual_keywords_array": [
+      "密集发光灯箱招牌",
+      "四语菜单排版",
+      "固定彩塑圆凳",
+      "不锈钢排档操作台",
+      "巨型节能吊扇",
+      "多元族群共享长桌"
+    ]
+  },
+  {
+    "id": "SG-03-0001",
+    "country_code": "SG",
+    "country": "新加坡",
+    "region": "东海岸如切与加东",
+    "category_id": "03",
+    "category": "03｜地方特色建筑",
+    "name_cn": "如切与加东彩绘娘惹排屋花砖立面",
+    "name_en": "Joo Chiat / Katong Pastel Peranakan Shophouses",
+    "name_local": "Rumah kedai Peranakan Joo Chiat",
+    "name_local_roman": "—",
+    "tradition": "海峡殖民地晚期土生华人富商聚居区、如切历史保留街区",
+    "summary": "如切路与加东坤成路（Koon Seng Road）是新加坡土生华人（Peranakan）建筑美学保存最完整的历史街区。建于1920年代的这批两层联排骑楼店屋被称为'中国巴洛克'（Chinese Baroque）或晚期海峡折衷主义风格。建筑立面采用极其甜美梦幻的马卡龙粉彩调色板——淡粉红、粉天蓝、薄荷绿与象牙白相间，外墙腰线与门柱大面积密镶英国与日本进口的高级马约利卡彩釉浮雕花砖，配以木雕双开矮门（Pintu Pagar）、南洋百叶窗扇与科林斯式石膏壁柱，是南洋混血富贵生活最具少女梦幻感的建筑立面。",
+    "visual_features": {
+      "form": "联排两层两开间或三开间店屋，前设五脚基柱廊，二层设外凸悬挑木百叶凸窗或平列三扇百叶窗，山墙顶覆欧式雕花山花。",
+      "color": "标志性的马卡龙低饱和粉彩色谱：草莓粉红、薄荷浅绿、鹅黄与天蓝，各家各户独立分色，整条街形成连绵的彩虹色带。",
+      "material": "红砖抹石灰、实木雕花双开腰门、彩色高光釉面陶瓷花砖、锻铁铸造花饰栏杆、水磨石柱基。",
+      "pattern": "传统吉祥图案：牡丹花开、凤凰对翔、葡萄藤蔓与西洋莨苕叶饰的精巧石膏灰塑，下衬连续几何马约利卡花砖拼图。",
+      "space": "退缩的前廊与人行道相接，立面细部极度丰富，在强烈热带日光照耀下投射出层次极为丰富的明暗投影。",
+      "distinction": "比槟城骑楼更为小巧甜美，建筑色彩饱和度更为柔和粉润，装饰构件中西合璧的巴洛克华丽装饰密度达到巅峰。"
+    },
+    "visual_keywords": "马卡龙粉彩色谱|腰门Pintu Pagar|马约利卡浮雕花砖|中国巴洛克灰塑|晚期海峡折衷主义|如切坤成路",
+    "tags": "特色建筑|建筑立面|街道色彩|花砖装饰|拍照打卡|文旅小镇",
+    "images_meta": [
+      {
+        "file_title": "File:35 Joo Chiat Place (2025).jpg",
+        "title": "如切历史保留区典型粉彩彩绘娘惹店屋二层百叶窗与雕花立面",
+        "content_type": "整体"
+      },
+      {
+        "file_title": "File:Joo Chiat Place.jpg",
+        "title": "如切路连排粉彩立面骑楼建筑群与街角透视全貌",
+        "content_type": "使用场景"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Urban Redevelopment Authority (URA) Singapore - Joo Chiat Conservation Area",
+        "url": "https://www.ura.gov.sg"
+      },
+      {
+        "title": "National Heritage Board Singapore - Katong and Joo Chiat Heritage Trail",
+        "url": "https://www.roots.gov.sg"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "如切历史保留区典型粉彩彩绘娘惹店屋二层百叶窗与雕花立面",
+        "content_type": "整体",
+        "local_path": "12_图片素材库/SG/03/SG-03-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/SG/03/SG-03-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/35_Joo_Chiat_Place_%282025%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/35_Joo_Chiat_Place_%282025%29.jpg/1280px-35_Joo_Chiat_Place_%282025%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:35_Joo_Chiat_Place_(2025).jpg",
+        "author": "Chainwit.",
+        "license": "CC BY 4.0",
+        "verification": "已访问源页面",
+        "file_size": 459294
+      },
+      {
+        "index": 2,
+        "title": "如切路连排粉彩立面骑楼建筑群与街角透视全貌",
+        "content_type": "使用场景",
+        "local_path": "12_图片素材库/SG/03/SG-03-0001_2.jpg",
+        "html_rel_path": "../12_图片素材库/SG/03/SG-03-0001_2.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Joo_Chiat_Place.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Joo_Chiat_Place.jpg/1280px-Joo_Chiat_Place.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Joo_Chiat_Place.jpg",
+        "author": "Terence Ong",
+        "license": "CC BY 2.5",
+        "verification": "已访问源页面",
+        "file_size": 201250
+      }
+    ],
+    "tags_array": [
+      "特色建筑",
+      "建筑立面",
+      "街道色彩",
+      "花砖装饰",
+      "拍照打卡",
+      "文旅小镇"
+    ],
+    "visual_keywords_array": [
+      "马卡龙粉彩色谱",
+      "腰门Pintu Pagar",
+      "马约利卡浮雕花砖",
+      "中国巴洛克灰塑",
+      "晚期海峡折衷主义",
+      "如切坤成路"
+    ]
+  },
+  {
+    "id": "SG-02-0001",
+    "country_code": "SG",
+    "country": "新加坡",
+    "region": "实龙岗路小印度甘贝尔巷",
+    "category_id": "02",
+    "category": "02｜城市街头景观",
+    "name_cn": "新加坡小印度甘贝尔巷鲜花花环摊位街景",
+    "name_en": "Little India Campbell Lane Flower Garland Stalls",
+    "name_local": "Campbell Lane / Campbell Lane",
+    "name_local_roman": "—",
+    "tradition": "印裔泰米尔印度教神庙供奉花艺（Maalai）、南亚香料街区风情",
+    "summary": "小印度（Little India）是新加坡印度裔社群的历史文化中枢，尤以甘贝尔巷（Campbell Lane）与竹脚中心周边的小巷最具感官冲击力。沿街排布着数家世代传承的花环小店，老花匠们盘腿坐在摊位前，手指飞速穿引棉线，将新鲜的金黄万寿菊、白茉莉花苞、火红玫瑰与粉红莲花编结成一条条粗壮饱满的芬芳花环（Maalai）。花环挂满摊架，从天棚一直悬垂到腰间，伴随着弥漫全街的浓郁茉莉花香、小茴香咖喱香料气息以及金饰店循环播放的宝莱坞动感音乐，构成了新加坡最具异域饱和度的市井街头奇观。",
+    "visual_features": {
+      "form": "由无数花朵紧密螺旋捆扎而成的圆柱形悬挂花环链条，粗细从直径5厘米到特大号20厘米不等，两端带长线绳便于佩戴挂扣。",
+      "color": "万寿菊极度炫目的明黄与橙红、白茉莉花蕾的纯净雪白、红玫瑰的深红与红色金边丝带交织，高对比度视觉冲击极其猛烈。",
+      "material": "天然新鲜茉莉花苞、新鲜菊花、鲜玫瑰花瓣、天然香蕉茎皮纤维扎线、细黄麻绳。",
+      "pattern": "花朵色彩螺旋上升交替的环带几何排列，花蕊与花托构成细密的肌理浮点。",
+      "space": "摊位上空架设数排横向铁丝杆，数十条数米长的艳丽花环密密匝匝垂直垂落，形成一道道芳香四溢的天然'鲜花门帘'。",
+      "distinction": "将印度教繁复神圣的花卉祭祀工艺直接搬到现代步行街头，纯天然鲜活花瓣的香气与视觉密度远超普通观赏性花店。"
+    },
+    "visual_keywords": "万寿菊花环Maalai|雪白茉莉花苞串|悬垂鲜花门帘|高纯度明黄鲜红|小印度甘贝尔巷|芳香感官景观",
+    "tags": "花艺装置|街头市集|气味景观|悬挂装饰|南亚风情|文化打卡",
+    "images_meta": [
+      {
+        "file_title": "File:Flower Garlands in Little India.jpg",
+        "title": "新加坡小印度鲜花摊位上密集悬挂排列的明黄万寿菊与红玫瑰花环",
+        "content_type": "整体/局部细节"
+      },
+      {
+        "file_title": "File:Little India garland seller.jpg",
+        "title": "小印度老街花匠现场手工编结鲜花花环与摊位摆卖生活场景",
+        "content_type": "使用场景"
+      }
+    ],
+    "sources": [
+      {
+        "title": "National Heritage Board Singapore - Little India Heritage Trail",
+        "url": "https://www.roots.gov.sg"
+      },
+      {
+        "title": "Singapore Tourism Board - Cultural Precinct: Little India",
+        "url": "https://www.visitsingapore.com"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "新加坡小印度鲜花摊位上密集悬挂排列的明黄万寿菊与红玫瑰花环",
+        "content_type": "整体/局部细节",
+        "local_path": "12_图片素材库/SG/02/SG-02-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/SG/02/SG-02-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Flower_Garlands_in_Little_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Flower_Garlands_in_Little_India.jpg/1280px-Flower_Garlands_in_Little_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Flower_Garlands_in_Little_India.jpg",
+        "author": "Tony Ng",
+        "license": "CC BY-SA 4.0",
+        "verification": "已访问源页面",
+        "file_size": 716422
+      },
+      {
+        "index": 2,
+        "title": "小印度老街花匠现场手工编结鲜花花环与摊位摆卖生活场景",
+        "content_type": "使用场景",
+        "local_path": "12_图片素材库/SG/02/SG-02-0001_2.jpg",
+        "html_rel_path": "../12_图片素材库/SG/02/SG-02-0001_2.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Little_India_garland_seller.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Little_India_garland_seller.jpg/1280px-Little_India_garland_seller.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Little_India_garland_seller.jpg",
+        "author": "YoulendreeAppasamy",
+        "license": "CC BY-SA 4.0",
+        "verification": "已访问源页面",
+        "file_size": 669399
+      }
+    ],
+    "tags_array": [
+      "花艺装置",
+      "街头市集",
+      "气味景观",
+      "悬挂装饰",
+      "南亚风情",
+      "文化打卡"
+    ],
+    "visual_keywords_array": [
+      "万寿菊花环Maalai",
+      "雪白茉莉花苞串",
+      "悬垂鲜花门帘",
+      "高纯度明黄鲜红",
+      "小印度甘贝尔巷",
+      "芳香感官景观"
+    ]
+  },
+  {
+    "id": "SG-03-0002",
+    "country_code": "SG",
+    "country": "新加坡",
+    "region": "红山中峇鲁忠邦路",
+    "category_id": "03",
+    "category": "03｜地方特色建筑",
+    "name_cn": "中峇鲁现代流线型改良信托局公屋（SIT 流线型住宅）",
+    "name_en": "Tiong Bahru Streamline Moderne SIT Flats",
+    "name_local": "Tiong Bahru / 中峇魯",
+    "name_local_roman": "Tiong Bahru",
+    "tradition": "战前英属新加坡改良信托局（SIT）公共住宅实验、包豪斯与流线型现代主义",
+    "summary": "中峇鲁（Tiong Bahru）建于1930年代至1950年代初，是新加坡最早规划兴建的现代化公共住宅区。由英国建筑师设计的改良信托局住宅（SIT Flats）摒弃了繁复古典装饰，深受当时欧洲先锋的包豪斯学派与流线型现代主义（Streamline Moderne / 装饰风艺术）影响。建筑采用流畅优雅的圆弧形转角、如同远洋邮轮舷窗的圆孔开窗、悬挑的水平遮阳板、室外旋转螺旋楼梯以及平屋顶露台。这一街区如今转型为独立书店、精品烘焙与艺术工坊聚集的文艺社区，是亚洲最早且最优雅的现代主义热带人居典范。",
+    "visual_features": {
+      "form": "低层三至四层砖石住宅，街角呈平滑流线形大圆弧倒角，后部带有极具雕塑美感的外挂式混凝土圆筒螺旋疏散楼梯。",
+      "color": "纯净白粉石灰外墙与温和奶油色为主调，搭配深灰水泥线条与热带绿树掩映，呈现极度宁静洗练的冷淡雅致感。",
+      "material": "红砖砌体外抹平整灰浆、现浇钢筋混凝土悬挑雨篷与阳台、水磨石螺旋阶梯表面、钢质细框玻璃窗。",
+      "pattern": "邮轮舷窗式的纯圆型透光窗孔、水平三条连续阴角装饰刻线（Speed lines）、极简通风水泥花格砖。",
+      "space": "各栋住宅之间留有开阔的内向型公共绿化庭院与宽大后巷，首层五脚基走道与二层弧形阳台形成富有韵律的阴影界面。",
+      "distinction": "巧妙将欧洲现代主义流线型工业造型（航海邮轮美学）与热带遮阳防雨悬挑构造结合，线条极尽洗练优雅，绝无杂乱繁复之感。"
+    },
+    "visual_keywords": "流线型圆弧转角|邮轮舷窗圆孔|外挂混凝土螺旋阶梯|白色奶油外墙|水平遮阳板|包豪斯热带人居",
+    "tags": "现代建筑|包豪斯美学|文艺街区|建筑转角|螺旋楼梯|极简空间",
+    "images_meta": [
+      {
+        "file_title": "File:Montage of Singapore Improvement Trust flats along Tiong Poh Road, Tiong Bahru, Singapore.jpg",
+        "title": "中峇鲁忠邦路标志性SIT住宅流线型圆弧转角与立面开窗全貌",
+        "content_type": "整体"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Urban Redevelopment Authority (URA) - Tiong Bahru Conservation Area",
+        "url": "https://www.ura.gov.sg"
+      },
+      {
+        "title": "National Heritage Board Singapore - Tiong Bahru Heritage Trail",
+        "url": "https://www.roots.gov.sg"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "中峇鲁忠邦路标志性SIT住宅流线型圆弧转角与立面开窗全貌",
+        "content_type": "整体",
+        "local_path": "12_图片素材库/SG/03/SG-03-0002_1.jpg",
+        "html_rel_path": "../12_图片素材库/SG/03/SG-03-0002_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Montage_of_Singapore_Improvement_Trust_flats_along_Tiong_Poh_Road%2C_Tiong_Bahru%2C_Singapore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Montage_of_Singapore_Improvement_Trust_flats_along_Tiong_Poh_Road%2C_Tiong_Bahru%2C_Singapore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Montage_of_Singapore_Improvement_Trust_flats_along_Tiong_Poh_Road,_Tiong_Bahru,_Singapore.jpg",
+        "author": "photographs by Sylvia Y. L. Tan; montage by Sengkang.",
+        "license": "Copyrighted free use",
+        "verification": "已访问源页面",
+        "file_size": 45229
+      }
+    ],
+    "tags_array": [
+      "现代建筑",
+      "包豪斯美学",
+      "文艺街区",
+      "建筑转角",
+      "螺旋楼梯",
+      "极简空间"
+    ],
+    "visual_keywords_array": [
+      "流线型圆弧转角",
+      "邮轮舷窗圆孔",
+      "外挂混凝土螺旋阶梯",
+      "白色奶油外墙",
+      "水平遮阳板",
+      "包豪斯热带人居"
+    ]
+  },
+  {
+    "id": "PH-08-0001",
+    "country_code": "PH",
+    "country": "菲律宾",
+    "region": "马尼拉大都会及全菲",
+    "category_id": "08",
+    "category": "08｜交通工具与流动文化",
+    "name_cn": "马尼拉吉普尼手绘民俗波普车厢（Jeepney）",
+    "name_en": "Manila Jeepney Hand-Painted Folk Pop Vehicles",
+    "name_local": "Dyip / Jeepney",
+    "name_local_roman": "Jeepney",
+    "tradition": "二战美军遗留军用吉普车本土化改装、菲律宾街头流动通俗艺术",
+    "summary": "吉普尼（Jeepney）被誉为菲律宾群岛的'公路之王'（King of the Road）。二战结束后，美军在菲律宾遗留了数千辆威利斯军用越野吉普车，机智的菲律宾民间工匠将其底盘拉长加固，装上金属硬顶与对向两排长条铁皮座椅，改装成可容纳十余人的平民廉价公共巴士。最令世人惊叹的是车身上的极繁主义手工彩绘艺术——每辆吉普尼车身钣金都由民间画师手绘上艳丽绚烂的色彩图案，从天主教圣母圣子圣像、好莱坞流行明星、热带海岛风光到车主家庭祈祷语无所不包，车头更装满镀铬银马、反光后视镜组与排灯，是移动的街头民俗波普艺术博物馆。",
+    "visual_features": {
+      "form": "修长车头带经典竖格栅进气口，后部加长厢式客舱，车尾开敞无门自由上下，车顶前部竖立数尊金属飞马雕塑小构件。",
+      "color": "荧光红、高亮黄、金闪铬银、紫罗兰与孔雀蓝混杂；高反光镜面不锈钢钣金与手绘饱和油彩对撞。",
+      "material": "抛光不锈钢板、手工捶打镀锌铁皮钣金、铸铝飞马饰件、塑胶皮革通条长椅、彩绘丙烯与汽车磁漆。",
+      "pattern": "车身侧板手绘写实圣母像、火焰闪电拉花、手写老式字体线路地名与民间俏皮俗语（如'God Bless Our Trip'）。",
+      "space": "对向并排长椅乘客膝盖几乎相碰，零钱由后座乘客通过人手接力一枚枚传递给前方司机，具有极强的人际温度与社区流动剧场感。",
+      "distinction": "将冰冷严肃的二战美军杀戮机械彻底解构为狂欢热烈的平民天主教民间波普流动艺术品，视觉极尽繁复浮夸外放。"
+    },
+    "visual_keywords": "加长吉普底盘|抛光不锈钢镜面|铸铝飞马车头|手绘圣母像拉花|对坐长椅人手传钱|公路之王街头波普",
+    "tags": "流动艺术|特色交通|平民波普|涂鸦彩绘|互动装置|街头狂欢",
+    "images_meta": [
+      {
+        "file_title": "File:Jeepney in Metro Manila 2025 01.jpg",
+        "title": "马尼拉大都会行驶中的经典手工彩绘与不锈钢车壳吉普尼全貌",
+        "content_type": "整体"
+      },
+      {
+        "file_title": "File:Jeepney in Metro Manila 2025 02.jpg",
+        "title": "吉普尼车头进气格栅、镀铬飞马与密集反光镜细部特写",
+        "content_type": "局部细节"
+      }
+    ],
+    "sources": [
+      {
+        "title": "National Commission for Culture and the Arts (NCCA) - The Jeepney as Philippine Cultural Icon",
+        "url": "https://ncca.gov.ph"
+      },
+      {
+        "title": "Department of Tourism Philippines - Travelling Like a Local: The Jeepney",
+        "url": "https://philippines.travel"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "马尼拉大都会行驶中的经典手工彩绘与不锈钢车壳吉普尼全貌",
+        "content_type": "整体",
+        "local_path": "12_图片素材库/PH/08/PH-08-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/PH/08/PH-08-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Jeepney_in_Metro_Manila_2025_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Jeepney_in_Metro_Manila_2025_01.jpg/1280px-Jeepney_in_Metro_Manila_2025_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Jeepney_in_Metro_Manila_2025_01.jpg",
+        "author": "Aliceinthealice",
+        "license": "CC0",
+        "verification": "已访问源页面",
+        "file_size": 578498
+      },
+      {
+        "index": 2,
+        "title": "吉普尼车头进气格栅、镀铬飞马与密集反光镜细部特写",
+        "content_type": "局部细节",
+        "local_path": "12_图片素材库/PH/08/PH-08-0001_2.jpg",
+        "html_rel_path": "../12_图片素材库/PH/08/PH-08-0001_2.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Jeepney_in_Metro_Manila_2025_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Jeepney_in_Metro_Manila_2025_02.jpg/1280px-Jeepney_in_Metro_Manila_2025_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Jeepney_in_Metro_Manila_2025_02.jpg",
+        "author": "Aliceinthealice",
+        "license": "CC0",
+        "verification": "已访问源页面",
+        "file_size": 583139
+      }
+    ],
+    "tags_array": [
+      "流动艺术",
+      "特色交通",
+      "平民波普",
+      "涂鸦彩绘",
+      "互动装置",
+      "街头狂欢"
+    ],
+    "visual_keywords_array": [
+      "加长吉普底盘",
+      "抛光不锈钢镜面",
+      "铸铝飞马车头",
+      "手绘圣母像拉花",
+      "对坐长椅人手传钱",
+      "公路之王街头波普"
+    ]
+  },
+  {
+    "id": "PH-03-0001",
+    "country_code": "PH",
+    "country": "菲律宾",
+    "region": "南伊罗戈省美岸市",
+    "category_id": "03",
+    "category": "03｜地方特色建筑",
+    "name_cn": "美岸古城卡列克里索洛戈石木殖民大屋",
+    "name_en": "Vigan Calle Crisologo Stone & Wood Ancestral Houses",
+    "name_local": "Calle Crisologo / Ciudad Fernandina de Vigan",
+    "name_local_roman": "Calle Crisologo",
+    "tradition": "16世纪西班牙殖民贸易重镇、西菲中多元抗震混合民居（Bahay na Bato）",
+    "summary": "美岸古城（Vigan）建于16世纪西班牙殖民早期，是亚洲现存保存最完好的西班牙殖民风貌城镇，1999年列入世界文化遗产。其核心街道卡列克里索洛戈（Calle Crisologo）全部由鹅卵石铺成，禁止机动车通行。街道两旁林立着数十栋被称为'石木之屋'（Bahay na Bato）的古老大屋。其底层采用厚达一米的花岗岩与珊瑚石砌筑以抵御地震与台风，二层则转为轻灵的硬木榫卯框架，外凸挑出的木走廊镶嵌着数以千计的半透明天然卡皮斯贝壳百叶滑窗，马蹄踏在鹅卵石上的清脆声响回荡其间，宛如凝固在时光中的18世纪西属西印度群岛画卷。",
+    "visual_features": {
+      "form": "下实上虚二层结构：底层厚重石墙开拱门，二层悬挑挑出外挑木回廊（Volada），大坡度四坡红筒瓦屋顶。",
+      "color": "底层风化斑驳灰白珊瑚石色，二层氧化深褐色硬木板与米白珍珠光泽贝壳窗面相配，深灰石板街面。",
+      "material": "珊瑚石砖、火山凝灰石、老铁木（Narra）、半透明卡皮斯海月贝壳片、传统红陶西班牙筒瓦。",
+      "pattern": "外凸阳台底部密排弧形硬木托拱雕花（Mensula）、锻铁镂空花饰防盗窗栅。",
+      "space": "鹅卵石街道全长数百米，两侧大屋悬挑二层几乎在空中相接，马车（Kalesa）缓缓穿行，空间尺度极其紧密亲切且充满回音感。",
+      "distinction": "将西班牙安达卢西亚巴洛克石构城堡风格与菲律宾原生高脚抗震木屋巧妙结合，并独创以半透明贝壳代替玻璃采光，中西合璧气质极其深邃。"
+    },
+    "visual_keywords": "下石上木Bahay na Bato|鹅卵石古街|马车Kalesa踢踏声|半透明贝壳滑窗|悬挑木回廊Volada|西班牙殖民遗存",
+    "tags": "特色建筑|历史街区|石木构造|复古氛围|街道界面|世界遗产",
+    "images_meta": [
+      {
+        "file_title": "File:Vigan heritage village Calle Crisologo-Gen Luna calesa (Vigan, Ilocos Sur; 11-14-2022).jpg",
+        "title": "美岸古城卡列克里索洛戈鹅卵石街道两旁石木大屋与观光马车",
+        "content_type": "整体/使用场景"
+      }
+    ],
+    "sources": [
+      {
+        "title": "UNESCO World Heritage Centre - Historic City of Vigan",
+        "url": "https://whc.unesco.org/en/list/502"
+      },
+      {
+        "title": "National Museum of the Philippines - Vigan Heritage Branch",
+        "url": "https://nationalmuseum.gov.ph"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "美岸古城卡列克里索洛戈鹅卵石街道两旁石木大屋与观光马车",
+        "content_type": "整体/使用场景",
+        "local_path": "12_图片素材库/PH/03/PH-03-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/PH/03/PH-03-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Vigan_heritage_village_Calle_Crisologo-Gen_Luna_calesa_%28Vigan%2C_Ilocos_Sur%3B_11-14-2022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Vigan_heritage_village_Calle_Crisologo-Gen_Luna_calesa_%28Vigan%2C_Ilocos_Sur%3B_11-14-2022%29.jpg/1280px-Vigan_heritage_village_Calle_Crisologo-Gen_Luna_calesa_%28Vigan%2C_Ilocos_Sur%3B_11-14-2022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Vigan_heritage_village_Calle_Crisologo-Gen_Luna_calesa_(Vigan,_Ilocos_Sur;_11-14-2022).jpg",
+        "author": "Patrickroque01",
+        "license": "CC BY-SA 4.0",
+        "verification": "已访问源页面",
+        "file_size": 382160
+      }
+    ],
+    "tags_array": [
+      "特色建筑",
+      "历史街区",
+      "石木构造",
+      "复古氛围",
+      "街道界面",
+      "世界遗产"
+    ],
+    "visual_keywords_array": [
+      "下石上木Bahay na Bato",
+      "鹅卵石古街",
+      "马车Kalesa踢踏声",
+      "半透明贝壳滑窗",
+      "悬挑木回廊Volada",
+      "西班牙殖民遗存"
+    ]
+  },
+  {
+    "id": "PH-07-0001",
+    "country_code": "PH",
+    "country": "菲律宾",
+    "region": "阿克兰省卡利博及全菲",
+    "category_id": "07",
+    "category": "07｜传统服饰与地方织物",
+    "name_cn": "菲律宾国服巴隆他加禄菠萝纤维长衫（Barong Tagalog）",
+    "name_en": "Philippine Barong Tagalog & Pineapple Piña Cloth",
+    "name_local": "Barong Tagalog",
+    "name_local_roman": "—",
+    "tradition": "前殖民时期他加禄本土服饰演变、菠萝纤维手工编织国服工艺",
+    "summary": "巴隆他加禄（Barong Tagalog，意为'他加禄人的服装'）是菲律宾历代总统与国民在国事访问、国宴及盛大婚礼时必着的官方国服。该长衫最奇绝之处在于其选材——工匠从红菠萝树野生叶片（Piña）中经纯手工用碎瓷片刮取比头发丝还细的极韧植物纤维，经水洗、接结后在传统木织机上纯手工织成半透明如蝉翼薄纱的'皮尼亚布'（Piña cloth）。衣领为硬挺小立领，前襟中央由巧手绣娘手工刺绣出极其细腻繁密的几何植物刺绣（Calado），不扎腰带外悬穿着，在热带强光下散发着柔和圣洁的天然乳白微光，极度优雅高贵。",
+    "visual_features": {
+      "form": "直身宽松长袖男式套头衬衫，开半襟，小立领（Mandarin collar），侧下摆开衩，外悬于深色长裤之外穿着。",
+      "color": "天然未经染色的天然象牙白、淡杏黄色，具有真丝般的天然哑光微光泽感。",
+      "material": "红菠萝叶天然纤维（Piña）、香蕉纤维（Jusi）、手工丝线刺绣、天然贝壳打磨衣扣。",
+      "pattern": "前胸与领口的精细镂空挑织抽纱刺绣（Calado），饰有几何太阳纹、棕榈叶芽纹与传统花藤纹理。",
+      "space": "织物挺括而极度透气半透明，隐约显出内搭白色打底背心（Camisa de Chino），光影在透光纱线与密集白刺绣凸起间交叠。",
+      "distinction": "全球独一无二的利用纯天然菠萝叶纤维手工织造的高级国礼面料，既有硬挺的礼服雕塑骨架，又具备抵御热带酷暑的极致透气散热性能。"
+    },
+    "visual_keywords": "野生菠萝纤维Piña|半透明蝉翼质感|前襟立体抽纱Calado|象牙白天然哑光|小立领不收腰|国宴正装礼服",
+    "tags": "传统服饰|植物纤维|手工刺绣|高级面料|非遗编织|国礼文化",
+    "images_meta": [
+      {
+        "file_title": "File:Barong Tagalog.jpg",
+        "title": "菲律宾传统巴隆他加禄菠萝纤维手工重工前襟刺绣长衫细节",
+        "content_type": "整体/局部细节"
+      }
+    ],
+    "sources": [
+      {
+        "title": "National Museum of the Philippines - Piña Weaving Heritage",
+        "url": "https://nationalmuseum.gov.ph"
+      },
+      {
+        "title": "Department of Trade and Industry Philippines - Aklan Piña Cloth Heritage",
+        "url": "https://dti.gov.ph"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "菲律宾传统巴隆他加禄菠萝纤维手工重工前襟刺绣长衫细节",
+        "content_type": "整体/局部细节",
+        "local_path": "12_图片素材库/PH/07/PH-07-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/PH/07/PH-07-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Barong_Tagalog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Barong_Tagalog.jpg/1280px-Barong_Tagalog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Barong_Tagalog.jpg",
+        "author": "Barongguy1",
+        "license": "CC BY-SA 3.0",
+        "verification": "已访问源页面",
+        "file_size": 358146
+      }
+    ],
+    "tags_array": [
+      "传统服饰",
+      "植物纤维",
+      "手工刺绣",
+      "高级面料",
+      "非遗编织",
+      "国礼文化"
+    ],
+    "visual_keywords_array": [
+      "野生菠萝纤维Piña",
+      "半透明蝉翼质感",
+      "前襟立体抽纱Calado",
+      "象牙白天然哑光",
+      "小立领不收腰",
+      "国宴正装礼服"
+    ]
+  },
+  {
+    "id": "PH-05-0001",
+    "country_code": "PH",
+    "country": "菲律宾",
+    "region": "全菲（以米沙鄢群岛及卡皮斯省为代表）",
+    "category_id": "05",
+    "category": "05｜民间工艺与传统器物",
+    "name_cn": "菲律宾传统卡皮斯海月贝壳百叶窗（Capiz Windows）",
+    "name_en": "Philippine Traditional Capiz Shell Grid Windows",
+    "name_local": "Bintanang Kapis / Capiz window",
+    "name_local_roman": "—",
+    "tradition": "西属殖民时期南洋海月贝壳采光手艺、热带民居抗风透光构件",
+    "summary": "卡皮斯贝壳窗（Capiz Windows）是菲律宾殖民时期建筑最具地域辨识度的材质符号。在平板玻璃尚未普及或价格昂贵的17至19世纪，群岛工匠就地取材，利用盛产于卡皮斯省浅海的天然海月贝（Placuna placenta）扁平坚硬的贝壳外壳。经浸泡酸洗去杂质后，切削成约6至8厘米见方的正方形贝壳薄片，镶嵌在优质硬木条十字交错构成的窗格网格之中。贝壳天然半透明，不仅能完全阻挡热带炫目强烈的紫外线与暴雨狂风，还能将刺眼的户外直射日光漫射转化为如乳白珍珠般的温柔室内散射柔光，兼具惊人抗震韧性与自然珍珠母光泽。",
+    "visual_features": {
+      "form": "推拉滑动式木框窗扇（Sliding sashes），内部细木格划分成数十至上百个均匀正方形贝壳单元方格。",
+      "color": "半透明乳白色底色，逆光时呈现柔和微光，侧光时泛出天然珍珠母（Mother-of-pearl）贝壳独特的彩虹幻彩色泽。",
+      "material": "天然海月贝壳角片（Capiz Shell）、耐腐红木/柚木框架窗棂、黄铜滑轨与插销。",
+      "pattern": "严密匀称的笛卡尔直角正方形网格律动；贝壳表面天然同心生长轮弧线与微弱凹凸天然纹理。",
+      "space": "往往成排贯通整个建筑立面外廊，整座窗面拉开时完全开敞吹风，闭合时在室内地面洒下棋盘格般的斑驳柔光网格。",
+      "distinction": "与西方彩色铅嵌玻璃或东方白棉纸窗格截然不同，卡皮斯贝壳不怕热带暴雨冲刷与潮湿海风腐蚀，散发着独特的海洋生物质感与珍珠冷光。"
+    },
+    "visual_keywords": "海月贝壳方片|正方形细木窗格|乳白珍珠漫射柔光|滑动百叶滑窗|热带天然采光|海洋生物材料",
+    "tags": "传统工艺|建筑细部|天然采光|海洋材质|门窗构件|空间光影",
+    "images_meta": [
+      {
+        "file_title": "File:Capiz Shell Window.jpg",
+        "title": "菲律宾传统建筑中镶嵌海月贝壳方片的木质推拉滑窗透光全貌",
+        "content_type": "整体/局部细节"
+      },
+      {
+        "file_title": "File:Capiz shell window repurposed.jpg",
+        "title": "复古卡皮斯贝壳方格木窗内部精细木工卡槽与天然贝壳纹理",
+        "content_type": "局部细节"
+      }
+    ],
+    "sources": [
+      {
+        "title": "National Commission for Culture and the Arts - Capiz Shell Craft in Architecture",
+        "url": "https://ncca.gov.ph"
+      },
+      {
+        "title": "Intramuros Administration Manila - Architectural Elements of Bahay na Bato",
+        "url": "https://intramuros.gov.ph"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "菲律宾传统建筑中镶嵌海月贝壳方片的木质推拉滑窗透光全貌",
+        "content_type": "整体/局部细节",
+        "local_path": "12_图片素材库/PH/05/PH-05-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/PH/05/PH-05-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Capiz_Shell_Window.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Capiz_Shell_Window.jpg/1280px-Capiz_Shell_Window.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Capiz_Shell_Window.jpg",
+        "author": "Mryjysgrr24",
+        "license": "CC BY-SA 4.0",
+        "verification": "已访问源页面",
+        "file_size": 293618
+      },
+      {
+        "index": 2,
+        "title": "复古卡皮斯贝壳方格木窗内部精细木工卡槽与天然贝壳纹理",
+        "content_type": "局部细节",
+        "local_path": "12_图片素材库/PH/05/PH-05-0001_2.jpg",
+        "html_rel_path": "../12_图片素材库/PH/05/PH-05-0001_2.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Capiz_shell_window_repurposed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Capiz_shell_window_repurposed.jpg/1280px-Capiz_shell_window_repurposed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Capiz_shell_window_repurposed.jpg",
+        "author": "Bagoto",
+        "license": "CC BY-SA 4.0",
+        "verification": "已访问源页面",
+        "file_size": 491203
+      }
+    ],
+    "tags_array": [
+      "传统工艺",
+      "建筑细部",
+      "天然采光",
+      "海洋材质",
+      "门窗构件",
+      "空间光影"
+    ],
+    "visual_keywords_array": [
+      "海月贝壳方片",
+      "正方形细木窗格",
+      "乳白珍珠漫射柔光",
+      "滑动百叶滑窗",
+      "热带天然采光",
+      "海洋生物材料"
+    ]
+  },
+  {
+    "id": "KH-12-0001",
+    "country_code": "KH",
+    "country": "柬埔寨",
+    "region": "暹粒省及金边市",
+    "category_id": "12",
+    "category": "12｜民间表演与传统艺术",
+    "name_cn": "柬埔寨高棉巨型皮影戏（Sbek Thom 整牛皮大影偶）",
+    "name_en": "Cambodian Sbek Thom Sacred Shadow Puppetry",
+    "name_local": "ល្ខោនស្បែកធំ / Sbek Thom",
+    "name_local_roman": "Lakhaon Sbek Thom",
+    "tradition": "吴哥王朝早期高棉宫廷与神庙还愿神圣仪式、2005年人类非遗代表作",
+    "summary": "斯拜克汤（Sbek Thom，高棉语意为'大型皮偶'）是柬埔寨具有千年历史的神圣仪式性古典影子戏剧，早于吴哥王朝建立前即已存在，2005年被联合国列为非物质文化遗产。与东南亚其他地区由一人在幕后操弄小偶人不同，Sbek Thom 的每个影偶由一整张完整的水牛皮雕刻而成（高可达两米），上面雕刻出完整的宏大场景（如神王战车、森林交锋或宫殿场景）。演出时，身着传统高棉服饰的青年舞者高高举起绑在两根竹竿上的整张巨大皮偶，在白布幕前后随着激昂的古乐起舞跳跃，偶人不动而舞者动，人偶合一，极具震撼的原始史诗气魄。",
+    "visual_features": {
+      "form": "非关节活动式，整张厚重牛皮呈单幅画卷式镂雕（宽约1-1.5米、高约1.5-2米），两侧以坚韧竹竿垂直贯穿固定作为舞者把手。",
+      "color": "牛皮天然深栗棕色或熏黑底色，天然透光刻空线条透出后方椰子壳炭火映照出的苍劲暖金色剪影。",
+      "material": "一整张成年水牛皮、天然Kandaol树皮水浸染防腐、天然竹竿操纵杆、椰子壳与红树木柴篝火。",
+      "pattern": "吴哥寺石雕风格的极其繁复高棉古代人物浮雕：高耸尖锥金冠、合十手印、神禽加鲁达（Garuda）与飞天神女蔓草纹。",
+      "space": "户外架设宽达十余米的大型白幕布，舞者在布幕前后跨步腾跃，投影与舞者真身重叠，打破了二维剪影与三维舞蹈的绝对边界。",
+      "distinction": "偶人体量巨大不可单肢活动，重在呈现整幅构图完整的史诗场景插画，舞者本身必须作为表演者以刚健的宫廷舞步跳动操偶，仪式感极其神圣刚劲。"
+    },
+    "visual_keywords": "整张水牛皮大画幅|两米高单幅影偶|舞者人偶合一起舞|吴哥神话浮雕风格|椰壳篝火背光|神圣仪式戏剧",
+    "tags": "民间艺术|非遗皮影|仪式舞蹈|大型装置|神话史诗|舞台美术",
+    "images_meta": [
+      {
+        "file_title": "File:Nang Sbek Thom (Cambodian shadow puppet) at the Musical Instruments Museum.jpg",
+        "title": "博物馆藏柬埔寨传统Sbek Thom整张巨幅牛皮镂刻神像影偶立像",
+        "content_type": "整体"
+      },
+      {
+        "file_title": "File:Rama removes the arrow that wounded Laksmana, Nang Sbek, Cambodia - Museu do Oriente - Lisbon, Portugal - DSC06803.JPG",
+        "title": "高棉大型皮影表面精湛入微的罗摩衍那史诗人物雕花镂空细节",
+        "content_type": "局部细节"
+      }
+    ],
+    "sources": [
+      {
+        "title": "UNESCO Intangible Cultural Heritage - Sbek Thom, Khmer shadow theatre",
+        "url": "https://ich.unesco.org/en/RL/sbek-thom-khmer-shadow-theatre-00108"
+      },
+      {
+        "title": "Ministry of Culture and Fine Arts Cambodia - Shadow Puppetry Traditions",
+        "url": "https://www.mcfa.gov.kh"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "博物馆藏柬埔寨传统Sbek Thom整张巨幅牛皮镂刻神像影偶立像",
+        "content_type": "整体",
+        "local_path": "12_图片素材库/KH/12/KH-12-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/KH/12/KH-12-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Nang_Sbek_Thom_%28Cambodian_shadow_puppet%29_at_the_Musical_Instruments_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Nang_Sbek_Thom_%28Cambodian_shadow_puppet%29_at_the_Musical_Instruments_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Nang_Sbek_Thom_(Cambodian_shadow_puppet)_at_the_Musical_Instruments_Museum.jpg",
+        "author": "Frank Kovalchek from Anchorage, Alaska, USA",
+        "license": "CC BY 2.0",
+        "verification": "已访问源页面",
+        "file_size": 131523
+      },
+      {
+        "index": 2,
+        "title": "高棉大型皮影表面精湛入微的罗摩衍那史诗人物雕花镂空细节",
+        "content_type": "局部细节",
+        "local_path": "12_图片素材库/KH/12/KH-12-0001_2.jpg",
+        "html_rel_path": "../12_图片素材库/KH/12/KH-12-0001_2.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Rama_removes_the_arrow_that_wounded_Laksmana%2C_Nang_Sbek%2C_Cambodia_-_Museu_do_Oriente_-_Lisbon%2C_Portugal_-_DSC06803.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Rama_removes_the_arrow_that_wounded_Laksmana%2C_Nang_Sbek%2C_Cambodia_-_Museu_do_Oriente_-_Lisbon%2C_Portugal_-_DSC06803.JPG/1280px-Rama_removes_the_arrow_that_wounded_Laksmana%2C_Nang_Sbek%2C_Cambodia_-_Museu_do_Oriente_-_Lisbon%2C_Portugal_-_DSC06803.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Rama_removes_the_arrow_that_wounded_Laksmana,_Nang_Sbek,_Cambodia_-_Museu_do_Oriente_-_Lisbon,_Portugal_-_DSC06803.JPG",
+        "author": "Daderot",
+        "license": "CC0",
+        "verification": "已访问源页面",
+        "file_size": 701773
+      }
+    ],
+    "tags_array": [
+      "民间艺术",
+      "非遗皮影",
+      "仪式舞蹈",
+      "大型装置",
+      "神话史诗",
+      "舞台美术"
+    ],
+    "visual_keywords_array": [
+      "整张水牛皮大画幅",
+      "两米高单幅影偶",
+      "舞者人偶合一起舞",
+      "吴哥神话浮雕风格",
+      "椰壳篝火背光",
+      "神圣仪式戏剧"
+    ]
+  },
+  {
+    "id": "KH-03-0001",
+    "country_code": "KH",
+    "country": "柬埔寨",
+    "region": "暹粒省吴哥考古公园",
+    "category_id": "03",
+    "category": "03｜地方特色建筑",
+    "name_cn": "吴哥窟阿卜娑罗仙女石雕浅浮雕壁柱（Apsara Reliefs）",
+    "name_en": "Angkor Wat Temple Apsara Celestial Dancers Bas-Reliefs",
+    "name_local": "អប្សរា / Apsara",
+    "name_local_roman": "Apsara",
+    "tradition": "12世纪真腊吴哥王朝高棉石雕巅峰艺术、印度教飞天神女石窟造像",
+    "summary": "阿卜娑罗（Apsara）是吴哥窟（Angkor Wat）数以千计回廊石壁与门柱上最迷人的视觉母题，被誉为高棉古典艺术的微笑皇冠。在12世纪初苏利耶跋摩二世建造的整座吴哥大寺砂岩回廊与塔柱上，雕刻着将近两千尊姿态各异的阿卜娑罗飞天仙女浅浮雕。每尊神女均拥有微抿双唇的高棉微笑、纤细柔韧的手指手印、繁复华丽的高耸发髻头冠与重重叠叠的金属项链腰饰，双脚轻盈侧翻起舞，千年时光与青苔在深灰砂岩上沉淀出古朴温润的皮壳光泽，是古代东南亚雕刻艺术的巅峰极简与极繁结合。",
+    "visual_features": {
+      "form": "全身站姿或凌空起舞高棉神女浅浮雕，体态比例优美挺拔，腹部微隆丰满，手臂柔若无骨弯折成经典高棉舞蹈手印。",
+      "color": "天然砂岩受风化、地衣附着与热带雨水洗礼呈现的深灰、铁锈暗红、风化青黑与局部保留的温润砂黄。",
+      "material": "高纯度天然细砂岩（Sandstone）、干砌无灰浆拼缝打磨石墙。",
+      "pattern": "每位仙女发式各不相同（三十余种发髻变体）、高耸三叉或莲花宝冠、镂空精细的流苏垂坠金属腰链与折叠纱笼裙纹。",
+      "space": "连续不绝分布于外围数百米长廊石壁、立柱与假门盲窗壁板上，在回廊柱影交错的自然侧光照射下，石雕呈现出极其柔和的微起伏浅浮雕阴影。",
+      "distinction": "与印度阿旃陀石窟石雕的丰腴多曲相比，吴哥阿卜娑罗面部轮廓更为方正祥和、下颚圆润，笑容含蓄神秘，带有高棉民族独有的静穆与圣洁庄严感。"
+    },
+    "visual_keywords": "高棉的微笑|砂岩浅浮雕|宝塔高冠发髻|柔美舞蹈手印|繁复垂坠腰饰|千年青苔风化皮壳",
+    "tags": "特色建筑|古代石雕|浮雕壁画|高棉美学|神秘古迹|精神图腾",
+    "images_meta": [
+      {
+        "file_title": "File:Apsara Relief Sculpture on Angkor Wat Temple Wall Feb 10 2000.jpg",
+        "title": "吴哥窟回廊石壁上保存完好的多位阿卜娑罗仙女起舞姿态浅浮雕全貌",
+        "content_type": "整体"
+      },
+      {
+        "file_title": "File:Apsara Carvings at Angkor Wat Temple.jpg",
+        "title": "阿卜娑罗神女繁复宝冠头饰与高棉式微笑面部雕刻微距特写",
+        "content_type": "局部细节"
+      }
+    ],
+    "sources": [
+      {
+        "title": "UNESCO World Heritage Centre - Angkor",
+        "url": "https://whc.unesco.org/en/list/668"
+      },
+      {
+        "title": "APSARA National Authority Cambodia - Monument Conservation Archive",
+        "url": "https://apsaraauthority.gov.kh"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "吴哥窟回廊石壁上保存完好的多位阿卜娑罗仙女起舞姿态浅浮雕全貌",
+        "content_type": "整体",
+        "local_path": "12_图片素材库/KH/03/KH-03-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/KH/03/KH-03-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Apsara_Relief_Sculpture_on_Angkor_Wat_Temple_Wall_Feb_10_2000.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Apsara_Relief_Sculpture_on_Angkor_Wat_Temple_Wall_Feb_10_2000.jpg/1280px-Apsara_Relief_Sculpture_on_Angkor_Wat_Temple_Wall_Feb_10_2000.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Apsara_Relief_Sculpture_on_Angkor_Wat_Temple_Wall_Feb_10_2000.jpg",
+        "author": "Randy Levine",
+        "license": "CC BY-SA 4.0",
+        "verification": "已访问源页面",
+        "file_size": 835902
+      },
+      {
+        "index": 2,
+        "title": "阿卜娑罗神女繁复宝冠头饰与高棉式微笑面部雕刻微距特写",
+        "content_type": "局部细节",
+        "local_path": "12_图片素材库/KH/03/KH-03-0001_2.jpg",
+        "html_rel_path": "../12_图片素材库/KH/03/KH-03-0001_2.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Apsara_Carvings_at_Angkor_Wat_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Apsara_Carvings_at_Angkor_Wat_Temple.jpg/1280px-Apsara_Carvings_at_Angkor_Wat_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Apsara_Carvings_at_Angkor_Wat_Temple.jpg",
+        "author": "LayannAlkasaji",
+        "license": "CC0",
+        "verification": "已访问源页面",
+        "file_size": 1019816
+      }
+    ],
+    "tags_array": [
+      "特色建筑",
+      "古代石雕",
+      "浮雕壁画",
+      "高棉美学",
+      "神秘古迹",
+      "精神图腾"
+    ],
+    "visual_keywords_array": [
+      "高棉的微笑",
+      "砂岩浅浮雕",
+      "宝塔高冠发髻",
+      "柔美舞蹈手印",
+      "繁复垂坠腰饰",
+      "千年青苔风化皮壳"
+    ]
+  },
+  {
+    "id": "KH-02-0001",
+    "country_code": "KH",
+    "country": "柬埔寨",
+    "region": "暹粒省洞里萨湖空尼浮村",
+    "category_id": "02",
+    "category": "02｜城市街头景观",
+    "name_cn": "洞里萨湖水上浮村竹木高脚屋与流动船市",
+    "name_en": "Tonle Sap Lake Floating Village & Stilt Boat Market",
+    "name_local": "ភូមិបណ្ដែតទឹកបឹងទន្លេសាប",
+    "name_local_roman": "Phum Bandet Teuk Tonle Sap",
+    "tradition": "东南亚第一大淡水湖潮汐水系适应、高棉与越裔水上生民渔猎文化",
+    "summary": "洞里萨湖（Tonle Sap）是东南亚最大的淡水湖泊，受湄公河季风倒灌影响，干湿季湖面面积相差近四倍。环湖的高棉与越裔渔民由此创造出了举世无双的'水上浮村'（Floating Villages）景观（如著名的磅克良与空尼村）。村落由两种独特建筑构成：高达8至10米、由极细长红木密密麻麻支撑的高脚木屋；以及建在空油桶和竹筏上随水位涨落自由升降的'漂浮房屋'。从水上学校、教堂、猪圈到摇橹小贩的流动果蔬杂货小木船，整个水生社区完全由木船小舟穿梭连接，展现出人类与水生环境最惊人的弹性适应美学。",
+    "visual_features": {
+      "form": "直插水底的细长立柱高架木屋（柱高可达一层楼以上），屋身为轻质竹编墙板与波纹铁皮顶；水面漂浮屋由竹排与塑料浮桶承托。",
+      "color": "木料经水浸氧化褪色的银灰色，生锈铁皮屋面的斑驳红褐色，搭配小渔船刷涂的高亮天蓝、正红与绿竹原木色。",
+      "material": "耐水高硬度红木/铁木立柱、编织竹席（Kran）墙面、铁皮屋顶、竹排与简易摇橹单木舟。",
+      "pattern": "水面上一艘艘装满翠绿蔬菜、金黄香蕉与银白鲜鱼的小木舟穿梭泛起的一圈圈涟漪光斑波纹。",
+      "space": "无陆地道路，水路即街道，房屋开门即见浩瀚水面，形成完全去中心化、随水流漂移伸缩的流动空间格局。",
+      "distinction": "比泰国水上集市的商业化景观更为原生态，高脚柱极其纤细修长如同踩着高跷的森林，展现出纯粹原生态的湖泊水乡游牧生存景观。"
+    },
+    "visual_keywords": "十米细长高脚木柱|随水涨落漂浮竹排屋|摇橹流动果蔬木舟|水生社区街道|生锈波纹铁皮顶|洞里萨水乡生活",
+    "tags": "水上街市|浮村景观|高脚空间|流动商业|生态适应|水岸风情",
+    "images_meta": [
+      {
+        "file_title": "File:The floating village-Tonle Sap lake.jpg",
+        "title": "洞里萨湖水上浮村密集排布的高脚房屋与穿梭小木舟全景",
+        "content_type": "整体/使用场景"
+      },
+      {
+        "file_title": "File:Floating school at Tonle Sap.jpg",
+        "title": "洞里萨湖上由浮筒支撑漂浮的水上公共建筑与儿童小舟场景",
+        "content_type": "使用场景"
+      }
+    ],
+    "sources": [
+      {
+        "title": "UNESCO Biosphere Reserves - Tonle Sap Biosphere Reserve",
+        "url": "https://en.unesco.org/biosphere/aspac/tonle-sap"
+      },
+      {
+        "title": "Ministry of Tourism Cambodia - Community-Based Tourism in Tonle Sap",
+        "url": "https://tourismcambodia.com"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "洞里萨湖水上浮村密集排布的高脚房屋与穿梭小木舟全景",
+        "content_type": "整体/使用场景",
+        "local_path": "12_图片素材库/KH/02/KH-02-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/KH/02/KH-02-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/d/df/The_floating_village-Tonle_Sap_lake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/The_floating_village-Tonle_Sap_lake.jpg/1280px-The_floating_village-Tonle_Sap_lake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:The_floating_village-Tonle_Sap_lake.jpg",
+        "author": "David Sim",
+        "license": "CC BY 2.0",
+        "verification": "已访问源页面",
+        "file_size": 243460
+      },
+      {
+        "index": 2,
+        "title": "洞里萨湖上由浮筒支撑漂浮的水上公共建筑与儿童小舟场景",
+        "content_type": "使用场景",
+        "local_path": "12_图片素材库/KH/02/KH-02-0001_2.jpg",
+        "html_rel_path": "../12_图片素材库/KH/02/KH-02-0001_2.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Floating_school_at_Tonle_Sap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Floating_school_at_Tonle_Sap.jpg/1280px-Floating_school_at_Tonle_Sap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Floating_school_at_Tonle_Sap.jpg",
+        "author": "RoadTripWarrior",
+        "license": "CC0",
+        "verification": "已访问源页面",
+        "file_size": 233064
+      }
+    ],
+    "tags_array": [
+      "水上街市",
+      "浮村景观",
+      "高脚空间",
+      "流动商业",
+      "生态适应",
+      "水岸风情"
+    ],
+    "visual_keywords_array": [
+      "十米细长高脚木柱",
+      "随水涨落漂浮竹排屋",
+      "摇橹流动果蔬木舟",
+      "水生社区街道",
+      "生锈波纹铁皮顶",
+      "洞里萨水乡生活"
+    ]
+  },
+  {
+    "id": "LA-03-0001",
+    "country_code": "LA",
+    "country": "老挝",
+    "region": "琅勃拉邦省琅勃拉邦市",
+    "category_id": "03",
+    "category": "03｜地方特色建筑",
+    "name_cn": "琅勃拉邦香通寺低垂三重飞檐大殿与生命之树（Wat Xieng Thong）",
+    "name_en": "Luang Prabang Wat Xieng Thong Sim & Tree of Life Mosaic",
+    "name_local": "ວັດຊຽງທອງ / Wat Xieng Thong",
+    "name_local_roman": "Wat Xieng Thong",
+    "tradition": "澜沧王国古都佛教建筑母题、老挝传统木结构低垂重檐佛寺（Sim）",
+    "summary": "香通寺（Wat Xieng Thong，意为'金城之寺'）建于1560年塞塔提拉王时代，坐落于湄公河与南康河交汇处半岛尖端，是老挝琅勃拉邦世界文化遗产的核心瑰宝，代表了老挝古典佛教建筑艺术的最高成就。主大殿（Sim）以其低垂近地面的三层重檐屋顶著称，屋顶柔美低缓下俯宛如一只展翅护卵的巨鸟，屋脊中央立有多层金色天伞（Dok So Fa）。殿堂后山墙上以红宝石色深红墙面为底，用数以千计彩色玻璃与珍珠贝镶嵌拼贴出举世闻名的'生命之树'（Tree of Life）马赛克壁画，在热带斜阳下闪耀着静穆深邃的灵性光芒。",
+    "visual_features": {
+      "form": "极其低平深垂的三层大屋檐，最下层檐口距离地面仅约1.5米；檐角向外微微舒展翻翘；后墙面平整如画布。",
+      "color": "朱砂深红漆面底色、金漆木雕柱饰、屋顶深灰黑陶瓦，后墙生命之树折射出宝石红、孔雀绿、深金与钴蓝的彩色玻璃幻彩。",
+      "material": "红木大柱、陶土鱼鳞小黑瓦、纯天然大漆描金漆画、彩色威尼斯烧制玻璃与镜面剪粘马赛克。",
+      "pattern": "殿外墙金漆描金神话叙事画（Lai Lot Nam）；后山墙高大挺拔的生命之树枝繁叶茂，周围环绕孔雀、白鹿与村落日常生活场景马赛克。",
+      "space": "内部光线幽暗低回，低垂的屋檐将刺目日光阻挡于外，形成极其深邃沉静的内向性瞑想礼拜空间。",
+      "distinction": "与泰国佛寺屋顶的高耸陡峭拔地飞翘截然不同，老挝香通寺风格追求屋顶的极度低沉柔和、舒展贴地，极具谦逊内敛与母性庇佑的禅意温润美感。"
+    },
+    "visual_keywords": "低垂贴地三重檐|屋脊金伞Dok So Fa|深红底生命之树马赛克|彩色剪粘玻璃|金漆描金柱廊|澜沧王国古佛殿",
+    "tags": "特色建筑|宗教圣地|马赛克壁画|低垂屋檐|剪粘艺术|禅意空间",
+    "images_meta": [
+      {
+        "file_title": "File:Temple Wat Xieng Thong - Luang Prabang - Laos.jpg",
+        "title": "香通寺主大殿低垂近地面的优美三重飞檐立面与金伞屋脊全貌",
+        "content_type": "整体"
+      },
+      {
+        "file_title": "File:Buddhist monks cleaning the yard at Wat Xieng Thong temple.jpg",
+        "title": "香通寺大殿外庭院僧侣日常打扫与黑瓦红墙光影场景",
+        "content_type": "使用场景"
+      }
+    ],
+    "sources": [
+      {
+        "title": "UNESCO World Heritage Centre - Town of Luang Prabang",
+        "url": "https://whc.unesco.org/en/list/479"
+      },
+      {
+        "title": "Department of National Heritage Laos - Wat Xieng Thong Conservation",
+        "url": "http://www.tourismlaos.org"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "香通寺主大殿低垂近地面的优美三重飞檐立面与金伞屋脊全貌",
+        "content_type": "整体",
+        "local_path": "12_图片素材库/LA/03/LA-03-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/LA/03/LA-03-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Temple_Wat_Xieng_Thong_-_Luang_Prabang_-_Laos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Temple_Wat_Xieng_Thong_-_Luang_Prabang_-_Laos.jpg/1280px-Temple_Wat_Xieng_Thong_-_Luang_Prabang_-_Laos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Temple_Wat_Xieng_Thong_-_Luang_Prabang_-_Laos.jpg",
+        "author": "Basile Morin",
+        "license": "CC BY-SA 4.0",
+        "verification": "已访问源页面",
+        "file_size": 351053
+      },
+      {
+        "index": 2,
+        "title": "香通寺大殿外庭院僧侣日常打扫与黑瓦红墙光影场景",
+        "content_type": "使用场景",
+        "local_path": "12_图片素材库/LA/03/LA-03-0001_2.jpg",
+        "html_rel_path": "../12_图片素材库/LA/03/LA-03-0001_2.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Buddhist_monks_cleaning_the_yard_at_Wat_Xieng_Thong_temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Buddhist_monks_cleaning_the_yard_at_Wat_Xieng_Thong_temple.jpg/1280px-Buddhist_monks_cleaning_the_yard_at_Wat_Xieng_Thong_temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Buddhist_monks_cleaning_the_yard_at_Wat_Xieng_Thong_temple.jpg",
+        "author": "Basile Morin",
+        "license": "CC BY-SA 4.0",
+        "verification": "已访问源页面",
+        "file_size": 315111
+      }
+    ],
+    "tags_array": [
+      "特色建筑",
+      "宗教圣地",
+      "马赛克壁画",
+      "低垂屋檐",
+      "剪粘艺术",
+      "禅意空间"
+    ],
+    "visual_keywords_array": [
+      "低垂贴地三重檐",
+      "屋脊金伞Dok So Fa",
+      "深红底生命之树马赛克",
+      "彩色剪粘玻璃",
+      "金漆描金柱廊",
+      "澜沧王国古佛殿"
+    ]
+  },
+  {
+    "id": "MM-05-0001",
+    "country_code": "MM",
+    "country": "缅甸",
+    "region": "曼德勒省蒲甘古城及新蒲甘",
+    "category_id": "05",
+    "category": "05｜民间工艺与传统器物",
+    "name_cn": "蒲甘传统马鬃竹胎彩绘漆器（Yun-de 刻漆工艺）",
+    "name_en": "Bagan Traditional Horsehair Bamboo Lacquerware (Yun-de)",
+    "name_local": "ယွန်းထည် / Yun-de",
+    "name_local_roman": "Yun-de",
+    "tradition": "蒲甘王朝千年皇家与佛教供奉生漆工艺、细竹丝马鬃软胎编织",
+    "summary": "蒲甘漆器（缅甸语称 Yun-de）是缅甸最具代表性的国宝级手工艺，起源于11至13世纪蒲甘王朝极盛期。其最绝伦的技术在于胎骨制作——顶级漆器使用极细的劈篾青竹丝混合柔软纯马尾鬃毛（Horsehair）紧密盘旋编织成胎，手感轻盈柔韧、可捏压回弹而不破损。随后工匠在胎骨上层层涂抹采自漆树的天然黑生漆（Thit-si），阴干打磨数十次，最后由老画师手持极细铁针在漆面针刻出极其繁密的线条（Kyauk-thi），再填入朱砂红、雌黄与靛蓝矿物颜料反复擦漆回磨，制成具有绸缎般温润手感与永不褪色图案的精致圣器。",
+    "visual_features": {
+      "form": "典型器型为多层便携饭盒（Hsun-ok 带高耸尖顶塔纽）、圆形槟榔盒（Kun-it）、佛前水钵、茶碗与细颈花瓶，轮廓饱满流线。",
+      "color": "天然黑生漆的光洁深墨黑、深朱砂红（Cinnabar）、赭石金黄与孔雀绿四色为主调，漆面温润沉静如宝玉。",
+      "material": "优质青竹篾丝、天然马尾鬃毛、缅甸黑生漆树汁（Melanorrhoea usitata）、矿物颜料与金箔。",
+      "pattern": "经典针刻填漆图案：宫廷佛本生故事人物插图、十二生肖星象图样、精密交织的细回纹（Za-yun）与花鸟缠枝纹。",
+      "space": "陈列于暗色木质家具或暖光展柜中，其极度细腻的针刻细线在微弱光线下若隐若现，具有深邃的古典东方向心力。",
+      "distinction": "竹马鬃编织使得漆器具备惊人的弹性柔韧度（杯口可捏扁回弹）；针刻填漆（Kyauk-thi）线条细如发丝，绝无木胎漆器的沉重易裂。"
+    },
+    "visual_keywords": "马尾鬃毛柔韧胎骨|细竹丝编盘|天然生漆Thit-si|细针刻漆填彩Kyauk-thi|尖顶供奉盒Hsun-ok|深红墨黑古雅色泽",
+    "tags": "民间工艺|传统漆器|马鬃编织|针刻工艺|器物陈列|非遗礼品",
+    "images_meta": [
+      {
+        "file_title": "File:Bagan-Lacquerware-Factory-Workers.JPG",
+        "title": "蒲甘传统漆器工坊老艺人纯手工在竹胎器皿上针刻填彩绘图场景",
+        "content_type": "整体/使用场景"
+      },
+      {
+        "file_title": "File:Craftsman making a bamboo bracelet, Bagan House Artistic Lacquerware Workshop, Bagan, Myanmar (15842185789).jpg",
+        "title": "蒲甘漆器作坊工匠细密手工编制竹丝与马鬃底胎工艺细节",
+        "content_type": "局部细节"
+      }
+    ],
+    "sources": [
+      {
+        "title": "UNESCO World Heritage Centre - Bagan",
+        "url": "https://whc.unesco.org/en/list/1588"
+      },
+      {
+        "title": "Ministry of Religious Affairs and Culture Myanmar - Traditional Crafts: Lacquerware",
+        "url": "https://www.mora.gov.mm"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "蒲甘传统漆器工坊老艺人纯手工在竹胎器皿上针刻填彩绘图场景",
+        "content_type": "整体/使用场景",
+        "local_path": "12_图片素材库/MM/05/MM-05-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/MM/05/MM-05-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Bagan-Lacquerware-Factory-Workers.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Bagan-Lacquerware-Factory-Workers.JPG/1280px-Bagan-Lacquerware-Factory-Workers.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Bagan-Lacquerware-Factory-Workers.JPG",
+        "author": "Hybernator",
+        "license": "Public domain",
+        "verification": "已访问源页面",
+        "file_size": 286586
+      },
+      {
+        "index": 2,
+        "title": "蒲甘漆器作坊工匠细密手工编制竹丝与马鬃底胎工艺细节",
+        "content_type": "局部细节",
+        "local_path": "12_图片素材库/MM/05/MM-05-0001_2.jpg",
+        "html_rel_path": "../12_图片素材库/MM/05/MM-05-0001_2.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Craftsman_making_a_bamboo_bracelet%2C_Bagan_House_Artistic_Lacquerware_Workshop%2C_Bagan%2C_Myanmar_%2815842185789%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Craftsman_making_a_bamboo_bracelet%2C_Bagan_House_Artistic_Lacquerware_Workshop%2C_Bagan%2C_Myanmar_%2815842185789%29.jpg/1280px-Craftsman_making_a_bamboo_bracelet%2C_Bagan_House_Artistic_Lacquerware_Workshop%2C_Bagan%2C_Myanmar_%2815842185789%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Craftsman_making_a_bamboo_bracelet,_Bagan_House_Artistic_Lacquerware_Workshop,_Bagan,_Myanmar_(15842185789).jpg",
+        "author": "Jack at Wikipedia",
+        "license": "CC BY-SA 2.0",
+        "verification": "已访问源页面",
+        "file_size": 167636
+      }
+    ],
+    "tags_array": [
+      "民间工艺",
+      "传统漆器",
+      "马鬃编织",
+      "针刻工艺",
+      "器物陈列",
+      "非遗礼品"
+    ],
+    "visual_keywords_array": [
+      "马尾鬃毛柔韧胎骨",
+      "细竹丝编盘",
+      "天然生漆Thit-si",
+      "细针刻漆填彩Kyauk-thi",
+      "尖顶供奉盒Hsun-ok",
+      "深红墨黑古雅色泽"
+    ]
+  },
+  {
+    "id": "MM-08-0001",
+    "country_code": "MM",
+    "country": "缅甸",
+    "region": "掸邦娘水镇茵莱湖",
+    "category_id": "08",
+    "category": "08｜交通工具与流动文化",
+    "name_cn": "茵莱湖单腿单桨摇橹独木舟与圆锥捕鱼竹笼",
+    "name_en": "Inle Lake One-Legged Rowing Fishermen & Conical Bamboo Trap",
+    "name_local": "အင်းသား / Intha",
+    "name_local_roman": "Intha leg-rowers",
+    "tradition": "掸邦茵达族（Intha）独特湖泊捕鱼技巧、高原湿地生态生计",
+    "summary": "在缅甸掸邦高原海拔近千米的茵莱湖上，世居于此的茵达族（Intha，意为'湖之子'）创造了全球独一无二的'单腿划船'奇观。由于湖面上密生高大的芦苇与密集水草，若坐着划船视线会被芦苇完全遮挡，聪明的茵达渔夫练就了独特的单腿站立划桨绝技：渔夫赤脚单腿直立于窄窄的独木舟船尾边缘保持绝对平衡，另一条腿则如手臂般灵巧地环扣住长长的木桨柄，以胯部和膝关节有节奏地划出优雅圆弧驱舟破浪，双手则腾出来投掷巨大的圆锥形竹篾倒须捕鱼笼（Saung），身姿如高跷芭蕾般优雅矫健。",
+    "visual_features": {
+      "form": "修长极度平窄的细长木舟（宽仅约半米、长5-6米）；渔夫身体呈优美的S型侧向单腿金鸡独立站姿，手持巨大的倒锥形竹编鱼笼。",
+      "color": "湖水高原深邃的碧蓝反光，渔夫身着橘红或白布衫、墨绿或深紫方格纱笼（Longyi），金黄竹编鱼网与天然原木色小舟。",
+      "material": "整木掏空/拼合细长硬木小舟、削圆修长硬木单桨、天然劈篾长竹编圆锥倒须鱼笼、黄麻尼龙细渔网。",
+      "pattern": "圆锥竹笼表面细密的六角形编织经纬网眼；平静如镜的湖面上小船划破水面荡开的细长人字形水波浪纹。",
+      "space": "在空旷辽阔的千顷高山湖泊镜面上，单人单舟独立于天地水天一色之间，具有极致的极简东方水墨与现代雕塑张力。",
+      "distinction": "全球独一无二的人体下肢划桨机制，将人身平衡技巧、船舶驾驶与捕鱼作业合而为一，形态优雅如水上杂技芭蕾。"
+    },
+    "visual_keywords": "单腿环扣木桨|单脚站立独木舟船尾|圆锥竹编倒须捕鱼笼|格纹隆基纱笼Longyi|高原如镜湖面倒影|水上极简芭蕾",
+    "tags": "特色交通|传统渔猎|人体美学|水景装置|极简意境|生态智慧",
+    "images_meta": [
+      {
+        "file_title": "File:Leg Rowing Fisherman Inle Lake Myanmar.jpg",
+        "title": "茵莱湖上茵达族渔夫单腿扣桨站立船尾并手托圆锥竹鱼笼的经典剪影",
+        "content_type": "整体/使用场景"
+      },
+      {
+        "file_title": "File:20160805 Inle Lake 7434.jpg",
+        "title": "茵莱湖水面上渔夫单腿划桨动作与水波倒影近景特写",
+        "content_type": "使用场景"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ministry of Hotels and Tourism Myanmar - The Intha Culture of Inle Lake",
+        "url": "https://tourism.gov.mm"
+      },
+      {
+        "title": "UNESCO Man and the Biosphere - Inle Lake Biosphere Reserve",
+        "url": "https://en.unesco.org/biosphere/aspac/inle-lake"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "茵莱湖上茵达族渔夫单腿扣桨站立船尾并手托圆锥竹鱼笼的经典剪影",
+        "content_type": "整体/使用场景",
+        "local_path": "12_图片素材库/MM/08/MM-08-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/MM/08/MM-08-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Leg_Rowing_Fisherman_Inle_Lake_Myanmar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Leg_Rowing_Fisherman_Inle_Lake_Myanmar.jpg/1280px-Leg_Rowing_Fisherman_Inle_Lake_Myanmar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Leg_Rowing_Fisherman_Inle_Lake_Myanmar.jpg",
+        "author": "Benh LIEU SONG (Flickr)",
+        "license": "CC BY-SA 4.0",
+        "verification": "已访问源页面",
+        "file_size": 250347
+      },
+      {
+        "index": 2,
+        "title": "茵莱湖水面上渔夫单腿划桨动作与水波倒影近景特写",
+        "content_type": "使用场景",
+        "local_path": "12_图片素材库/MM/08/MM-08-0001_2.jpg",
+        "html_rel_path": "../12_图片素材库/MM/08/MM-08-0001_2.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/20160805_Inle_Lake_7434.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/20160805_Inle_Lake_7434.jpg/1280px-20160805_Inle_Lake_7434.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:20160805_Inle_Lake_7434.jpg",
+        "author": "Jakub Hałun",
+        "license": "CC BY-SA 4.0",
+        "verification": "已访问源页面",
+        "file_size": 252708
+      }
+    ],
+    "tags_array": [
+      "特色交通",
+      "传统渔猎",
+      "人体美学",
+      "水景装置",
+      "极简意境",
+      "生态智慧"
+    ],
+    "visual_keywords_array": [
+      "单腿环扣木桨",
+      "单脚站立独木舟船尾",
+      "圆锥竹编倒须捕鱼笼",
+      "格纹隆基纱笼Longyi",
+      "高原如镜湖面倒影",
+      "水上极简芭蕾"
+    ]
+  },
+  {
+    "id": "BN-03-0001",
+    "country_code": "BN",
+    "country": "文莱",
+    "region": "文莱摩拉县斯里巴加湾市文莱河",
+    "category_id": "03",
+    "category": "03｜地方特色建筑",
+    "name_cn": "斯里巴加湾市甘榜亚逸水上高脚木村（Kampong Ayer）",
+    "name_en": "Brunei Kampong Ayer Stilt Water Village & Boardwalks",
+    "name_local": "Kampong Ayer / كامڤوڠ اءير",
+    "name_local_roman": "Kampong Ayer",
+    "tradition": "文莱苏丹国千年水上聚居起源、麦哲伦船队赞誉的'东方威尼斯'",
+    "summary": "甘榜亚逸（Kampong Ayer，马来语意为'水上村落'）坐落于文莱河上，拥有逾千年的连续居住历史，是世界规模最大的单一连片传统高脚水上村落聚集区，曾是文莱苏丹王国的政治与商业中枢。整座水上都市由数十个水上村寨组成，上万栋传统木构与现代混凝土高脚屋立于浅水滩涂之上，由全长近40公里的纵横交错的高架木板人行栈道（Jambatan）串联相通。从水上学校、水上清真寺、消防站到私家码头一应俱全，彩色木屋倒映在波光粼粼的文莱河面，快艇（Water taxi）穿梭其间，展现出水陆共生的奇迹图景。",
+    "visual_features": {
+      "form": "由成千上万根高出水面数米的硬木或水泥立柱支撑的高脚平房，横向平铺延展数平方公里；高架木栈道如毛细血管网状穿插连接。",
+      "color": "木屋漆成明快的粉绿、水蓝、亮黄与纯白，屋顶铺设绿色或红色波纹钢板瓦，倒映在波光粼粼的黄绿色文莱河水中。",
+      "material": "耐咸水浸泡的婆罗洲铁木立柱（Kayu Belian）、实木地板栈道条石、轻质胶合板墙面、防腐波纹彩钢瓦。",
+      "pattern": "木门窗框的简练几何马来镂空花格、栏杆扶手的规律竖条纹排布、水面快艇疾驰划出的白色浪花纹理。",
+      "space": "水平无限蔓延的水上都市空间，没有陆地车道，步行栈道仅宽约1.5-2米，两旁开门即可俯瞰河水与停靠的小艇，具有极独特的浮游水感。",
+      "distinction": "规模远超普通东南亚小型渔村，基础设施极其完善规范，木栈道总长数十公里且拥有水上独立清真寺，兼具古老传统与文莱高福利现代水生文明。"
+    },
+    "visual_keywords": "连片水上高脚木屋|40公里高架木栈道Jambatan|彩色屋面彩钢瓦|穿梭水上出租快艇|东方威尼斯|文莱河浅滩",
+    "tags": "特色建筑|水上聚落|高架栈道|水乡空间|文创规划|人类聚居遗产",
+    "images_meta": [
+      {
+        "file_title": "File:Kampong Ayer, Brunei in January 2026 (DSCF1416).jpg",
+        "title": "文莱斯里巴加湾市甘榜亚逸水上村落高脚木屋与密集栈道全貌",
+        "content_type": "整体/使用场景"
+      },
+      {
+        "file_title": "File:Kampong Ayer 17 December 2023 03.jpg",
+        "title": "甘榜亚逸水上高架木栈道贯穿村寨与彩色外墙民居近景",
+        "content_type": "使用场景"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Brunei Tourism - Kampong Ayer: The Venice of the East",
+        "url": "https://www.bruneitourism.com"
+      },
+      {
+        "title": "Museums Department Brunei Darussalam - Kampong Ayer Heritage Museum",
+        "url": "http://www.museums.gov.bn"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "文莱斯里巴加湾市甘榜亚逸水上村落高脚木屋与密集栈道全貌",
+        "content_type": "整体/使用场景",
+        "local_path": "12_图片素材库/BN/03/BN-03-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/BN/03/BN-03-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Kampong_Ayer%2C_Brunei_in_January_2026_%28DSCF1416%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Kampong_Ayer%2C_Brunei_in_January_2026_%28DSCF1416%29.jpg/1280px-Kampong_Ayer%2C_Brunei_in_January_2026_%28DSCF1416%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Kampong_Ayer,_Brunei_in_January_2026_(DSCF1416).jpg",
+        "author": "Yu Chu Chin",
+        "license": "CC BY-SA 4.0",
+        "verification": "已访问源页面",
+        "file_size": 244354
+      },
+      {
+        "index": 2,
+        "title": "甘榜亚逸水上高架木栈道贯穿村寨与彩色外墙民居近景",
+        "content_type": "使用场景",
+        "local_path": "12_图片素材库/BN/03/BN-03-0001_2.jpg",
+        "html_rel_path": "../12_图片素材库/BN/03/BN-03-0001_2.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Kampong_Ayer_17_December_2023_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Kampong_Ayer_17_December_2023_03.jpg/1280px-Kampong_Ayer_17_December_2023_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Kampong_Ayer_17_December_2023_03.jpg",
+        "author": "Yu Chu Chin",
+        "license": "CC BY-SA 4.0",
+        "verification": "已访问源页面",
+        "file_size": 299420
+      }
+    ],
+    "tags_array": [
+      "特色建筑",
+      "水上聚落",
+      "高架栈道",
+      "水乡空间",
+      "文创规划",
+      "人类聚居遗产"
+    ],
+    "visual_keywords_array": [
+      "连片水上高脚木屋",
+      "40公里高架木栈道Jambatan",
+      "彩色屋面彩钢瓦",
+      "穿梭水上出租快艇",
+      "东方威尼斯",
+      "文莱河浅滩"
+    ]
+  },
+  {
+    "id": "BN-03-0002",
+    "country_code": "BN",
+    "country": "文莱",
+    "region": "斯里巴加湾市市中心",
+    "category_id": "03",
+    "category": "03｜地方特色建筑",
+    "name_cn": "奥马尔·阿里·赛义夫丁苏丹清真寺金顶与水上石舫",
+    "name_en": "Sultan Omar Ali Saifuddien Mosque Gold Dome & Lagoon",
+    "name_local": "Masjid Omar Ali Saifuddien",
+    "name_local_roman": "—",
+    "tradition": "现代伊斯兰与意大利古典融合建筑、文莱国家伊斯兰精神地标",
+    "summary": "奥马尔·阿里·赛义夫丁清真寺（SOAS Mosque）竣工于1958年，以第28任文莱苏丹命名，被公认为亚太地区最壮美奢华的伊斯兰现代建筑之一。清真寺耸立于文莱河畔人工建造的开阔清澈人工环形水池（泻湖）中央，主穹顶通体覆盖着高达52米的真金纯金箔，在阳光下金光万丈。建筑通体采用意大利特级卡拉拉纯白大理石建造，尖塔高耸入云，水池中静静泊着一座仿造16世纪文莱苏丹皇家御用驳船的精美大理石石雕龙舫（Mahligai），通过一条曲折的大理石长桥与陆地清真寺相连，天光水影交相辉映，宛如热带浮水天宫。",
+    "visual_features": {
+      "form": "主殿中央巨大洋葱头金顶搭配多座微型附属金穹顶，高耸宣礼塔高达52米；水池中停泊长条形大理石仿古御舟石舫。",
+      "color": "刺目的高反光真金纯金色穹顶，配以通体圣洁雪白的意大利卡拉拉大理石墙面，倒映在深碧绿色的清澈人工池水中。",
+      "material": "进口纯金金箔、意大利卡拉拉纯白大理石、比利时彩色铅嵌玻璃、沙特纯羊毛手工地毯、花岗岩长桥。",
+      "pattern": "经典伊斯兰几何星芒纹样、大理石墙面浅浮雕阿拉伯书法（Calligraphy）赞词、石舫龙骨古典卷云纹条带。",
+      "space": "四面环水的镜面水体创造出超现实的脱俗漂浮感，石桥蜿蜒引导视线逐步逼近宏伟圣殿，构成极为崇高的心理仪式感。",
+      "distinction": "将纯金巨顶、纯白意式大理石与水上石舫长桥景观浑然融为一体，体量适中却气势恢宏，水面镜面倒影效果在东南亚独步天下。"
+    },
+    "visual_keywords": "52米纯金金顶穹顶|意大利卡拉拉纯白大理石|水上石刻仿古御舫Mahligai|环形水池镜面倒影|伊斯兰几何书法|现代圣殿",
+    "tags": "宗教建筑|地标建筑|水景设计|大理石雕刻|金色穹顶|夜景打卡",
+    "images_meta": [
+      {
+        "file_title": "File:Sultan Omar Ali Saifuddin Mosque 02.jpg",
+        "title": "文莱奥马尔·阿里·赛义夫丁清真寺纯金穹顶与水上石舫倒影全景",
+        "content_type": "整体"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Brunei Tourism Official Portal - Sultan Omar Ali Saifuddien Mosque",
+        "url": "https://www.bruneitourism.com"
+      },
+      {
+        "title": "Ministry of Religious Affairs Brunei - Sacred Mosques of Brunei",
+        "url": "https://www.mora.gov.bn"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "文莱奥马尔·阿里·赛义夫丁清真寺纯金穹顶与水上石舫倒影全景",
+        "content_type": "整体",
+        "local_path": "12_图片素材库/BN/03/BN-03-0002_1.jpg",
+        "html_rel_path": "../12_图片素材库/BN/03/BN-03-0002_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Sultan_Omar_Ali_Saifuddin_Mosque_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Sultan_Omar_Ali_Saifuddin_Mosque_02.jpg/1280px-Sultan_Omar_Ali_Saifuddin_Mosque_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Sultan_Omar_Ali_Saifuddin_Mosque_02.jpg",
+        "author": "sam garza from Los Angeles, USA",
+        "license": "CC BY 2.0",
+        "verification": "已访问源页面",
+        "file_size": 203961
+      }
+    ],
+    "tags_array": [
+      "宗教建筑",
+      "地标建筑",
+      "水景设计",
+      "大理石雕刻",
+      "金色穹顶",
+      "夜景打卡"
+    ],
+    "visual_keywords_array": [
+      "52米纯金金顶穹顶",
+      "意大利卡拉拉纯白大理石",
+      "水上石刻仿古御舫Mahligai",
+      "环形水池镜面倒影",
+      "伊斯兰几何书法",
+      "现代圣殿"
+    ]
+  },
+  {
+    "id": "TL-03-0001",
+    "country_code": "TL",
+    "country": "东帝汶",
+    "region": "劳滕区洛斯帕洛斯与包考",
+    "category_id": "03",
+    "category": "03｜地方特色建筑",
+    "name_cn": "东帝汶传统圣屋（Uma Lulik 高脚茅草神圣图腾建筑）",
+    "name_en": "Timor-Leste Sacred Ancestral Houses (Uma Lulik)",
+    "name_local": "Uma Lulik",
+    "name_local_roman": "—",
+    "tradition": "东帝汶泛灵信仰祖先崇拜、土著法塔尔库族（Fataluku）圣屋传统",
+    "summary": "乌玛鲁利克（Uma Lulik，德顿语意为'神圣之屋'）是东帝汶土著社群最核心的精神象征与民族认同丰碑，尤以东部劳滕区法塔尔库人（Fataluku）建造的造型最为惊世绝俗。圣屋完全脱离世俗居住功能，专用于供奉家族神圣遗物与沟通祖先神灵。其造型极其奇特拔俗：四根粗大硬木圆柱将方形圣殿高高架空于地面数米之上，上方覆盖着一座极其高耸、近乎垂直挺拔的金字塔状陡峭茅草大屋顶，屋脊最高点向两侧挑起，末端装饰着象征女性丰饶的贝壳串与祖先木雕，成为东帝汶自独立以来印在国徽与官方硬币上的最高文化图腾。",
+    "visual_features": {
+      "form": "四柱架空底层（高约2-3米），上承极度尖锐高耸的四坡梯形陡屋顶，屋顶高度往往达到屋身两倍以上，顶部呈修长横脊挑出。",
+      "color": "风化干草的天然暖金黄褐色与深草灰色，搭配底层坚硬老木料的黑褐色，在热带旱季蓝天下轮廓极其分明。",
+      "material": "天然坚硬铁木与原木圆柱、晒干密扎高山茅草/棕榈叶片（Tala）、藤条与竹篾绳索捆扎（无铁钉）。",
+      "pattern": "屋脊顶端垂挂的白色海贝壳串（Koba）、木柱头雕刻的太阳光芒纹与鳄鱼吉祥图腾雕饰。",
+      "space": "矗立于村落中心神圣空地中央，周围环绕着石块垒砌的古老祭祀矮石墙，平时严禁随意攀爬进入，具有强大的精神向心力。",
+      "distinction": "屋顶坡度极陡（接近70-80度直立），比例纤细尖耸如同一顶刺向苍穹的巫师尖帽，造型在全东南亚群岛建筑中独树一帜。"
+    },
+    "visual_keywords": "垂直高耸金字塔草顶|四柱架空神圣空间|屋脊海贝悬挂|无钉木藤捆扎|国家文化图腾|祖先崇拜圣殿",
+    "tags": "特色建筑|神圣图腾|高耸屋顶|原始建筑|民俗非遗|精神标志",
+    "images_meta": [
+      {
+        "file_title": "File:Uma Lulik of Borulaisoba.jpg",
+        "title": "东帝汶劳滕区博鲁莱索巴典型高耸尖顶茅草传统圣屋（Uma Lulik）全貌",
+        "content_type": "整体"
+      },
+      {
+        "file_title": "File:Uma lulik Sorodou.jpg",
+        "title": "东帝汶传统圣屋高脚木柱架构与屋脊贝壳装饰细部视点",
+        "content_type": "局部细节"
+      }
+    ],
+    "sources": [
+      {
+        "title": "State Secretariat for Art and Culture Timor-Leste - Uma Lulik: The Sacred Heritage",
+        "url": "https://www.cultura.gov.tl"
+      },
+      {
+        "title": "UNESCO Bangkok - Timor-Leste Sacred Houses Conservation",
+        "url": "https://bangkok.unesco.org"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "东帝汶劳滕区博鲁莱索巴典型高耸尖顶茅草传统圣屋（Uma Lulik）全貌",
+        "content_type": "整体",
+        "local_path": "12_图片素材库/TL/03/TL-03-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/TL/03/TL-03-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Uma_Lulik_of_Borulaisoba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Uma_Lulik_of_Borulaisoba.jpg/1280px-Uma_Lulik_of_Borulaisoba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Uma_Lulik_of_Borulaisoba.jpg",
+        "author": "Josh Trindade",
+        "license": "CC BY-SA 4.0",
+        "verification": "已访问源页面",
+        "file_size": 469442
+      },
+      {
+        "index": 2,
+        "title": "东帝汶传统圣屋高脚木柱架构与屋脊贝壳装饰细部视点",
+        "content_type": "局部细节",
+        "local_path": "12_图片素材库/TL/03/TL-03-0001_2.jpg",
+        "html_rel_path": "../12_图片素材库/TL/03/TL-03-0001_2.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Uma_lulik_Sorodou.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Uma_lulik_Sorodou.jpg/1280px-Uma_lulik_Sorodou.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Uma_lulik_Sorodou.jpg",
+        "author": "Isabel Nolasco",
+        "license": "CC BY-SA 4.0",
+        "verification": "已访问源页面",
+        "file_size": 443558
+      }
+    ],
+    "tags_array": [
+      "特色建筑",
+      "神圣图腾",
+      "高耸屋顶",
+      "原始建筑",
+      "民俗非遗",
+      "精神标志"
+    ],
+    "visual_keywords_array": [
+      "垂直高耸金字塔草顶",
+      "四柱架空神圣空间",
+      "屋脊海贝悬挂",
+      "无钉木藤捆扎",
+      "国家文化图腾",
+      "祖先崇拜圣殿"
+    ]
+  },
+  {
+    "id": "TL-07-0001",
+    "country_code": "TL",
+    "country": "东帝汶",
+    "region": "帝力市、博博纳罗区与包考区",
+    "category_id": "07",
+    "category": "07｜传统服饰与地方织物",
+    "name_cn": "东帝汶传统泰斯手工织锦与几何图腾（Tais Timor）",
+    "name_en": "Timorese Traditional Handwoven Tais Cloth",
+    "name_local": "Tais Timor",
+    "name_local_roman": "—",
+    "tradition": "东帝汶女性世代口传传统腰机织布、2021年联合国急需保护非遗",
+    "summary": "泰斯（Tais）是东帝汶最珍贵的手工织造传统织物与国家文化身份载体，2021年被联合国教科文组织列入急需保护的非物质文化遗产名录。织造工作纯由女性使用简朴的传统背带腰机（Backstrap loom）席地而坐纯手工织造。妇女们采用本地天然植物根皮与热带果实（如苏木红、姜黄、靛蓝）对纯棉线进行手工植物染色，通过极其精巧的挑花与纬线显花工艺，织入代代相传的家族神秘图腾。泰斯分为男式长围布（Tais Mane）与女式筒裙（Tais Feto），在人生礼仪、婚礼结亲、赔礼和解与贵宾献礼仪式中被恭敬披戴于肩头，具有极其神圣的情感黏合力。",
+    "visual_features": {
+      "form": "长条形披肩长巾，两端带有手搓流苏穗，或缝合为围裹式宽大长筒裙。",
+      "color": "鲜亮温暖的自然撞色：代表勇气的深红、代表大地的亮黄、象征森林的草绿与深沉夜空的靛蓝相间并列横条带。",
+      "material": "手纺原棉粗纱线、天然植物矿物染料（染料木、姜黄根、蓼蓝叶）、竹制挑花刀与木制背带织机。",
+      "pattern": "东帝汶创世传说神兽'巨鳄纹'（Crocodile motif）、象征生命的菱形Kaif几何纹、多角星纹与锯齿波状纹。",
+      "space": "展开时如同一幅绚烂的热带色带画卷，披于肩头时两端自然下垂，流苏随步伐律动摇曳，富有厚重的手作织物质感。",
+      "distinction": "粗纺棉纱线带有天然质朴的微粗颗粒结节感，色彩极其鲜活热烈，鳄鱼图腾的几何变形高度抽象，具有强烈的南岛原始艺术张力。"
+    },
+    "visual_keywords": "传统背带腰机|手纺纯棉植物染色|创世巨鳄图腾|菱形Kaif几何纹样|两端手搓流苏|急需保护人类非遗",
+    "tags": "传统纺织|手工织锦|图腾纹样|非遗工艺|民族服饰|色彩方案",
+    "images_meta": [
+      {
+        "file_title": "File:Tais weaving from Timor Leste.jpg",
+        "title": "东帝汶国家博物馆展出的典型多色几何条纹与鳄鱼纹手工Tais全貌",
+        "content_type": "整体"
+      },
+      {
+        "file_title": "File:Tais weaving in Lospalos, East Timor.jpg",
+        "title": "东帝汶洛斯帕洛斯村落妇女使用传统背带腰机手工挑织Tais织锦现场",
+        "content_type": "使用场景"
+      }
+    ],
+    "sources": [
+      {
+        "title": "UNESCO Intangible Cultural Heritage - Tais, traditional textile in Timor-Leste",
+        "url": "https://ich.unesco.org/en/USL/tais-traditional-textile-in-timor-leste-01688"
+      },
+      {
+        "title": "Timor-Leste National Directorate of Cultural Heritage - Tais Archive",
+        "url": "https://www.cultura.gov.tl"
+      }
+    ],
+    "status": "完成",
+    "images": [
+      {
+        "index": 1,
+        "title": "东帝汶国家博物馆展出的典型多色几何条纹与鳄鱼纹手工Tais全貌",
+        "content_type": "整体",
+        "local_path": "12_图片素材库/TL/07/TL-07-0001_1.jpg",
+        "html_rel_path": "../12_图片素材库/TL/07/TL-07-0001_1.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Tais_weaving_from_Timor_Leste.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Tais_weaving_from_Timor_Leste.jpg/1280px-Tais_weaving_from_Timor_Leste.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Tais_weaving_from_Timor_Leste.jpg",
+        "author": "Rahmaziz",
+        "license": "CC BY 4.0",
+        "verification": "已访问源页面",
+        "file_size": 743856
+      },
+      {
+        "index": 2,
+        "title": "东帝汶洛斯帕洛斯村落妇女使用传统背带腰机手工挑织Tais织锦现场",
+        "content_type": "使用场景",
+        "local_path": "12_图片素材库/TL/07/TL-07-0001_2.jpg",
+        "html_rel_path": "../12_图片素材库/TL/07/TL-07-0001_2.jpg",
+        "raw_image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Tais_weaving_in_Lospalos%2C_East_Timor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Tais_weaving_in_Lospalos%2C_East_Timor.jpg/1280px-Tais_weaving_in_Lospalos%2C_East_Timor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Tais_weaving_in_Lospalos,_East_Timor.jpg",
+        "author": "Department of Information, Republic of Indonesia",
+        "license": "Public domain",
+        "verification": "已访问源页面",
+        "file_size": 430828
+      }
+    ],
+    "tags_array": [
+      "传统纺织",
+      "手工织锦",
+      "图腾纹样",
+      "非遗工艺",
+      "民族服饰",
+      "色彩方案"
+    ],
+    "visual_keywords_array": [
+      "传统背带腰机",
+      "手纺纯棉植物染色",
+      "创世巨鳄图腾",
+      "菱形Kaif几何纹样",
+      "两端手搓流苏",
+      "急需保护人类非遗"
+    ]
   }
 ];
