@@ -1137,33 +1137,12 @@
     const mCloseBtn = document.getElementById('mCloseBtn');
 
     // -----------------------------------------------------------------
-    // Theme Engine (Dark / Light Exhibition Atmosphere)
+    // Theme Engine (Default Dark Museum Atmosphere)
     // -----------------------------------------------------------------
     function initTheme() {
       const saved = localStorage.getItem('curatorial_theme') || 'dark';
       document.documentElement.setAttribute('data-theme', saved);
-      updateThemeBtn(saved);
     }
-
-    function toggleTheme() {
-      const cur = document.documentElement.getAttribute('data-theme');
-      const next = cur === 'dark' ? 'light' : 'dark';
-      document.documentElement.setAttribute('data-theme', next);
-      localStorage.setItem('curatorial_theme', next);
-      updateThemeBtn(next);
-    }
-
-    function updateThemeBtn(theme) {
-      if (theme === 'dark') {
-        themeIcon.innerText = '🌙';
-        document.getElementById('themeText').innerText = '暗室展厅';
-      } else {
-        themeIcon.innerText = '☀️';
-        document.getElementById('themeText').innerText = '暖白展厅';
-      }
-    }
-
-    
 
     // -----------------------------------------------------------------
     // Stats & Ribbon Init
@@ -1435,12 +1414,22 @@
     // -----------------------------------------------------------------
     
 
-    window.addEventListener('DOMContentLoaded', () => {
-      initTheme();
-      initStats();
-      buildRibbons();
-      renderGallery();
-    });
+    function initApp() {
+      try {
+        initTheme();
+        initStats();
+        buildRibbons();
+        renderGallery();
+      } catch (err) {
+        console.error('Initialization error:', err);
+      }
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initApp);
+    } else {
+      initApp();
+    }
   </script>
 </body>
 </html>
